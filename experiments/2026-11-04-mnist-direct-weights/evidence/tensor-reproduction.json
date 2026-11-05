@@ -1,0 +1,102 @@
+{
+  "candidate": "c026",
+  "manifest_sha256": "a38ed818ba8bdf3996d110f54abab11c8a092c34329aa5623c60a98fabdba914",
+  "reproducer_sha256": "ffa64d43e4567d0e7b5dd4f89ad1d325bdc802d523496b5b53754cf6998e87f0",
+  "data_access": "candidate authored sources and frozen parameters only; no image dataset reads",
+  "exact_reproduction": true,
+  "arrays": {
+    "template_ink": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "a431eb003506cbae1c5dd122b4051dc35010ab73b61feacd5a4e95efb9d5d51c"
+    },
+    "template_distance": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "ab2dd24d56e3e8d4a2623019e9b5fe4acade3af8563738c298541183511a3010"
+    },
+    "template_normalized": {
+      "shape": [
+        576,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "a5a16558d498bc6d6f363fb3557c408c73578fc761fd45593a17db936f313186"
+    },
+    "template_topology": {
+      "shape": [
+        576,
+        6
+      ],
+      "dtype": "float32",
+      "sha256": "f16a9151ec1d604e0aa6a030049de65177675a5078c12cccb0bdc322da91bec8"
+    },
+    "template_parts": {
+      "shape": [
+        576,
+        10,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "910275b530497d5173ddf8196a1047dc57ab7d6809c02d9c1700d53d128d16b9"
+    },
+    "view1_template_ink": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "2852550b3632874a360a05bb49562f1cacf802cb78a9c66e32009fcdd3bc8590"
+    },
+    "view1_template_distance": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "446cce31a63c82fca00517a3c576c2ce3e7b2c63c2de53ccdeee234f3dccfc3b"
+    },
+    "view1_template_normalized": {
+      "shape": [
+        576,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "df3327af4afe6319a73931829b519c606d808ab6c3bc1245c62f3c70cd5953d1"
+    },
+    "view1_template_topology": {
+      "shape": [
+        576,
+        6
+      ],
+      "dtype": "float32",
+      "sha256": "be4fdf0cab02504eec2daf03f7ba12e169f08acb2a13194e17fa37991b9332bb"
+    },
+    "view1_template_parts": {
+      "shape": [
+        576,
+        10,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "88fab7592cf4f3b19bbaa05fe5a68698fcc7fe351cb1e79f9296da7da7cbfd5c"
+    },
+    "labels": {
+      "shape": [
+        576
+      ],
+      "dtype": "int64",
+      "sha256": "668741d4129f836bcf0c37001949572d66ca89ff0db216f8cd4460ebd381fde5"
+    }
+  }
+}

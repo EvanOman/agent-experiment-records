@@ -1,0 +1,44 @@
+{
+  "schema": "visible-conversation-publication-v1",
+  "source_scope": "Coordinator visible user and assistant messages only; conversation-only session-history export",
+  "source_messages_sha256": "44efe34e0e785e7ce190b80e546d536f3656952ef9f238dcc9460c8e77edb1ca",
+  "source_messages": 55,
+  "published_messages": 55,
+  "role_counts": {
+    "user": 1,
+    "assistant": 54
+  },
+  "dropped_input_roles": {},
+  "redactions": {
+    "local_operating_policy": 1,
+    "workspace_paths": 4,
+    "interpreter_paths": 1,
+    "personal_name": 2
+  },
+  "omitted_from_source_export": [
+    "internal reasoning",
+    "system/developer messages",
+    "injected context",
+    "tool calls and tool outputs",
+    "subagent conversations",
+    "usage and account metadata"
+  ],
+  "claims": "These are visible progress messages, not a complete execution trace or proof of the historical authoring process.",
+  "public_sha256": {
+    "coordinator.jsonl": "b5e90576f45e1ab51b21552a683e26dbb9d1688374540d12f25747ab9ba5b1d6",
+    "coordinator.md": "45999df915e2e7524eca0b82bccd261e8066ae51803307dedb675dc1122c103b"
+  },
+  "publication_qualification": "Historical statements remain attributed to the coordinator. See ../TRACE_REVIEW.md for a later read-only trace review, including qualifications to the bias-vector chronology and limits of procedural no-leak evidence.",
+  "prompt_publication": {
+    "original_short_request": "Verbatim user request reproduced separately in ../prompt.md; it is not the expanded launcher message.",
+    "expanded_contract_source_sha256": "5be27adffe8872c3bd623b4fff881069adb317ff3af46f74c11e42f3dfe419b6",
+    "expanded_contract_sanitized_sha256": "9d10df18a3170487b8fcf7c48509de2df71b5ca3e167482f1167ce71e41adb54",
+    "public_prompt_sha256": "81c39d762f0d275a4e26e3c0c106b193690bc4ff38018adf0cb5d9b85ee3be0f",
+    "redactions": {
+      "local_operating_policy": 1,
+      "workspace_paths": 1,
+      "interpreter_paths": 1,
+      "personal_name": 1
+    }
+  }
+}

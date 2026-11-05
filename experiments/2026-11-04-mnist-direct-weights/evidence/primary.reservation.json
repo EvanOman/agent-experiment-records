@@ -1,0 +1,11 @@
+{
+  "candidate_id": "c026",
+  "dataset_sha256": "4937f128c71c9fcb480fdbabe853cf1e1e737fb3b05ff45a6b2ac8da15d15489",
+  "evaluator_sha256": "1705c1243630371a7a52a715d0bb3ffdcdda9c882a887fad7dfbf642974440f4",
+  "freeze_sha256": "847e4cf9f44ad5b5d1fbf3e1f143bec53eef6eb78c2cf74954ffde00b1e66328",
+  "policy": "One use; any interrupted or partial read permanently consumes reservation.",
+  "reserved_at": "2026-11-04T17:14:22.440235+00:00",
+  "review_sha256": "df0365537adbcdadcff57ed3e25ae37f40676cc8689481571f78c41deb514c52",
+  "schema": "direct-mnist-confirmation-reservation-v1",
+  "set_id": "primary"
+}

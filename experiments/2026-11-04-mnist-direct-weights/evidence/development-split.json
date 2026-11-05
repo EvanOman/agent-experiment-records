@@ -1,0 +1,20 @@
+{
+  "seed": 2026110403,
+  "source_sha256": "46f929a33827d776817cfea5ae2ba4ecaa84a4d30cbce22ea1482a24042f0963",
+  "policy": "Reserve is blind-copy only; forbidden for development or inspection. 35000 work, 5000 validation, 10000 future confirmation reserve.",
+  "work": {
+    "n": 35000,
+    "indices_sha256": "c024c1b7c733ac4725c9bdb88d46d501180fe1a395a28f7db15a31d3abafb95f",
+    "artifact_sha256": "b8b2efff9cd7bed540c45399cd7fd98d1387a1bdb3596510da4486928b32c0f6"
+  },
+  "validation": {
+    "n": 5000,
+    "indices_sha256": "bf41bd02dc63aacdd63df726065a5e0ad7f5b6d6d3fadae580b694261e0e0318",
+    "artifact_sha256": "d05c735329c64216e43b1b201a2c470889a25d2043bc856d8d1a7d47184d1750"
+  },
+  "reserve": {
+    "n": 10000,
+    "indices_sha256": "076442f2f7b645e9cf60a8601ee3874748ab655a1601c89581de8db8fcc87bb7",
+    "artifact_sha256": "cc49036c2b1dbbddc8af4dbaa673090008b98b13c09affe7d1258f1a72df0f4c"
+  }
+}

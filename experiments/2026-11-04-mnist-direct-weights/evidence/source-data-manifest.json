@@ -1,0 +1,13 @@
+{
+  "source": "canonical TensorFlow/Keras MNIST training partition only; source bytes verified",
+  "source_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "split_seed": 2026110402,
+  "split": "fresh stratified50,000 labeled development /10,000 sealed confirmation, mutually disjoint",
+  "development_n": 50000,
+  "sealed_holdout_n": 10000,
+  "holdout_policy": "no reads, features, activations, examples, metrics, predictions or manual inspection until frozen candidate is ready for one confirmation evaluation",
+  "artifacts": {
+    "data/development_raw.npz": "46f929a33827d776817cfea5ae2ba4ecaa84a4d30cbce22ea1482a24042f0963",
+    "sealed/mnist_holdout.npz": "4937f128c71c9fcb480fdbabe853cf1e1e737fb3b05ff45a6b2ac8da15d15489"
+  }
+}

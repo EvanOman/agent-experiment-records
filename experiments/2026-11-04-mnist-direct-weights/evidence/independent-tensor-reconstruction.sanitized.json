@@ -1,0 +1,115 @@
+{
+  "schema": "direct-mnist-independent-tensor-review-v1",
+  "candidate": "c026",
+  "reviewer_agent": "reviewer-1",
+  "reviewed_at": "2026-11-04T16:47:32.278496+00:00",
+  "manifest_sha256": "a38ed818ba8bdf3996d110f54abab11c8a092c34329aa5623c60a98fabdba914",
+  "weights_sha256": "298c01852a29ce46f8b41f339a2adf47b4982e6d6b4ff5b23a7934bfcb946123",
+  "review_script_sha256": "ff6c61f2467e16b87bb53e806df8c3b12fec2af3e432cc9f158ff560cafdab65",
+  "exact_reproduction": true,
+  "full_glyph_width_order_and_names": true,
+  "arrays": {
+    "template_normalized": {
+      "shape": [
+        576,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "a5a16558d498bc6d6f363fb3557c408c73578fc761fd45593a17db936f313186"
+    },
+    "template_ink": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "a431eb003506cbae1c5dd122b4051dc35010ab73b61feacd5a4e95efb9d5d51c"
+    },
+    "template_distance": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "ab2dd24d56e3e8d4a2623019e9b5fe4acade3af8563738c298541183511a3010"
+    },
+    "template_topology": {
+      "shape": [
+        576,
+        6
+      ],
+      "dtype": "float32",
+      "sha256": "f16a9151ec1d604e0aa6a030049de65177675a5078c12cccb0bdc322da91bec8"
+    },
+    "template_parts": {
+      "shape": [
+        576,
+        10,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "910275b530497d5173ddf8196a1047dc57ab7d6809c02d9c1700d53d128d16b9"
+    },
+    "view1_template_normalized": {
+      "shape": [
+        576,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "df3327af4afe6319a73931829b519c606d808ab6c3bc1245c62f3c70cd5953d1"
+    },
+    "view1_template_ink": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "2852550b3632874a360a05bb49562f1cacf802cb78a9c66e32009fcdd3bc8590"
+    },
+    "view1_template_distance": {
+      "shape": [
+        576,
+        576
+      ],
+      "dtype": "float32",
+      "sha256": "446cce31a63c82fca00517a3c576c2ce3e7b2c63c2de53ccdeee234f3dccfc3b"
+    },
+    "view1_template_topology": {
+      "shape": [
+        576,
+        6
+      ],
+      "dtype": "float32",
+      "sha256": "be4fdf0cab02504eec2daf03f7ba12e169f08acb2a13194e17fa37991b9332bb"
+    },
+    "view1_template_parts": {
+      "shape": [
+        576,
+        10,
+        24,
+        24
+      ],
+      "dtype": "float32",
+      "sha256": "88fab7592cf4f3b19bbaa05fe5a68698fcc7fe351cb1e79f9296da7da7cbfd5c"
+    },
+    "labels": {
+      "shape": [
+        576
+      ],
+      "dtype": "int64",
+      "sha256": "668741d4129f836bcf0c37001949572d66ca89ff0db216f8cd4460ebd381fde5"
+    },
+    "names": {
+      "shape": [
+        576
+      ],
+      "dtype": "<U54",
+      "sha256": "1a4cfbee2eaf628d036be2b2e1bdb6fb3d9d2a9c30c06fa93176fd40ab0b5528"
+    }
+  },
+  "access": "Only candidate authored sources, frozen weight archive, and this script; no image dataset reads; no writer main executed",
+  "final_approval": false
+}

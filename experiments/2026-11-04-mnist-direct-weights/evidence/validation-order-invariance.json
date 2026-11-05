@@ -1,0 +1,12 @@
+{
+  "candidate": "c026",
+  "n": 5000,
+  "manifest_sha256": "a38ed818ba8bdf3996d110f54abab11c8a092c34329aa5623c60a98fabdba914",
+  "verifier_sha256": "8c2f6c40f35365a71582fdc8deee350dfd240112ab5e6933bb2703eaaee8da51",
+  "reversed_order": true,
+  "batch_size": 100,
+  "read_only_inputs_and_arrays": true,
+  "identical_predictions": true,
+  "max_score_difference": 9.313225746154785e-09,
+  "elapsed_seconds": 563.7782223748509
+}

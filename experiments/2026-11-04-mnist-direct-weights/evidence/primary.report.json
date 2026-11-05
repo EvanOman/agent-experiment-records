@@ -1,0 +1,25 @@
+{
+  "accuracy": 0.9603,
+  "candidate_id": "c026",
+  "completed_at": "2026-11-04T17:30:28.297120+00:00",
+  "correct": 9603,
+  "dataset_sha256": "4937f128c71c9fcb480fdbabe853cf1e1e737fb3b05ff45a6b2ac8da15d15489",
+  "diagnostics_policy": "Aggregate only; no errors, labels, predictions, activations, or class metrics retained.",
+  "environment": {
+    "numpy": "2.2.6",
+    "python": "3.12.9 (main, Mar 17 2025, 21:01:58) [Clang 20.1.0 ]",
+    "scipy": "1.15.3"
+  },
+  "evaluator_sha256": "1705c1243630371a7a52a715d0bb3ffdcdda9c882a887fad7dfbf642974440f4",
+  "freeze_sha256": "847e4cf9f44ad5b5d1fbf3e1f143bec53eef6eb78c2cf74954ffde00b1e66328",
+  "n": 10000,
+  "reservation_sha256": "dbd712ec9235bb4b79fdffd080cfeddbb7c38f26e3c0c0e606bc874ff1f82b3f",
+  "review_sha256": "df0365537adbcdadcff57ed3e25ae37f40676cc8689481571f78c41deb514c52",
+  "schema": "direct-mnist-confirmation-report-v1",
+  "set_id": "primary",
+  "status": "passed",
+  "threshold": {
+    "required_correct": 9501,
+    "strict_accuracy_greater_than": 0.95
+  }
+}

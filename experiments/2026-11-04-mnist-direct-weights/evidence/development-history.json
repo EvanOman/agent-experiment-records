@@ -1,0 +1,216 @@
+{
+  "schema": "publication-development-history-v1",
+  "derived": true,
+  "source_scope": "All saved full5000-image validation reports, sorted by candidate; incompletec001 is separately recorded. Confusion matrices, per-image predictions, runtime diagnostics and source code hashes omitted.",
+  "incomplete_candidates": [
+    {
+      "candidate": "c001",
+      "status": "invalid_incomplete_bank",
+      "accuracy": null
+    }
+  ],
+  "evaluated_candidates": 25,
+  "rows": [
+    {
+      "candidate": "c002",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 3982,
+      "accuracy": 0.7964,
+      "evaluation_report_sha256": "b1aee99e9327e45a9e364ef8497291b406bf898776cfdca33c392e1c32472270"
+    },
+    {
+      "candidate": "c003",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 3802,
+      "accuracy": 0.7604,
+      "evaluation_report_sha256": "ec1ff10121ced436daebc48b79d998ada11ff8d9b19ba6cf0bf0f86eb398b856"
+    },
+    {
+      "candidate": "c004",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 3808,
+      "accuracy": 0.7616,
+      "evaluation_report_sha256": "3b406cc4ce8a2596466f7d72e3067bf0c5160b03ee23387c51686549cb72f662"
+    },
+    {
+      "candidate": "c005",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 3796,
+      "accuracy": 0.7592,
+      "evaluation_report_sha256": "2afc48f83873e513773fe1215459b4a9c32aec9ebdefdc2628d5ef508926d691"
+    },
+    {
+      "candidate": "c006",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4160,
+      "accuracy": 0.832,
+      "evaluation_report_sha256": "7c2a32e6a2bf6f4f2490479872deda54d9cabdfa27838bac67da30422a19d682"
+    },
+    {
+      "candidate": "c007",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4261,
+      "accuracy": 0.8522,
+      "evaluation_report_sha256": "64ee920c3c39d810126f810eb537086bbb7fb3202d6689d5ada9dc444f50af45"
+    },
+    {
+      "candidate": "c008",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4271,
+      "accuracy": 0.8542,
+      "evaluation_report_sha256": "adf28a8c50606a7ef3f8146ddb752f7ff8988fb6d6b2ed924a709bbcf5257150"
+    },
+    {
+      "candidate": "c009",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4313,
+      "accuracy": 0.8626,
+      "evaluation_report_sha256": "770c61fc20d2292afd21cc7cbf096bbfcef7b3060c97d6ced78dc017ddd9737e"
+    },
+    {
+      "candidate": "c010",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4306,
+      "accuracy": 0.8612,
+      "evaluation_report_sha256": "0c817c0ae3445650f1a708a65705edab20e460b19ead9a2b224762e6396b72e8"
+    },
+    {
+      "candidate": "c011",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4420,
+      "accuracy": 0.884,
+      "evaluation_report_sha256": "08c7364e4d8009f1cd17048dd3098bb938b926b0f884f93e4e294d9af86b5fe2"
+    },
+    {
+      "candidate": "c012",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4340,
+      "accuracy": 0.868,
+      "evaluation_report_sha256": "c87146917771f927319e25ceccd73f9e058aeeb4184f5f6dd9b39acaa80c231f"
+    },
+    {
+      "candidate": "c013",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4526,
+      "accuracy": 0.9052,
+      "evaluation_report_sha256": "7262cf2c9c0900fb72d51b43cf669274a680bbb94b5a86a35f184bc879f1eb4f"
+    },
+    {
+      "candidate": "c014",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4511,
+      "accuracy": 0.9022,
+      "evaluation_report_sha256": "945dca608e346178134b7c668fd897690507bf5c9b6a3c2fb5bef4dcf2926e3b"
+    },
+    {
+      "candidate": "c015",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4466,
+      "accuracy": 0.8932,
+      "evaluation_report_sha256": "0fec49e27c10d76974f770f5214a7d0303e8c208f75e9afdc4b33d68c30f0da6"
+    },
+    {
+      "candidate": "c016",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4623,
+      "accuracy": 0.9246,
+      "evaluation_report_sha256": "d53670c8c8be3adf6b0f7cac9cd4905feef38ccde8a63acfb0f18a48e28c53de"
+    },
+    {
+      "candidate": "c017",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4694,
+      "accuracy": 0.9388,
+      "evaluation_report_sha256": "4522365714dcb94bcda2e276daf3a078acb1d1323a69bd25e791099796f66048"
+    },
+    {
+      "candidate": "c018",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4621,
+      "accuracy": 0.9242,
+      "evaluation_report_sha256": "545acabca2ffd3cc8f395556c1bb523c38089787967d35b5d4897a07df84075d"
+    },
+    {
+      "candidate": "c019",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4727,
+      "accuracy": 0.9454,
+      "evaluation_report_sha256": "836d5bd1c120a1e29158a0692bc26e83d19ce1b127de33c4036544d2584e6a77"
+    },
+    {
+      "candidate": "c020",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4738,
+      "accuracy": 0.9476,
+      "evaluation_report_sha256": "8019112210d6c1769eecdd7b53624987d53e3a673f7591f209c119adfc551863"
+    },
+    {
+      "candidate": "c021",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4736,
+      "accuracy": 0.9472,
+      "evaluation_report_sha256": "f398ab8aa23e55a14afd7fe009fdcf89f291eba7fff311332591b83608c2a32a"
+    },
+    {
+      "candidate": "c022",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4752,
+      "accuracy": 0.9504,
+      "evaluation_report_sha256": "54a2c290e887ad56b3b1632db1cbb3c92782a17a62eb1118bcb9d26287c419f8"
+    },
+    {
+      "candidate": "c023",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4769,
+      "accuracy": 0.9538,
+      "evaluation_report_sha256": "a1f30514d69c53eb731be08ba8d4af51409976da4fb7d1eca65a97cdb75e81cb"
+    },
+    {
+      "candidate": "c024",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4775,
+      "accuracy": 0.955,
+      "evaluation_report_sha256": "25499270cdde3619db4e9bf5b42ec119207f57fa351e65666fb5ae5bd2665152"
+    },
+    {
+      "candidate": "c025",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4774,
+      "accuracy": 0.9548,
+      "evaluation_report_sha256": "ddb884cc765763f5b0c0b5f5f938894b81d2f41169df69c344ce41840180b4c5"
+    },
+    {
+      "candidate": "c026",
+      "partition": "validation",
+      "n": 5000,
+      "correct": 4786,
+      "accuracy": 0.9572,
+      "evaluation_report_sha256": "024a5d35a3c280358f80c831657536ad65f0d9987f85c955c49af0103aba6c06"
+    }
+  ],
+  "interpretation": "Validation was consulted repeatedly; this trajectory is adaptive development evidence, not an unseen-test claim."
+}
