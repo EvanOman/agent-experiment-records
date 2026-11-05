@@ -37,6 +37,8 @@ The replay performs inference only and can take tens of minutes on a CPU. It rec
 
 The [workflow](.github/workflows/verify.yml) checks artifact hashes, data-free tensor reconstruction, synthetic inference, prediction invariance, transcript-export tests, and publication hygiene. A separate job downloads the public dataset, reconstructs the 10,000-image holdout, and requires exactly **9,603 correct predictions**. Its aggregate JSON result is uploaded as a workflow artifact.
 
+The [recorded hosted run](https://github.com/EvanOman/agent-experiment-records/actions/runs/41966207607) passed both jobs and reproduced **96.03% (9,603/10,000)**. The [saved CI result](ci-proofs/mnist-c026-replay.json) and [run/commit binding](ci-proofs/mnist-c026-run.json) preserve its aggregate evidence. Full inference took about 8 minutes 36 seconds on that runner.
+
 CI establishes that the published checkpoint and code reproduce the result. It cannot prove every historical authoring action, exclude possible pretraining exposure to MNIST, or turn the same-machine holdout procedure into an isolation boundary.
 
 ## Add an experiment

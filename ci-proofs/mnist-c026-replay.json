@@ -1,0 +1,44 @@
+{
+  "schema": "public-mnist-replay-v1",
+  "candidate": "c026",
+  "experiment": "2026-11-04-mnist-direct-weights",
+  "evaluation": "post-experiment replay of the historical primary split",
+  "new_independent_confirmation": false,
+  "canonical_benchmark_test_set": false,
+  "split_seed": 2026110402,
+  "n": 10000,
+  "correct": 9603,
+  "accuracy": 0.9603,
+  "batch_size": 100,
+  "expected_correct": 9603,
+  "matches_expected": true,
+  "historical_full_result": {
+    "correct": 9603,
+    "n": 10000
+  },
+  "source_url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+  "source_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "weights_sha256": "298c01852a29ce46f8b41f339a2adf47b4982e6d6b4ff5b23a7934bfcb946123",
+  "model_manifest_sha256": "e0cc03f71508ce738935bfa57a0e6757f3ffc781e893d8e292cb57f7a76db80d",
+  "replay_code_sha256": "e7f98ee820ffe897b8b9ee48447555feaf84097be9c8d9f14f059375d5480884",
+  "selected_source_indices_sha256": "2151809526970e15f1e24319db964b17ce23791f804ec381256f3a53d4d2d3dc",
+  "model_code_sha256": {
+    "model.py": "703cc19ef1cc5eff9f86a9514020f586183c303ec4faead56ac521c0ed1a99e9",
+    "shared_features.py": "26c17bd9275a7aac3dbb54033be2cf61b65d5c53b2a1e34ebbe54d2da871b76c",
+    "part_metric.py": "ab5ef40912a059222ed40eeff84899b6cf67bd6c4d0efa72d95aef538fd9d21e",
+    "part_metric_v2.py": "7a79b9866a002ad25bd05c1b6e20459db1a2c3850a5e4878bc332cd02be57a2b",
+    "part_metric_v2_fast.py": "00c10020a2ec73033f849cf88a4aa62487c28c765338bb4b0ec352ba0b07ec84",
+    "topology_features.py": "ec061b28d2580261148414d669c58400e15096f5a8da645f1e0ff241abd4e008"
+  },
+  "environment": {
+    "python": "3.12.9",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "platform": "Linux",
+    "machine": "x86_64"
+  },
+  "completed_at": "2026-11-05T04:20:32.596385+00:00",
+  "elapsed_seconds": 515.9935010900001,
+  "conventional_optimizer_training": false,
+  "data_fitted_parameter_generation": false
+}

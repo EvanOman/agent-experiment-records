@@ -84,3 +84,5 @@ For an already downloaded canonical Keras MNIST archive, replace `--download` wi
 The offline check verifies checkpoint/source hashes and reconstructs the saved numerical tensors from the authored sources without image data. Tests exercise synthetic inference and batch/order invariance. The separate CI replay checks the full public dataset/split/checkpoint path and requires the recorded 9,603 correct predictions.
 
 Neither a green CI badge nor a transcript proves the complete historical absence of leakage. They let readers inspect the construction and independently run the published model. The original confirmation remains a historical one-use event; every public rerun is labeled a replay of the now-exposed split.
+
+The first [hosted replay](https://github.com/EvanOman/agent-experiment-records/actions/runs/41966207607) passed with exactly **9,603/10,000**. Its [aggregate output](../../ci-proofs/mnist-c026-replay.json) and [run/commit record](../../ci-proofs/mnist-c026-run.json) are saved in this repository. Those records identify the tested source commit; later documentation/proof additions do not alter the numerical model or replay code.

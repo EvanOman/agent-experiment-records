@@ -1,0 +1,37 @@
+{
+  "schema": "public-ci-proof-v1",
+  "repository": "EvanOman/agent-experiment-records",
+  "workflow_url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/41966207607",
+  "run_id": 41966207607,
+  "tested_commit": "c9de8bdedca867c1356201c1875d8d4bd1d417cd",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "Offline artifact and inference checks",
+      "conclusion": "success",
+      "startedAt": "2026-11-05T04:11:05Z",
+      "completedAt": "2026-11-05T04:11:36Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/41966207607/job/127043677961"
+    },
+    {
+      "name": "Full 10,000-image replay (9603 correct)",
+      "conclusion": "success",
+      "startedAt": "2026-11-05T04:11:38Z",
+      "completedAt": "2026-11-05T04:20:36Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/41966207607/job/127043859771"
+    }
+  ],
+  "artifact": {
+    "id": 13388635065,
+    "name": "mnist-replay-c9de8bdedca867c1356201c1875d8d4bd1d417cd",
+    "archive_sha256": "7d8d7e636c4b1d27b4c2cb360e5a9640b5c37be4886c61f5ea3a864110652ac6"
+  },
+  "replay_report": "mnist-c026-replay.json",
+  "replay_report_sha256": "71367af0163996022681c16d9e1053a195c77ef3954df66264f58d8843682dde",
+  "accuracy": 0.9603,
+  "correct": 9603,
+  "n": 10000,
+  "inference_seconds": 515.9935010900001,
+  "scope": "A clean hosted runner reproduced the frozen model on the recorded, now-exposed split. This is not another blind confirmation or a proof of all historical authoring actions."
+}
