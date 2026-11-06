@@ -1,0 +1,15 @@
+{
+  "schema": "mnist-direct-authoring-recipe-recovery-v1",
+  "recorded_at_utc": "2026-11-06T06:21:13.695436+00:00",
+  "timing": "post-publication-cutoff reproduction evidence",
+  "source": "exact original preparation tool-call code supplied by the coordinator",
+  "provided_code_sha256": "8aeb51fdc4f85a3242900de4fc210502ae7d39a261bb6c803519a949bc4691f5",
+  "original_index_declarations_matched": true,
+  "dataset_images_loaded_for_index_check": false,
+  "reserve_membership_serialized": false,
+  "negative_attempt_records": [
+    "negative_index_reconstruction_numpy.json",
+    "negative_index_reconstruction_stdlib.json"
+  ],
+  "independent_public_command_result": "local_development_split_verification.json"
+}

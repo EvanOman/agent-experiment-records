@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-11-06T06:16:14.070591+00:00",
+  "kind": "publication_nonglyph_smoke_verifier_failure",
+  "candidate": "v095",
+  "source_sha256": "321dff8e0ba61dfaeb6de571ef6feda06a416614ccb0dc1b84a02d25df1873ce",
+  "command": "python verify.py smoke --checkpoint v095",
+  "exit_code": 1,
+  "message": "Synthetic inference shape, finiteness or batch parity failed",
+  "model_or_weights_modified": false,
+  "dataset_accessed": false,
+  "status": "under investigation; original test incorrectly required byte equality across batch shapes"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "public-mnist-development-description-v1",
+  "source_url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+  "source_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "seed": 2026110501,
+  "work_n": 30000,
+  "validation_n": 10000,
+  "canonical_test_n": 10000,
+  "index_sha256": {
+    "work": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1",
+    "validation": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449"
+  },
+  "historical_development_archive_sha256": "aad728084d3b78c29068640ad4a8f95f0c44dbc6a37e8b0d0a1811103cfeb778",
+  "omitted": "Unused reserve archive hashes, indices and content are not published. No dataset is bundled. Public replay downloads checksum-verified public MNIST."
+}

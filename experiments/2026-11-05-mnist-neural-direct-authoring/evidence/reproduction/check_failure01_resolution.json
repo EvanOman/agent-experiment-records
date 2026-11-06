@@ -1,0 +1,13 @@
+{
+  "schema": "publication-check-resolution-v1",
+  "failed_record": "check_failure01.json",
+  "failed_record_sha256": "987728c7490df217c9327664ae842fcf0a39e97e144e958b54fcf3d3f53978e1",
+  "failed_source_sha256": "321dff8e0ba61dfaeb6de571ef6feda06a416614ccb0dc1b84a02d25df1873ce",
+  "cause": "New publication smoke verifier demanded byte equality across batch shapes, stricter than the unchanged original checkpoint verifier. Observed batch/single difference was 2.384185791015625e-07.",
+  "correction": "Use the original atol1e-5/rtol1e-6 batch tolerance plus exact argmax equality; report actual maximum difference.",
+  "model_artifacts_modified": false,
+  "corrected_verifier_sha256": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa",
+  "successful_record": "local_v095_nonglyph_smoke.json",
+  "successful_record_sha256": "390d8602d3cd86aef176fdae228f5c5a703c92cb94aa91a4d779161b9a3f5ac2",
+  "dataset_accessed": false
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "mnist-direct-authoring-publication-reproduction-summary-v1",
+  "recorded_at_utc": "2026-11-06T06:57:48.582593+00:00",
+  "timing": "Post-cutoff publication reproduction evidence. The frozen development snapshot cutoff remains 2026-11-06T05:55:49.185290+00:00.",
+  "status": "local_public_reproduction_passed_hosted_ci_pending",
+  "canonical_public_replay": {
+    "candidate": "v087",
+    "split": "canonical_test",
+    "correct": 9461,
+    "total": 10000,
+    "accuracy": 0.9461,
+    "status": "passed",
+    "inference_seconds": 954.4784170198254,
+    "invocations": 1,
+    "result_file": "local_v087_canonical_public_replay.json",
+    "result_sha256": "49f528c424ff88a4fb6295bcba0b5334db6468f859214fb3ea08096cd0365ac9",
+    "source_result_bytes_preserved": true,
+    "process_exit_code": null,
+    "process_observation": "Completed aggregate recovered after runtime transition. Original process handle was unavailable and recorded process IDs were absent. Exit code was not retained. No restart occurred.",
+    "new_blind_confirmation": false,
+    "confirmation_ledger_accessed": false
+  },
+  "best_development_checkpoint": {
+    "candidate": "v095",
+    "frozen_validation_correct": 9528,
+    "total": 10000,
+    "full_public_validation_replay": "not_run",
+    "nonglyph_smoke": "passed",
+    "development_split_reconstruction": "both_original_index_hashes_verified_from_public_training_labels"
+  },
+  "baseline": {
+    "candidate": "v001",
+    "frozen_validation_correct": 5928,
+    "total": 10000
+  },
+  "published_smoke_tolerance": {
+    "absolute": 1e-05,
+    "relative": 1e-06,
+    "maximum_batch_single_logit_difference": 2.384185791015625e-07,
+    "argmax_equal": true
+  },
+  "own_required_unit_suite": {
+    "status": "passed",
+    "tests": 17,
+    "new_direct_authoring_tests": 10,
+    "record": "unit_and_integration_checks.json"
+  },
+  "independent_native_source_review": {
+    "status": "passed",
+    "scope": "source and metadata review without dataset, graph, weight-array or model execution",
+    "record": "native_replay_source_review.json"
+  },
+  "historical_publication_check_failures": {
+    "strict_byte_equality_smoke": "Preserved failed verifier and failure record, followed by original-tolerance correction with exact argmax agreement. Numerical checkpoint artifacts were unchanged.",
+    "index_reconstruction_attempts": "Negative metadata-only attempts preserved. Exact original preparation code was subsequently recovered and both declared index hashes verified."
+  },
+  "hosted_ci": {
+    "status": "pending_at_this_record",
+    "required_full_public_v087_count": 9461,
+    "proof_location": "GitHub Actions run and uploaded aggregate artifact for the publication commit"
+  },
+  "source_hashes": {
+    "experiments/2026-11-05-mnist-neural-direct-authoring/replay.py": "b8a473865ede2033aabe40b7fc46e7036665ce348f54d7c5ae175ff5c48ff17a",
+    "experiments/2026-11-05-mnist-neural-direct-authoring/verify.py": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa",
+    "scripts/verify_repository.py": "40dfdf533b349ebc904d229f6031510b2438ea45bf0cc3179206a685144fc0b7",
+    "tests/test_mnist_direct_authoring.py": "12ca2191a68d8a40ade6bdaf33da703891829ba9a37d2d22b4bc0b6b6d5fa717",
+    ".github/workflows/verify.yml": "c6d2b6af7b167c0937a0cbdc5aefec0095bf8b4a78cf6146b944a6d1a1388376"
+  },
+  "limitations": [
+    "The local replay ran in the uncommitted publication working tree. Operational and checkpoint hashes bind its executable artifacts.",
+    "v087 canonical accuracy remains 94.61 percent and the 95 percent holdout target remains unmet.",
+    "v095 95.28 percent is the frozen development-validation score. Its full public validation replay remains pending.",
+    "Earlier intermediate check records retain their then-current running or pending statuses. This summary records the later completed local canonical replay."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "accuracy": 0.9508,
+  "candidate": "v088",
+  "confusion_true_rows_pred_columns": [
+    [
+      2889,
+      0,
+      7,
+      21,
+      15,
+      8,
+      9,
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      3297,
+      25,
+      1,
+      11,
+      4,
+      3,
+      25,
+      4,
+      1
+    ],
+    [
+      0,
+      17,
+      2861,
+      18,
+      9,
+      1,
+      18,
+      14,
+      36,
+      5
+    ],
+    [
+      2,
+      25,
+      51,
+      2893,
+      3,
+      28,
+      10,
+      19,
+      24,
+      10
+    ],
+    [
+      12,
+      7,
+      5,
+      0,
+      2817,
+      1,
+      14,
+      7,
+      23,
+      35
+    ],
+    [
+      3,
+      10,
+      7,
+      33,
+      4,
+      2537,
+      71,
+      19,
+      19,
+      7
+    ],
+    [
+      18,
+      16,
+      40,
+      4,
+      9,
+      32,
+      2791,
+      0,
+      47,
+      2
+    ],
+    [
+      0,
+      27,
+      59,
+      7,
+      56,
+      0,
+      0,
+      2965,
+      6,
+      13
+    ],
+    [
+      29,
+      3,
+      25,
+      1,
+      23,
+      24,
+      48,
+      10,
+      2716,
+      47
+    ],
+    [
+      15,
+      8,
+      3,
+      3,
+      57,
+      37,
+      2,
+      60,
+      32,
+      2758
+    ]
+  ],
+  "correct": 28524,
+  "evaluator_sha256": "885ced112f0597525e9a83f1840b3977b273d03c5dcc0d4a97f6c781958fa10e",
+  "hashes": {
+    "author.py": "001890356248a729b1b3015eb45616f8e7adc1a388e28e88375f72038034f7bd",
+    "composition_spec.md": "a36f9c36296c79fc24c13f015cab93d96b996097092b364396260995da1c3698",
+    "fixed_rotation_block.py": "f847e76a9a76cbed809138937563e0ca6002e0aae4ac42198bf18b62eba9b6b6",
+    "fixed_rotation_declaration.json": "506dac55c2b6878f8d9f7ab773ccacd0f3c3968b3ddb646bfc9fd0185f502afb",
+    "graph.json": "669f80f32ad5832fe7b99fbd62c62e098a3a87fcd7956034aee457038f9fb077",
+    "prefreeze_verification.json": "eb3fc65dcfc1dc094942eb622ae5445bdb8a66efbe2413d8806e7b9549cc3ca6",
+    "provenance.json": "601b6d7109b68b28a16d578e2ba01e253cceee5055eb04e1b5eda5ec5f872496",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "source_verification.py": "70f9cb53ae8a0220f4b5270942a36e315f3e4672a31705dbf76045ef1571cf75",
+    "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "weights.npz": "106c8d884eb0ba81128a0ed44469c5dc9c3db09d260ccd5e004d602c7e898c3c"
+  },
+  "seconds": 7763.93381023407,
+  "split": "work",
+  "total": 30000,
+  "workers": 4,
+  "resumability_summary": {
+    "attempts_at_finalization": 3,
+    "completed_batches": 235,
+    "seconds_semantics": "wall time since first attempt, including interruptions",
+    "omitted": "Local run identifier, checkpoint path and individual batch-receipt hash map; original result digest retained in the publication manifest."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "candidate": "v076",
+  "split": "validation",
+  "correct": 9452,
+  "total": 10000,
+  "accuracy": 0.9452,
+  "seconds": 248.80392622947693,
+  "workers": 4,
+  "evaluator_sha256": "bbde1fa3516e1fcbcfb60aa7292bcfc3f58bdf47d9781cfb176ec3f7a072f93b",
+  "confusion_true_rows_pred_columns": [
+    [
+      950,
+      0,
+      2,
+      3,
+      5,
+      5,
+      13,
+      0,
+      7,
+      2
+    ],
+    [
+      0,
+      1100,
+      7,
+      4,
+      2,
+      0,
+      3,
+      7,
+      1,
+      0
+    ],
+    [
+      2,
+      6,
+      928,
+      14,
+      0,
+      0,
+      9,
+      5,
+      29,
+      0
+    ],
+    [
+      1,
+      6,
+      21,
+      953,
+      2,
+      17,
+      2,
+      3,
+      9,
+      8
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      942,
+      4,
+      2,
+      2,
+      5,
+      9
+    ],
+    [
+      1,
+      5,
+      3,
+      8,
+      6,
+      847,
+      17,
+      6,
+      8,
+      3
+    ],
+    [
+      4,
+      10,
+      11,
+      0,
+      2,
+      16,
+      927,
+      0,
+      16,
+      0
+    ],
+    [
+      1,
+      5,
+      7,
+      19,
+      18,
+      0,
+      0,
+      987,
+      3,
+      4
+    ],
+    [
+      9,
+      2,
+      12,
+      4,
+      5,
+      7,
+      10,
+      2,
+      901,
+      23
+    ],
+    [
+      4,
+      2,
+      1,
+      4,
+      25,
+      8,
+      0,
+      12,
+      18,
+      917
+    ]
+  ],
+  "hashes": {
+    "author.py": "8149c66ef1741a35e5c9d2d85e47c8f398fb54f02efb72ec17dd440927b7e015",
+    "graph.json": "1cd0faf8bfbea67eaf71e9866eebbaf2f2736413c450a907603a5a636fb5bda6",
+    "hook_only_spec.md": "dd2f797b45c687b4d71755d00bed5035e6e9ffd2a6e3cd5fe30d8d685e480cf4",
+    "provenance.json": "4c3ab2ef81196eec8eb92272dcde079d36477f2fd62c983e868cc3a52b2be800",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "weights.npz": "8978f31aaf993425b0769dac8db7bccbcf3ec6c8f21c85858b86dc67a1b87c23"
+  }
+}

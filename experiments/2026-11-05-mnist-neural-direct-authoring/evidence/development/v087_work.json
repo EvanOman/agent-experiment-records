@@ -1,0 +1,143 @@
+{
+  "candidate": "v087",
+  "split": "work",
+  "correct": 28392,
+  "total": 30000,
+  "accuracy": 0.9464,
+  "seconds": 1180.644285440445,
+  "workers": 4,
+  "evaluator_sha256": "bbde1fa3516e1fcbcfb60aa7292bcfc3f58bdf47d9781cfb176ec3f7a072f93b",
+  "confusion_true_rows_pred_columns": [
+    [
+      2874,
+      0,
+      7,
+      24,
+      16,
+      7,
+      13,
+      0,
+      19,
+      1
+    ],
+    [
+      0,
+      3295,
+      20,
+      2,
+      9,
+      3,
+      3,
+      33,
+      5,
+      1
+    ],
+    [
+      1,
+      17,
+      2811,
+      30,
+      11,
+      1,
+      31,
+      18,
+      52,
+      7
+    ],
+    [
+      4,
+      25,
+      66,
+      2866,
+      3,
+      41,
+      9,
+      22,
+      19,
+      10
+    ],
+    [
+      11,
+      7,
+      5,
+      0,
+      2815,
+      1,
+      14,
+      9,
+      24,
+      35
+    ],
+    [
+      1,
+      9,
+      8,
+      33,
+      4,
+      2536,
+      71,
+      22,
+      18,
+      8
+    ],
+    [
+      21,
+      17,
+      37,
+      4,
+      7,
+      48,
+      2770,
+      0,
+      52,
+      3
+    ],
+    [
+      0,
+      28,
+      48,
+      12,
+      52,
+      0,
+      0,
+      2974,
+      7,
+      12
+    ],
+    [
+      38,
+      3,
+      25,
+      3,
+      22,
+      25,
+      47,
+      7,
+      2708,
+      48
+    ],
+    [
+      15,
+      7,
+      2,
+      3,
+      70,
+      37,
+      3,
+      64,
+      31,
+      2743
+    ]
+  ],
+  "hashes": {
+    "author.py": "ec9580bdf8270513ac210242fa55fec6798e3ce524a011068f7286710c0d1bab",
+    "composition_spec.md": "6629958cfe3097da3e42f8ac569c34d9514fec630fdc264d3de83c642a6db4c9",
+    "graph.json": "cd042f600410801e1464cc02c1acb6218f1cb60cd10bac06bbfc4d7c509f1649",
+    "prefreeze_verification.json": "a0f5c078034c557ca64fd1c0fc1c1e0818ff604f9d765db5613e89d1f5af2063",
+    "provenance.json": "b30ea4a6ec593f313bb8859b1c68bc3ab4a0471a0b43b72b6c588428188c2c4e",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "source_verification.py": "55c05363d1240d1987282b65f721a285d6bf38b4c95c96038e3e0e6d601ca49b",
+    "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "weights.npz": "8dbf117a9702b272113491b45ecf711771729e3275e0aefcfe36f4327f8e4ef4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "publication-split-index-reconstruction-v1",
+  "recorded_at_utc": "2026-11-06T06:04:36.742749+00:00",
+  "scope": "Bounded metadata-only reconstruction against work/validation index SHA-256 declarations; no original preparation-source claim.",
+  "numpy_version": "2.2.6",
+  "seed": 2026110501,
+  "rngs_checked": [
+    "default_rng",
+    "RandomState"
+  ],
+  "digest_comparisons": 80,
+  "negative_comparisons": 80,
+  "matching_metadata": [],
+  "matching_disjoint_recipes": [],
+  "dataset_or_npz_accessed_or_hashed": false,
+  "reserve_hashes_compared": false,
+  "raw_indices_written": false,
+  "search_stopped": true
+}

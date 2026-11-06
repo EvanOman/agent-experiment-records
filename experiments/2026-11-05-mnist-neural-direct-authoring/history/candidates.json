@@ -1,0 +1,578 @@
+[
+  {
+    "candidate": "v001",
+    "validation_status": "5,928 (59.28%)",
+    "work_status": "18,087 (60.29%)",
+    "reason": "Unaided initial morphology graph; no development access before freeze."
+  },
+  {
+    "candidate": "v002",
+    "validation_status": "7,742 (77.42%)",
+    "work_status": "Not scored",
+    "reason": "Correct Euler connectivity, add relative row geometry, strict directional bays, slant-resistant curvature, loop-to-ink tail features; explicitly author new output matrix."
+  },
+  {
+    "candidate": "v003",
+    "validation_status": "7,672 (76.72%)",
+    "work_status": "Not scored",
+    "reason": "Four-neighbor exterior propagation and matching Euler connectivity; extra tiny cavities harmed the score. Preserved failed revision."
+  },
+  {
+    "candidate": "v004",
+    "validation_status": "8,151 (81.51%)",
+    "work_status": "Not scored",
+    "reason": "Local gap supports, cap/shoulder widths, sustained bulbs, partial-loop branch evidence, right-edge curvature. Improved 6/7/8 but regressed 2/5."
+  },
+  {
+    "candidate": "v005",
+    "validation_status": "8,552 (85.52%)",
+    "work_status": "25,656 (85.52%)",
+    "reason": "Gate bulbs/shoulders, paired cap-and-turn feature, looped arch and middle return, contour crossbar pulse, sustained upper body, and tall oval ray regions. Improved 0/2/5, regressed 3/7."
+  },
+  {
+    "candidate": "v006",
+    "validation_status": "8,780 (87.80%)",
+    "work_status": "26,241 (87.47%)",
+    "reason": "Earlier outline qualification for 5, hooked lower-bowl evidence for 3/2, stronger evidence gate for 9, thin-tail crossbar gate for 4. Improved 3/9; some 5s lost."
+  },
+  {
+    "candidate": "v007",
+    "validation_status": "8,713 (87.13%)",
+    "work_status": "Not scored",
+    "reason": "Generic neural thinning and endpoint positions/directions. Improved 2/5/7 but spur endpoints and independent cap bonuses caused false 5s."
+  },
+  {
+    "candidate": "v008",
+    "validation_status": "8,907 (89.07%)",
+    "work_status": "Not scored",
+    "reason": "Three fixed degree-zero/one peeling layers before endpoint extraction; exactly the same numerical tensors/readout as v007."
+  },
+  {
+    "candidate": "v009",
+    "validation_status": "8,962 (89.62%)",
+    "work_status": "Not scored",
+    "reason": "Lower-return-qualified 5 evidence; upper-body interruption and hanging cap gates for 9; second-bowl width re-expansion for 8."
+  },
+  {
+    "candidate": "v010",
+    "validation_status": "8,977 (89.77%)",
+    "work_status": "Not scored",
+    "reason": "Four fixed cycles of the existing thinning circuit after terminal peeling restore some missing endpoints; weights identical to v009."
+  },
+  {
+    "candidate": "v011",
+    "validation_status": "9,014 (90.14%)",
+    "work_status": "Not scored",
+    "reason": "Lower-contour support and agreement for 5; far-bottom gate for 8 rebound; consistent-width plain-stem support for 1."
+  },
+  {
+    "candidate": "v012",
+    "validation_status": "9,056 (90.56%)",
+    "work_status": "Not scored",
+    "reason": "Straight right-contour serif stem; direct hanging-cap support for 7; qualify lower-hook penalties."
+  },
+  {
+    "candidate": "v013",
+    "validation_status": "9,074 (90.74%)",
+    "work_status": "Not scored",
+    "reason": "Fixed identity/−.3/+.3 shear branches, conservative width/mass selector, unchanged v012 classifier."
+  },
+  {
+    "candidate": "v014",
+    "validation_status": "9,089 (90.89%)",
+    "work_status": "27,260 (90.87%)",
+    "reason": "Confidence from fixed2×2 hole erosion discounts tiny second cavities; unchanged readout."
+  },
+  {
+    "candidate": "v015",
+    "validation_status": "9,159 (91.59%)",
+    "work_status": "Not scored",
+    "reason": "Three tied classifier branches at thresholds.15/.30/.45, with fixed logit weights.25/.50/.25, share the existing shear normalizer."
+  },
+  {
+    "candidate": "v016",
+    "validation_status": "9,162 (91.62%)",
+    "work_status": "Not scored",
+    "reason": "Earlier right-contour return for2; qualify seven-terminal bonuses by supported filled/right-open upper body, shared across all three branches."
+  },
+  {
+    "candidate": "v017",
+    "validation_status": "9,219 (92.19%)",
+    "work_status": "Not scored",
+    "reason": "Open-cup endpoint arrangement supports4; consistently qualify five upper routes; revert v016seven-body veto after genuine7 regressions."
+  },
+  {
+    "candidate": "v018",
+    "validation_status": "9,228 (92.28%)",
+    "work_status": "Not scored",
+    "reason": "Four-connected cleaned-skeleton cavities and fixed8-layer terminal depth augment class0 tall-oval evidence."
+  },
+  {
+    "candidate": "v019",
+    "validation_status": "9,241 (92.41%)",
+    "work_status": "27,706 (92.35%)",
+    "reason": "Dominant bay restores five-cap evidence; qualify two-terminal direction; paired left curves cancel three cavity penalty; small curved lower bowl supports narrow6 over1."
+  },
+  {
+    "candidate": "v020",
+    "validation_status": "9,234 (92.34%)",
+    "work_status": "Not scored",
+    "reason": "Proportional broad-lobe waist qualified by closed/open-loop evidence; max with existing8 rebound and unchanged readout coefficients."
+  },
+  {
+    "candidate": "v021",
+    "validation_status": "9,290 (92.90%)",
+    "work_status": "Not scored",
+    "reason": "Gate new waist against strong upper-left arch after v020regression; add residual shallow/open-nine evidence with closed-four controls."
+  },
+  {
+    "candidate": "v022",
+    "validation_status": "9,294 (92.94%)",
+    "work_status": "Not scored",
+    "reason": "Fixed upper-branch attachment qualifies existing two-arch and three-cavity contributions; absent measurement preserves both."
+  },
+  {
+    "candidate": "v023",
+    "validation_status": "9,298 (92.98%)",
+    "work_status": "Not scored",
+    "reason": "Strong single cavity and long hooked terminal veto only the added eight-waist route; unchanged class coefficients."
+  },
+  {
+    "candidate": "v024",
+    "validation_status": "9,311 (93.11%)",
+    "work_status": "Not scored",
+    "reason": "Upward opening and upper-left arch qualify only added open-nine route; closed route and readout unchanged."
+  },
+  {
+    "candidate": "v025",
+    "validation_status": "9,344 (93.44%)",
+    "work_status": "27,924 (93.08%)",
+    "reason": "Lower left/right contour agreement replaces midpoint-only bowl evidence and qualifies seven terminal/cap bonuses."
+  },
+  {
+    "candidate": "v026",
+    "validation_status": "9,310 (93.10%)",
+    "work_status": "Not scored",
+    "reason": "Data-blind fixed reconstruction restores complete original three-pixel terminal chains after peeling; unchanged readout."
+  },
+  {
+    "candidate": "v027",
+    "validation_status": "Synthetic verification failed; no development score",
+    "work_status": "Not scored",
+    "reason": "Equal original/restored geometry ensemble; low/high feature-stack dimension mismatch preserved."
+  },
+  {
+    "candidate": "v028",
+    "validation_status": "9,350 (93.50%)",
+    "work_status": "Not scored",
+    "reason": "Repair only the omitted zero diagnostic slots in v027; same fixed half/half ensemble and tied weights."
+  },
+  {
+    "candidate": "v029",
+    "validation_status": "9,336 (93.36%)",
+    "work_status": "Not scored",
+    "reason": "Branch fromv025: long horizontal top skeleton cap plus single lower cavity maxes into existing five routes; readout values retained."
+  },
+  {
+    "candidate": "v030",
+    "validation_status": "9,376 (93.76%)",
+    "work_status": "Not scored",
+    "reason": "Branch fromv025: per-terminal two/three return, upper-return waist-veto qualification, triangular closed-four cavity."
+  },
+  {
+    "candidate": "v031",
+    "validation_status": "9,349 (93.49%)",
+    "work_status": "Not scored",
+    "reason": "Shared grayscale lower-basin contrast disconnected from upper-half basins maxes into existing missing-lower-loop evidence; fixed +6 eight/-3 nine."
+  },
+  {
+    "candidate": "v032",
+    "validation_status": "9,376 (93.76%)",
+    "work_status": "Not scored",
+    "reason": "Separatev030 branch: qualify two middle/early returns by right-terminal evidence or absence of left termination; retain both +3 coefficients."
+  },
+  {
+    "candidate": "v033",
+    "validation_status": "9,382 (93.82%)",
+    "work_status": "Not scored",
+    "reason": "Branchv031: existing upper-arch exclusion bounds shared grayscale lower-loop evidence; byte-identical weights."
+  },
+  {
+    "candidate": "v034",
+    "validation_status": "9,375 (93.75%)",
+    "work_status": "Not scored",
+    "reason": "Branchv030: shared generic cap/stem/empty-corner filter qualifies existing five upper/agreement/closed routes."
+  },
+  {
+    "candidate": "v035",
+    "validation_status": "9,384 (93.84%)",
+    "work_status": "28,044 (93.48%)",
+    "reason": "Branchv033: fixed first-cavity balance qualifies only supported-two readout, with existing waist and extra-component bypass."
+  },
+  {
+    "candidate": "v036",
+    "validation_status": "9,377 (93.77%)",
+    "work_status": "Not scored",
+    "reason": "Separatev033 branch: directly authored bias vector adds +1 zero,+.5 three,−.5 eight; every other tensor unchanged, no fit/sweep."
+  },
+  {
+    "candidate": "v037",
+    "validation_status": "9,334 (93.34%)",
+    "work_status": "Not scored",
+    "reason": "Separatev030 branch: fixed half-turn six/nine score symmetry; all graph tensors tied, no new numerical weights."
+  },
+  {
+    "candidate": "v038",
+    "validation_status": "9,392 (93.92%)",
+    "work_status": "Not scored",
+    "reason": "Branchv035: central left-cusp moment cue with above/below support gives +3 class3, shared across thresholds."
+  },
+  {
+    "candidate": "v039",
+    "validation_status": "9,386 (93.86%)",
+    "work_status": "Not scored",
+    "reason": "Data-blindv035 branch: add fixed±.6shear branches to selector; explicit tensors/costs, unchangedclassifier."
+  },
+  {
+    "candidate": "v040",
+    "validation_status": "9,387 (93.87%)",
+    "work_status": "Not scored",
+    "reason": "Data-blindv035 branch: fixed half-original/half-restored whole-graph ensemble, unchanged236featurecolumns and tiedclassweights."
+  },
+  {
+    "candidate": "v041",
+    "validation_status": "9,386 (93.86%)",
+    "work_status": "Not scored",
+    "reason": "Data-blindv035 branch: three complete tied identity/−.3/+.3 views, fixed .5/.25/.25 logits and clipping fallback."
+  },
+  {
+    "candidate": "v042",
+    "validation_status": "9,376 (93.76%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: a top-left terminal bounds cap reliability after the direction/bay maximum; all weights identical."
+  },
+  {
+    "candidate": "v043",
+    "validation_status": "9,399 (93.99%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: union of the original open-four cup with existing upward-gate cup, retaining all coefficients."
+  },
+  {
+    "candidate": "v044",
+    "validation_status": "9,398 (93.98%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: existing downward-tail evidence vetoes central-cusp support for three; all raw weights identical."
+  },
+  {
+    "candidate": "v045",
+    "validation_status": "9,394 (93.94%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: overlapping cavity-row supports qualify only two-hole readout evidence, retaining waist/multiple-component bypasses."
+  },
+  {
+    "candidate": "v046",
+    "validation_status": "No classifier frozen or scored",
+    "work_status": "Not scored",
+    "reason": "Reserved for exact generic memoization; synthetic parity passed but performance did not improve, so runner experiment remains unadopted under runtime/."
+  },
+  {
+    "candidate": "v047",
+    "validation_status": "9,395 (93.95%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: right cavity-wall/lower-stem alignment adds residual crossbar support using tied +3four/−2nine row."
+  },
+  {
+    "candidate": "v048",
+    "validation_status": "9,395 (93.95%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: exact13-node removal of thresholded8-connected components of size1or2 before shear; nine tied-one tensor entries."
+  },
+  {
+    "candidate": "v049",
+    "validation_status": "9,393 (93.93%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: declared high attachment of lower terminal qualifies existing waist readout; unchanged class row."
+  },
+  {
+    "candidate": "v050",
+    "validation_status": "9,397 (93.97%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: flat lower compartment with left-facing upper terminal attenuates effective two-hole, waist and lower-loop readout routes; exact tied rows, no new tensors."
+  },
+  {
+    "candidate": "v051",
+    "validation_status": "9,394 (93.94%)",
+    "work_status": "Not scored",
+    "reason": "Branchv038: thickness coverage across lower rows qualifies prior filled-lobe cue, maxed with existing waist at readout."
+  },
+  {
+    "candidate": "v052",
+    "validation_status": "9,398 (93.98%)",
+    "work_status": "Not scored",
+    "reason": "Branchv043: directly authored half confidence only for added relaxed-cup route, retaining original strict cup."
+  },
+  {
+    "candidate": "v053",
+    "validation_status": "9,404 (94.04%)",
+    "work_status": "28,121 (93.74%)",
+    "reason": "Compose v043 open-cup union with exact v044 cusp-tail qualification; all raw tensors unchanged."
+  },
+  {
+    "candidate": "v054",
+    "validation_status": "9,403 (94.03%)",
+    "work_status": "Not scored",
+    "reason": "Branchv043: existing strict upward-bay area qualifies only added relaxed-cup route; old strict cup retained."
+  },
+  {
+    "candidate": "v055",
+    "validation_status": "9,372 (93.72%)",
+    "work_status": "Not scored",
+    "reason": "Branchv043: elementwise median of complete center/low/high logits including all residuals; no tensor changes."
+  },
+  {
+    "candidate": "v056",
+    "validation_status": "9,401 (94.01%)",
+    "work_status": "Not scored",
+    "reason": "Branchv043: five shared literal moment kernels,36 mass-normalized spatial features and explicit bounded readout;488newentries, no orientation-feature feedback beforefreeze."
+  },
+  {
+    "candidate": "v057",
+    "validation_status": "9,407 (94.07%)",
+    "work_status": "Not scored",
+    "reason": "Branchv053: fixed degree-two upper moment cue adds only residual closed-five evidence through existing +4five/−3six row."
+  },
+  {
+    "candidate": "v058",
+    "validation_status": "9,423 (94.23%)",
+    "work_status": "28,169 (93.90%)",
+    "reason": "Branchv053: exact composition of separately tested positive cues, with explicit common readout equations preventing duplicate corrections."
+  },
+  {
+    "candidate": "v059",
+    "validation_status": "9,409 (94.09%)",
+    "work_status": "Not scored",
+    "reason": "Branchv053: exact absent-cavity upward-tip pair augments tall-zero evidence and qualifies lower-bowl six evidence through existing rows."
+  },
+  {
+    "candidate": "v060",
+    "validation_status": "9,408 (94.08%)",
+    "work_status": "Not scored",
+    "reason": "Branchv053: central left-facing endpoint and lower-left return augment the existing qualified cusp route, residual only."
+  },
+  {
+    "candidate": "v061",
+    "validation_status": "9,404 (94.04%)",
+    "work_status": "Not scored",
+    "reason": "Branchv053: exact narrow cavity apex plus bottom stem attachment augments existing triangular-four evidence."
+  },
+  {
+    "candidate": "v062",
+    "validation_status": "9,408 (94.08%)",
+    "work_status": "Not scored",
+    "reason": "Branchv053: cavity-associated connectivity detects disconnected lower silhouette expansion and qualifies existing waist/lower-loop readout routes."
+  },
+  {
+    "candidate": "v063",
+    "validation_status": "9,426 (94.26%); first attempt interrupted (exit143)",
+    "work_status": "28,182 (93.94%)",
+    "reason": "Branchv058: exact v057 corner residual on the combined graph's cleaned geometry."
+  },
+  {
+    "candidate": "v064",
+    "validation_status": "9,408 (94.08%)",
+    "work_status": "Not scored",
+    "reason": "Branchv053: one authored -3seven residual from persistent lower right-envelope return; three/two/five specificity failure preserved."
+  },
+  {
+    "candidate": "v065",
+    "validation_status": "9,426 (94.26%)",
+    "work_status": "Not scored",
+    "reason": "Branchv058: exact v056 orientation tensors, with its positive-nine residual qualified by existing cup evidence."
+  },
+  {
+    "candidate": "v066",
+    "validation_status": "No classifier frozen or scored",
+    "work_status": "Not scored",
+    "reason": "Reserved for bottom-cavity-span refinement; bounded diagnostic rejected after true-four losses and a persistent nine counterexample."
+  },
+  {
+    "candidate": "v067",
+    "validation_status": "9,440 (94.40%)",
+    "work_status": "Not scored",
+    "reason": "Branchv063: exact open-zero, central-terminal and orphan cues; the orphan residual uses the already modified v058 effective waist/lower-loop baselines."
+  },
+  {
+    "candidate": "v068",
+    "validation_status": "9,428 (94.28%)",
+    "work_status": "Not scored",
+    "reason": "Branchv063: median consensus replaces only the effective supported-two-hole readout mixture; all prior gates/tensors/features unchanged."
+  },
+  {
+    "candidate": "v069",
+    "validation_status": "9,437 (94.37%)",
+    "work_status": "Not scored",
+    "reason": "Branchv063: exactly one upper endpoint reaching a lower-loop core supports qualified looped-arch evidence and jointly attenuates waist/lower-loop/missing-upper readout; fixed hard-control failure/refinement retained."
+  },
+  {
+    "candidate": "v070",
+    "validation_status": "9,448 (94.48%)",
+    "work_status": "28,261 (94.20%)",
+    "reason": "Branchv067, declared before its score: exact v064 negative-seven return residual and v065 gated orientation residual, both on actual cleaned parent geometry."
+  },
+  {
+    "candidate": "v071",
+    "validation_status": "9,449 (94.49%)",
+    "work_status": "Not scored",
+    "reason": "Branchv067, declared before its score: existing final oval confidence softly qualifies the already effective six-bulb readout through its unchanged +5six row."
+  },
+  {
+    "candidate": "v072",
+    "validation_status": "9,444 (94.44%)",
+    "work_status": "Not scored",
+    "reason": "Branchv067, declared before its score: existing loop and hook permissions qualify only old lower-width rebound, preserving filled-lobe and later effective-waist qualifications."
+  },
+  {
+    "candidate": "v073",
+    "validation_status": "9,468 (94.68%)",
+    "work_status": "Not scored",
+    "reason": "Branchv070: exact single-entry cue additionally requires mean contact at the cavity right boundary or beyond (X>=1); current effective waist/lower baselines are jointly qualified."
+  },
+  {
+    "candidate": "v074",
+    "validation_status": "9,440 (94.40%)",
+    "work_status": "Not scored",
+    "reason": "Branchv070: exact directed lower-run descriptor gives one authored -3three residual; seven-specificity failure and true-three counterexamples preserved."
+  },
+  {
+    "candidate": "v075",
+    "validation_status": "9,448 (94.48%)",
+    "work_status": "Not scored",
+    "reason": "Branchv070: positive integer corner moments become a local Boolean event, retaining all closed-loop and other qualifiers and the existing +4five/-3six row."
+  },
+  {
+    "candidate": "v076",
+    "validation_status": "9,452 (94.52%)",
+    "work_status": "Not scored",
+    "reason": "Branchv070: long-hook permission alone qualifies old rebound after the combined support/hook safeguard regressed filled/open eight and five shapes."
+  },
+  {
+    "candidate": "v077",
+    "validation_status": "9,481 (94.81%)",
+    "work_status": "28,317 (94.39%)",
+    "reason": "Branchv070: exact positive v071/v068/v073/v076 composition with one common effective waist subtraction after both hook and outside-contact qualifications."
+  },
+  {
+    "candidate": "v078",
+    "validation_status": "9,455 (94.55%)",
+    "work_status": "Not scored",
+    "reason": "Branchv074: one explicitly authored +1 class-three logit offset tests the calibrated contrast 1−3Q; no bias sweep or fitting routine."
+  },
+  {
+    "candidate": "v079",
+    "validation_status": "9,490 (94.90%)",
+    "work_status": "28,332 (94.44%)",
+    "reason": "Branchv077: exact v078 directed-run correction and class-three offset, with complete parent and source addition order retained."
+  },
+  {
+    "candidate": "v080",
+    "validation_status": "9,485 (94.85%)",
+    "work_status": "Not scored",
+    "reason": "Branchv077: horizontal upper-half cap endpoint broadens qualified seven-terminal evidence, which also qualifies the existing negative-seven nine-body contributions; all coefficients tied to saved rows."
+  },
+  {
+    "candidate": "v081",
+    "validation_status": "9,471 (94.71%)",
+    "work_status": "Not scored",
+    "reason": "Branchv077: one directly authored +1 class-eight offset tests a modest calibration after loop permissions removed useful eight support; no sweep or fitting routine."
+  },
+  {
+    "candidate": "v082",
+    "validation_status": "9,477 (94.77%)",
+    "work_status": "Not scored",
+    "reason": "Branchv079: existing qualified upper-five evidence and wide-cap minimum qualify the current effective six-bulb route; unchanged +5six row, no new numerical choice."
+  },
+  {
+    "candidate": "v083",
+    "validation_status": "9,494 (94.94%); first evaluation interrupted (exit143), unchanged retry completed",
+    "work_status": "Not scored",
+    "reason": "Branchv079: exact positive v080 seven correction; failed class-eight bias and separate bulb revision excluded."
+  },
+  {
+    "candidate": "v084",
+    "validation_status": "9,500 (95.00%)",
+    "work_status": "28,364 (94.5467%)",
+    "reason": "Branchv079: minimum filled-lower extent across thresholds augments lower-compartment evidence before the existing flourish/orphan/outside permissions; unchanged +6eight/−3nine row."
+  },
+  {
+    "candidate": "v085",
+    "validation_status": "9,491 (94.91%)",
+    "work_status": "Not scored",
+    "reason": "Branchv079: the existing outside-contact cue permits additional raw closed-three support while preserving the old qualified signal; unchanged +4three row."
+  },
+  {
+    "candidate": "v086",
+    "validation_status": "9,504 (95.04%)",
+    "work_status": "Not scored",
+    "reason": "Branchv084: exact positive v083 seven-only correction added once to the complete filled-lower-consensus parent; all raw tensors and source addition order retained."
+  },
+  {
+    "candidate": "v087",
+    "validation_status": "9,505 (95.05%)",
+    "work_status": "28,392 (94.64%)",
+    "reason": "Branchv086: exact positive v085 closed-three permission residual added once to the complete seven/lower-compartment composition; all tensors and source associations retained."
+  },
+  {
+    "candidate": "v088",
+    "validation_status": "9,515 (95.15%)",
+    "work_status": "28,524 / 30,000 (95.08%); all interruptions retained",
+    "reason": "Branchv087: one predeclared fixed identity/+10°/−10° raw-input ensemble, tied complete classifiers and existing .5/.25/.25 logit weights; general bilinear rotation matrices prepared before confirmation."
+  },
+  {
+    "candidate": "v089",
+    "validation_status": "9,513 (95.13%); unchanged retry completed after interruption",
+    "work_status": "Not scored",
+    "reason": "Branchv087: densest occupied-neighborhood components are flood-reconstructed; remove excluded foreground only when core mass is at least an explicitly authored .9 of total and some foreground is excluded; one-pixel halo, otherwise identity."
+  },
+  {
+    "candidate": "v090",
+    "validation_status": "9,518 (95.18%); two interrupted attempts retained, unchanged resumption completed",
+    "work_status": "Not scored",
+    "reason": "Branchv088: identity-or-both-rotations consensus for the effective two-hole readout; exact signed row38 residual, unchanged tensors."
+  },
+  {
+    "candidate": "v091",
+    "validation_status": "9,505 (95.05%); tie, five gains and five losses",
+    "work_status": "Not scored",
+    "reason": "Branchv087: require a vertically dominant member of the same relaxed cup pair, preserve the strict cup, and update the exact cup row and positive-nine orientation permission."
+  },
+  {
+    "candidate": "v092",
+    "validation_status": "9,520 / 10,000 (95.20%)",
+    "work_status": "Not scored",
+    "reason": "Branchv088: exact v089 cleanup once on raw input before all three complete classifier views; only the copied cleanup scalar is added."
+  },
+  {
+    "candidate": "v093",
+    "validation_status": "9,516 / 10,000 (95.16%)",
+    "work_status": "Not scored",
+    "reason": "Branchv088: fixed ordered-cap feature, threshold median and orientation max, qualified closed-return extension with consistent existing union/agreement/closed readout deltas."
+  },
+  {
+    "candidate": "v094",
+    "validation_status": "9,523 / 10,000 (95.23%)",
+    "work_status": "Not scored",
+    "reason": "Branchv092: exact frozen v090 q2 view-consensus suffix, with every parent tensor unchanged."
+  },
+  {
+    "candidate": "v095",
+    "validation_status": "9,528 / 10,000 (95.28%)",
+    "work_status": "Running with checkpoints",
+    "reason": "Branchv094: frozen connected upper-head walk, threshold median and orientation max; qualified alternative nine body/route support, cup attenuation, consistent seven restorations and positive-nine orientation permission."
+  },
+  {
+    "candidate": "v096",
+    "validation_status": "Authoring; no score",
+    "work_status": "Not scored",
+    "reason": "Branchv095: retain complete v094 class4 exactly, with all other v095 score columns and all internal computations unchanged; structural routing only."
+  }
+]

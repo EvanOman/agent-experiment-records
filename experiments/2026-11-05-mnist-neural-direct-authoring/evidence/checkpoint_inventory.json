@@ -1,0 +1,223 @@
+{
+  "schema": "mnist-direct-authoring-public-checkpoint-inventory-v1",
+  "publication_snapshot_cutoff_utc": "2026-11-06T05:55:49.185290+00:00",
+  "inventory_generated_at_utc": "2026-11-06T06:02:04.046017+00:00",
+  "source_snapshot_manifest_sha256": "5c10a58a630e234e062f15c3d1bfdeac8f3f1704695c33c6db01ab48d7878076",
+  "scope": "Frozen model metadata and non-pickled raw weights; historical aggregate counts and review binding. No inference, prepared dataset, forward-output archive, unused confirmation data or previous public experiment was accessed.",
+  "checkpoints": [
+    {
+      "candidate": "v001",
+      "public_checkpoint_directory": "checkpoints/v001",
+      "original_manifest_sha256": "d3c54cc59df58aa39c48e3272b948dc8b29fdcd7c830bdd4e750b179485a8d8d",
+      "original_provenance_sha256": "842b18c5159f613bad8a1abe30f3c619805b7735d1b48034ca19eba5dca40d5d",
+      "preserved_numerical_artifact_hashes": {
+        "graph.json": "4106d07bd8c7c1cf4b2c0ee3b356cf74a2e23fc7e028abac301edd53f8c49da5",
+        "weights.npz": "0c276d650ea32e1a07615bf34ad7cd4a2c3ffb4d49cf1e88dd236f7b1ea1d605",
+        "runner.py": "45fb2ed2704566cdb4055e0c07aa4ffebb892f08d2fcbee743394d073f4d35ea"
+      },
+      "graph_nodes": 242,
+      "raw_arrays": 39,
+      "raw_dtype": "float32",
+      "expanded_tensor_entries": 4932,
+      "recorded_independent_numerical_specifications": 240,
+      "operation_counts": {
+        "add": 10,
+        "affine": 1,
+        "cummax": 4,
+        "div": 1,
+        "max": 5,
+        "maximum": 11,
+        "maxpool": 56,
+        "minimum": 78,
+        "mul": 30,
+        "pad": 1,
+        "relu": 7,
+        "slice": 4,
+        "stack": 1,
+        "step": 1,
+        "sub": 18,
+        "sum": 14
+      },
+      "graph_input_dependencies_and_output_names_checked": true,
+      "all_raw_arrays_finite": true,
+      "scores": [
+        {
+          "split": "validation",
+          "status": "completed_historical_development",
+          "correct": 5928,
+          "total": 10000,
+          "accuracy": 0.5928,
+          "source_record": "results/v001_validation.json",
+          "source_record_sha256": "c90bb2f65d03079e269858a04345184c2f6002c9d4aad66bc75a19d6d5c38bfa"
+        },
+        {
+          "split": "work",
+          "status": "completed_historical_development",
+          "correct": 18087,
+          "total": 30000,
+          "accuracy": 0.6029,
+          "source_record": "results/v001_work.json",
+          "source_record_sha256": "4e33aa166bdb8aad89bc745d61f9741dd58079903381e309530f25450a758a07"
+        }
+      ]
+    },
+    {
+      "candidate": "v087",
+      "public_checkpoint_directory": "checkpoints/v087",
+      "original_manifest_sha256": "100cf7f9c16da8e60ff212fd21065f542bcb919f22aefb556b113205191f6093",
+      "original_provenance_sha256": "b30ea4a6ec593f313bb8859b1c68bc3ab4a0471a0b43b72b6c588428188c2c4e",
+      "preserved_numerical_artifact_hashes": {
+        "graph.json": "cd042f600410801e1464cc02c1acb6218f1cb60cd10bac06bbfc4d7c509f1649",
+        "weights.npz": "8dbf117a9702b272113491b45ecf711771729e3275e0aefcfe36f4327f8e4ef4",
+        "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a"
+      },
+      "graph_nodes": 37443,
+      "raw_arrays": 552,
+      "raw_dtype": "float32",
+      "expanded_tensor_entries": 1242619,
+      "recorded_independent_numerical_specifications": 1506,
+      "operation_counts": {
+        "add": 803,
+        "affine": 515,
+        "conv2d": 454,
+        "cummax": 109,
+        "div": 297,
+        "max": 354,
+        "maximum": 2721,
+        "maxpool": 13234,
+        "minimum": 13489,
+        "minpool": 33,
+        "mul": 1421,
+        "pad": 36,
+        "relu": 332,
+        "reshape": 421,
+        "slice": 202,
+        "stack": 16,
+        "step": 819,
+        "sub": 1371,
+        "sum": 816
+      },
+      "graph_input_dependencies_and_output_names_checked": true,
+      "all_raw_arrays_finite": true,
+      "scores": [
+        {
+          "split": "validation",
+          "status": "completed_historical_development",
+          "correct": 9505,
+          "total": 10000,
+          "accuracy": 0.9505,
+          "source_record": "results/v087_validation.json",
+          "source_record_sha256": "8160b0c7d3b0188690a3bfbc997985f67075326428fbe30176d40726d89bc8d9"
+        },
+        {
+          "split": "work",
+          "status": "completed_historical_development",
+          "correct": 28392,
+          "total": 30000,
+          "accuracy": 0.9464,
+          "source_record": "results/v087_work.json",
+          "source_record_sha256": "1bc36337bd49149380d8b9c30de70f6189bddf4fe416fb0ae31a0337b5b07b90"
+        }
+      ]
+    },
+    {
+      "candidate": "v095",
+      "public_checkpoint_directory": "checkpoints/v095",
+      "original_manifest_sha256": "c26d3c32203d876613fa7cb6c8c7b4a4a3b5952b82e147a794c30216c4c42155",
+      "original_provenance_sha256": "1270b8d96de1bc8f458a7da655ccc980ec7b35e3089e9b6a0e6746a6debc8daf",
+      "preserved_numerical_artifact_hashes": {
+        "graph.json": "be60dbddd9af426d45de0f1263456dfdc5ad1304850a03d78da63bcc702a4576",
+        "weights.npz": "3056fcdf1f821db073d9d029aec89c2e7319dc91db4771251a0768150e271a5f",
+        "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a"
+      },
+      "graph_nodes": 125406,
+      "raw_arrays": 555,
+      "raw_dtype": "float32",
+      "expanded_tensor_entries": 2471932,
+      "recorded_independent_numerical_specifications": 1509,
+      "operation_counts": {
+        "add": 2558,
+        "affine": 1552,
+        "conv2d": 1363,
+        "cummax": 1893,
+        "div": 891,
+        "max": 1099,
+        "maximum": 9702,
+        "maxpool": 41215,
+        "minimum": 42113,
+        "minpool": 99,
+        "mul": 5967,
+        "pad": 838,
+        "relu": 1005,
+        "reshape": 1311,
+        "slice": 1339,
+        "stack": 48,
+        "step": 4036,
+        "sub": 5927,
+        "sum": 2450
+      },
+      "graph_input_dependencies_and_output_names_checked": true,
+      "all_raw_arrays_finite": true,
+      "scores": [
+        {
+          "split": "validation",
+          "status": "completed_historical_development",
+          "correct": 9528,
+          "total": 10000,
+          "accuracy": 0.9528,
+          "source_record": "results/v095_validation.json",
+          "source_record_sha256": "33d0df0169ebfdf2c45f585e00dda40978de736fc8be51cea155d6bd8f8dec2c"
+        },
+        {
+          "split": "work",
+          "status": "pending_at_snapshot",
+          "correct": null,
+          "total": 30000
+        }
+      ]
+    }
+  ],
+  "historical_canonical_confirmation": {
+    "candidate": "v087",
+    "set_identity": "canonical_test",
+    "status": "completed",
+    "correct": 9461,
+    "total": 10000,
+    "accuracy": 0.9461,
+    "required_correct": 9500,
+    "threshold_met": false,
+    "set_consumed": true,
+    "source_record": "contributions/independent_confirmation_v087_result.json",
+    "source_record_sha256": "41376146213d366dd3df56d86855d4a285161e893434e3f6d92ff8d74d06c11f",
+    "native_review_status": "clean",
+    "native_review_record_sha256": "3d6747e5a87adf55947246c169bab533af6f7b77972a48b852cc63ec6c984086",
+    "later_public_replay_semantics": "Inference-only public replay can reproduce this count; it is not a fresh blind confirmation."
+  },
+  "v087_to_v095_specification_count_delta": {
+    "dc89_fraction": 1,
+    "rot10_resampler_plus": 2
+  },
+  "counting_interpretation": [
+    "The numerical-specification counts are recorded authoring conventions, not independently typed expanded entries.",
+    "Counts exclude architecture, connectivity, graph structure, indexing and other design decisions.",
+    "Tied, analytically expanded and copied arrays can have zero or few newly specified numerical values despite many stored entries.",
+    "The difference between 1506 and 1509 is two assigned rotation-basis specifications plus one cleanup-fraction specification.",
+    "These counts are not a count of distinct floating-point values or a measure of total human/model design effort."
+  ],
+  "architecture_interpretation": "A hard-threshold and morphological feed-forward neural graph using arithmetic, pooling, reductions, affine maps and structural routing; not a fixed affine-ReLU CNN.",
+  "adaptation_interpretation": "Later checkpoints were directly authored using development feedback. No optimizer or fitting routine is a narrower claim than no learning; this workflow adapted to data.",
+  "verification": {
+    "named_metadata_and_array_checks": 1250,
+    "graph_nodes_dependency_checked": 163091,
+    "classification_executed": false,
+    "public_replay_executed": false,
+    "new_blind_confirmation_executed": false,
+    "goal_success_established": false,
+    "source_snapshot_metadata_bindings_checked": true
+  },
+  "limitations": [
+    "The saved records establish these historical counts and their artifact bindings; this audit did not recompute predictions.",
+    "The first-checkpoint no-feedback timing is a recorded experiment claim, not independently established absolute chronology.",
+    "Artifact inspection cannot exclude unobserved historical access or public-data exposure in model pretraining."
+  ]
+}

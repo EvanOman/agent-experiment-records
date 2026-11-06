@@ -1,0 +1,105 @@
+{
+  "schema": "publication-split-stdlib-index-reconstruction-v1",
+  "recorded_at_utc": "2026-11-06T06:08:20.141940+00:00",
+  "scope": "Two final explicitly authorized stdlib metadata-only recipes; no original preparation-source claim.",
+  "python_version": "3.12.9",
+  "numpy_version": "2.2.6",
+  "seed": 2026110501,
+  "digest_comparisons": 8,
+  "negative_comparisons": 8,
+  "checks": [
+    {
+      "recipe": "random.Random(seed).shuffle(list(range(60000)))",
+      "split": "work",
+      "slice_start": 0,
+      "slice_stop": 30000,
+      "ordering": "raw",
+      "serialization_dtype": "<i8",
+      "sha256": "5bf5a842240a24378eb63cd991b1c78694aab6cb92a32eacca0aca88e58c2574",
+      "expected_sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).shuffle(list(range(60000)))",
+      "split": "validation",
+      "slice_start": 30000,
+      "slice_stop": 40000,
+      "ordering": "raw",
+      "serialization_dtype": "<i8",
+      "sha256": "fe4086ecc20824a54d882d13ffb79cac88d029cc63b8c1bf7c047b782b1b7ab8",
+      "expected_sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).shuffle(list(range(60000)))",
+      "split": "work",
+      "slice_start": 0,
+      "slice_stop": 30000,
+      "ordering": "raw",
+      "serialization_dtype": "<i4",
+      "sha256": "8c45daf191442d0ebee0f3bf70f8a14a412b5086d9fa2e44cbf98c81ca381dea",
+      "expected_sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).shuffle(list(range(60000)))",
+      "split": "validation",
+      "slice_start": 30000,
+      "slice_stop": 40000,
+      "ordering": "raw",
+      "serialization_dtype": "<i4",
+      "sha256": "6b893421f83892f8f50e328beb377489bac1c1f709a9b374595a0f03ce3c62e5",
+      "expected_sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).sample(range(60000),60000)",
+      "split": "work",
+      "slice_start": 0,
+      "slice_stop": 30000,
+      "ordering": "raw",
+      "serialization_dtype": "<i8",
+      "sha256": "19634436f7f6bbbe2ce4e2bf0d448b1050ef9495595c3dec245d40b082ac69f3",
+      "expected_sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).sample(range(60000),60000)",
+      "split": "validation",
+      "slice_start": 30000,
+      "slice_stop": 40000,
+      "ordering": "raw",
+      "serialization_dtype": "<i8",
+      "sha256": "e8c86be1a0449ca297245b50365e7ed7f5bcf917d3885e3611a785ef77734daa",
+      "expected_sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).sample(range(60000),60000)",
+      "split": "work",
+      "slice_start": 0,
+      "slice_stop": 30000,
+      "ordering": "raw",
+      "serialization_dtype": "<i4",
+      "sha256": "8c0840b31ec9720749bd76a4efb1e8a092b18e9aa140900178c534fe909389fd",
+      "expected_sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1",
+      "matches": false
+    },
+    {
+      "recipe": "random.Random(seed).sample(range(60000),60000)",
+      "split": "validation",
+      "slice_start": 30000,
+      "slice_stop": 40000,
+      "ordering": "raw",
+      "serialization_dtype": "<i4",
+      "sha256": "6fe348c0a411749f080c90af0ccc22d97c5ea012890ba505fa70917defb8a1be",
+      "expected_sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449",
+      "matches": false
+    }
+  ],
+  "matching_recipes": [],
+  "dataset_or_npz_accessed_or_hashed": false,
+  "reserve_hashes_compared": false,
+  "raw_indices_written": false,
+  "search_stopped": true
+}

@@ -1,0 +1,149 @@
+{
+  "accuracy": 0.9513,
+  "candidate": "v089",
+  "confusion_true_rows_pred_columns": [
+    [
+      956,
+      0,
+      1,
+      6,
+      5,
+      5,
+      5,
+      0,
+      7,
+      2
+    ],
+    [
+      0,
+      1104,
+      7,
+      1,
+      1,
+      1,
+      3,
+      6,
+      1,
+      0
+    ],
+    [
+      2,
+      7,
+      952,
+      3,
+      2,
+      0,
+      6,
+      6,
+      15,
+      0
+    ],
+    [
+      2,
+      8,
+      19,
+      951,
+      2,
+      16,
+      1,
+      8,
+      7,
+      8
+    ],
+    [
+      5,
+      3,
+      2,
+      0,
+      944,
+      3,
+      1,
+      3,
+      4,
+      9
+    ],
+    [
+      1,
+      5,
+      3,
+      10,
+      6,
+      847,
+      16,
+      6,
+      7,
+      3
+    ],
+    [
+      4,
+      10,
+      11,
+      0,
+      2,
+      15,
+      931,
+      0,
+      13,
+      0
+    ],
+    [
+      1,
+      5,
+      13,
+      2,
+      16,
+      0,
+      0,
+      1000,
+      5,
+      2
+    ],
+    [
+      9,
+      2,
+      12,
+      2,
+      5,
+      8,
+      10,
+      2,
+      912,
+      13
+    ],
+    [
+      4,
+      2,
+      1,
+      1,
+      23,
+      10,
+      0,
+      15,
+      19,
+      916
+    ]
+  ],
+  "correct": 9513,
+  "evaluator_sha256": "885ced112f0597525e9a83f1840b3977b273d03c5dcc0d4a97f6c781958fa10e",
+  "hashes": {
+    "author.py": "2ed27546ebbc9d458205a709951816aced66aa4307ac099ba6793415a7b2e086",
+    "composition_spec.md": "fde6508b1ead1c778b1f1b2b9a8a393175a67398a107cfaad2f9cfbbf73345de",
+    "graph.json": "24942701d1817cb2d062d377ad35e2d11609588cdae12d32e0aff59e45463edc",
+    "prefreeze_verification.json": "a16ae4b786557185fe1cd3d515a3c8c2e928b500781a422011178c72b9a9f552",
+    "provenance.json": "8afb2c1f984d6dca987520adba52377a651318ef2d930c1ed52e2295a18b0d6b",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "source_verification.py": "cc87576bd3d4ca8ac3cbed48f2a35ee83bc47311c4d7eadc2f4fc30cd1fea80b",
+    "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "weights.npz": "a209ee191a8def44d73a5f03910a64e18e6ceb52b10a13f2e5fb7fd3ae4dc2be"
+  },
+  "seconds": 614.623777627945,
+  "split": "validation",
+  "total": 10000,
+  "workers": 4,
+  "resumability_summary": {
+    "attempts_at_finalization": 1,
+    "completed_batches": 79,
+    "seconds_semantics": "wall time since first attempt, including interruptions",
+    "omitted": "Local run identifier, checkpoint path and individual batch-receipt hash map; original result digest retained in the publication manifest."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "candidate": "v037",
+  "split": "validation",
+  "correct": 9334,
+  "total": 10000,
+  "accuracy": 0.9334,
+  "seconds": 268.65897607803345,
+  "workers": 4,
+  "evaluator_sha256": "bbde1fa3516e1fcbcfb60aa7292bcfc3f58bdf47d9781cfb176ec3f7a072f93b",
+  "confusion_true_rows_pred_columns": [
+    [
+      935,
+      0,
+      2,
+      3,
+      9,
+      7,
+      18,
+      0,
+      12,
+      1
+    ],
+    [
+      0,
+      1097,
+      7,
+      5,
+      5,
+      0,
+      1,
+      8,
+      1,
+      0
+    ],
+    [
+      4,
+      6,
+      920,
+      13,
+      0,
+      0,
+      17,
+      5,
+      28,
+      0
+    ],
+    [
+      0,
+      6,
+      30,
+      935,
+      1,
+      18,
+      6,
+      8,
+      11,
+      7
+    ],
+    [
+      3,
+      4,
+      3,
+      1,
+      916,
+      5,
+      2,
+      7,
+      12,
+      21
+    ],
+    [
+      1,
+      5,
+      3,
+      8,
+      3,
+      852,
+      12,
+      8,
+      9,
+      3
+    ],
+    [
+      2,
+      12,
+      30,
+      0,
+      3,
+      41,
+      882,
+      1,
+      15,
+      0
+    ],
+    [
+      1,
+      6,
+      7,
+      17,
+      15,
+      0,
+      0,
+      987,
+      2,
+      9
+    ],
+    [
+      8,
+      2,
+      16,
+      4,
+      3,
+      7,
+      12,
+      4,
+      896,
+      23
+    ],
+    [
+      7,
+      2,
+      1,
+      3,
+      11,
+      12,
+      0,
+      12,
+      29,
+      914
+    ]
+  ],
+  "hashes": {
+    "attachment_block.py": "c5cf25baa5bef1ce81f5055adebb68e7da93785e7efa8e1d649991844f8be09f",
+    "author.py": "56fb6877c8ae2538c5b26f125765db70c54ef3a4f717587091372ba8a1df4fcb",
+    "endpoint_block.py": "e324d70f97e14bf21a36e874a213b62b061565383ecb84acceac28d2fbd31bed",
+    "graph.json": "c84572dcee72d80d47c23d8ec1aa19dd5f1669d674ea27d73ced8de7c8cf0e84",
+    "oval_block.py": "cf57c9480945f5e5d597735b7eb8a50498f0e293555e52e7fcd31e88cb234682",
+    "provenance.json": "2c20b49b91e85356cfd23678f41c28aa176e80216068b6b7b8082bb300b7046b",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "waist_block.py": "3aacf1712e292893a399994c4cebb98e9490047090098d8a55df75011bfe04c8",
+    "weights.npz": "c73dc3143362af609dff9d1eb03c69951d811878c38b7ce114e8b410582aca1b"
+  }
+}

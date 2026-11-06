@@ -1,0 +1,17 @@
+{
+  "schema": "public-historical-execution-summary-v1",
+  "candidate": "v087",
+  "set_identity": "canonical_test",
+  "invocation_count": 1,
+  "start_utc": "2026-11-06 01:43:26 UTC",
+  "end_utc": "2026-11-06 01:48:45 UTC",
+  "exit_code": 0,
+  "status": "returned",
+  "original_execution_sha256": "0c4b5b50b966f8d0029d932a1cb72a15b907ceab8996d98210ba9bc53be7ae3e",
+  "omitted": [
+    "Private command interpreter and working-directory paths",
+    "Local process/session identifiers",
+    "Duplicated stdout and tool-poll records"
+  ],
+  "scope": "Historical execution metadata only. This is not a public replay or a fresh confirmation."
+}

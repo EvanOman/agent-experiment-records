@@ -1,0 +1,11 @@
+{
+  "author.py": "5330da91667cd2f940743e23fc433d7dbb3e859126fd517a7b8659ffa8420f67",
+  "composition_spec.md": "a1dfe30afcdce6eb7529f8ebb2ead5aa3e8f931e56e8f73b092882258709dbc2",
+  "graph.json": "be60dbddd9af426d45de0f1263456dfdc5ad1304850a03d78da63bcc702a4576",
+  "prefreeze_verification.json": "ae1759138603ec75325fa248710d8d96ce4438db0d5884a6768545a330d54868",
+  "provenance.json": "1270b8d96de1bc8f458a7da655ccc980ec7b35e3089e9b6a0e6746a6debc8daf",
+  "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+  "source_verification.py": "3257cec775ca410f5cb9092087efb2e8200d39e244ac4d0bad9be1402f36dd21",
+  "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+  "weights.npz": "3056fcdf1f821db073d9d029aec89c2e7319dc91db4771251a0768150e271a5f"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "mnist-direct-authoring-local-checks-v1",
+  "recorded_at_utc": "2026-11-06T06:21:13.696216+00:00",
+  "status": "unit_and_component_checks_passed",
+  "unit_command": "python -m unittest discover -s tests -v",
+  "unit_tests_passed": 16,
+  "unit_seconds": 2.435,
+  "unit_result": "OK",
+  "replay_source_sha256": "b8a473865ede2033aabe40b7fc46e7036665ce348f54d7c5ae175ff5c48ff17a",
+  "verification_source_sha256": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa",
+  "smoke_result": "local_v095_nonglyph_smoke.json",
+  "split_result": "local_development_split_verification.json",
+  "full_v087_public_replay": "running; separate aggregate will be added on completion",
+  "full_v095_public_validation_replay": "not run; historical validation evidence remains separately attributed",
+  "repository_manifest_verifier": "Initial integrated run passed; final whole-publication checksum gate is awaiting root manifest and final repository check.",
+  "new_blind_confirmation": false
+}

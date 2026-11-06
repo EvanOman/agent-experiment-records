@@ -1,0 +1,90 @@
+{
+  "schema": "mnist-native-confirmation-review-v1",
+  "status": "clean",
+  "native_openai_reviewer": "[native contributor] (native OpenAI Astra Ultra, inherited)",
+  "candidate": "v087",
+  "candidate_manifest_sha256": "100cf7f9c16da8e60ff212fd21065f542bcb919f22aefb556b113205191f6093",
+  "report_path": "contributions/final_native_review_v087.md",
+  "report_sha256": "05b3080c23827c718e48facbe14ccb456a4d6edadcf25b27beeb3cb764f85f08",
+  "data_manifest_sha256": "2f64e92b652ab4cfa54e5bf03dc6e1d4b2b2072ab8cfada5713ae980bbcab75d",
+  "evaluator_sha256": "91ce0f2ef14c6509a6898f582c0daa4f39cf2aca67554e0574ec06f693d98e5b",
+  "validation_result_sha256": "8160b0c7d3b0188690a3bfbc997985f67075326428fbe30176d40726d89bc8d9",
+  "checks": {
+    "executable_reproducibility": "clean",
+    "tensor_provenance": "clean",
+    "fitting_shortcuts": "clean",
+    "forbidden_access": "clean",
+    "authoring_record": "clean"
+  },
+  "completed_at_utc": "2026-11-06T01:41:50.888984+00:00",
+  "candidate_artifact_hashes": {
+    "author.py": "ec9580bdf8270513ac210242fa55fec6798e3ce524a011068f7286710c0d1bab",
+    "composition_spec.md": "6629958cfe3097da3e42f8ac569c34d9514fec630fdc264d3de83c642a6db4c9",
+    "graph.json": "cd042f600410801e1464cc02c1acb6218f1cb60cd10bac06bbfc4d7c509f1649",
+    "prefreeze_verification.json": "a0f5c078034c557ca64fd1c0fc1c1e0818ff604f9d765db5613e89d1f5af2063",
+    "provenance.json": "b30ea4a6ec593f313bb8859b1c68bc3ab4a0471a0b43b72b6c588428188c2c4e",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "source_verification.py": "55c05363d1240d1987282b65f721a285d6bf38b4c95c96038e3e0e6d601ca49b",
+    "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "weights.npz": "8dbf117a9702b272113491b45ecf711771729e3275e0aefcfe36f4327f8e4ef4"
+  },
+  "validation": {
+    "correct": 9505,
+    "total": 10000,
+    "accuracy": 0.9505
+  },
+  "v087_work_unscored": true,
+  "parent_work": {
+    "candidate": "v084",
+    "correct": 28364,
+    "total": 30000,
+    "accuracy": 0.9454666666666667,
+    "sha256": "1a6c08c1d07eb7ca3829138edf9c6108ed74701d8cdba7b86cc2e974101d0af5"
+  },
+  "blocking_findings": [],
+  "supporting_evidence_sha256": {
+    "contributions/final_native_review_v087_delta_check.py": "16901b86d6b7256065e3dc7a993abde511e54c622ff08ca82742d5e409a30240",
+    "contributions/final_native_review_v087_delta_check.json": "52f569ca78c7efcbd9a4efc1d672f461b814d8dd4ede50e8ca6a463fbf72fcae",
+    "contributions/final_native_review_v087_generic.json": "866c55c713a27748cfe3179048b2fa1916aad595b6807b75ab7187c0afbc4a6c",
+    "contributions/final_native_review_v087_source.md": "e913c39a806aaba3e22ec1bd974c594c660f233eaf8c1532b7690b40d2287ef3",
+    "contributions/final_native_review_v087_source.json": "bd3bef1c9203375a1c6f6c69f48dd009bb09ea373e82b0ca448bccded476119d",
+    "contributions/final_native_review_v087_source_check.py": "0ab954c2ea3897d007fa0ae8299c08b9503a61cf4a8370e550d6a16846541c18",
+    "contributions/final_native_review_v087_source_check.json": "425e46713342b940752f5b1bb4bfbc38b958baf4055c3bed0eaa1c74a620831e",
+    "contributions/composition_v087_report.md": "4b62586181f70a35bb4459566834b4429d9dc58f4700e7bc6776d183ead4c5e8",
+    "contributions/composition_v087_review.md": "f8c64488252b2df398d21f8f7fd66a05f1866612ffe7bae1d8b0a94a11fcc199",
+    "contributions/composition_v087_review.json": "6670a31697217d9ba27fe23363f9d16d0617ac387b9f0285124520d1f2d9dbe6",
+    "contributions/composition_v087_generic_verification.json": "9f41423780ad3be8b1fc16ba12baff321a92d07a1bdf0a091fc049318b23c62b",
+    "contributions/composition_v087_READY.json": "e6ea3e1b712f232f071b5434475e8ca0f95f4d922ff44a256db88fefd91eb5a8",
+    "contributions/final_native_review_v087_pending.json": "2688c8c80d30f79f92e293072422301bd133551f0184f8673ec5ff6ff790c818",
+    "contributions/final_native_review_v087_pending.md": "d56cf69ce9aeb7d22a9a62792a4fb5bbe40dd6e2762ee782d9ea3ca003d1b536",
+    "contributions/final_native_review_v086.json": "e0f8c5cb51dbf237ee8e0e8f5dca29874e111f4bd64fd4bae3fbee95638e23d0",
+    "contributions/final_native_review_v086.md": "00347da1a05493165169dadd2bc62a4c68e75d0caa6bb978286285de2f993101",
+    "contributions/final_native_review_v084.json": "1ac5f8b35d497c08ebbfdaf16d1df625e4501a39834c16cd0e8cbfa3f6e5c494",
+    "contributions/final_native_review_v084.md": "55a631d09021bff61066961cbaea36fd3d94e3083736b793017985c57b3a247d",
+    "contributions/final_native_review_v087_final_binding_checks.json": "b1e0e70af228d664a8201a8f9879519e57960245000d3d033034356fa6c6eb23",
+    "contributions/final_native_review_v087_finalize.py": "325d2b545a68c52063be545290c17a7297644fafe0a9a2fd0ddffa35ebfc617b",
+    "results/v084_work.json": "1a6c08c1d07eb7ca3829138edf9c6108ed74701d8cdba7b86cc2e974101d0af5"
+  },
+  "reviewer_sealed_execution_or_access": false,
+  "inherited_full_reviews": [
+    {
+      "path": "contributions/final_native_review_v084.json",
+      "sha256": "1ac5f8b35d497c08ebbfdaf16d1df625e4501a39834c16cd0e8cbfa3f6e5c494"
+    },
+    {
+      "path": "contributions/final_native_review_v086.json",
+      "sha256": "e0f8c5cb51dbf237ee8e0e8f5dca29874e111f4bd64fd4bae3fbee95638e23d0"
+    }
+  ],
+  "new_review_scope": "Actual v087 complete-parent preservation plus v085 source provenance, shared outside permissions, generic arithmetic and actual qualifying validation binding",
+  "limitations": [
+    "Exactly95% development validation after adaptation is borderline; this is not sealed success or a generalization guarantee.",
+    "Current artifacts/available record do not prove absolute historical chronology or absence of unrecorded actions.",
+    "Observed tool/data use cannot prove absence of public-MNIST pretraining exposure.",
+    "Procedural same-user holdout seal is not OS-enforced isolation.",
+    "Independent numerical specification count uses the disclosed literal/sharing convention, not unique values or structural decisions.",
+    "Some historical author entrypoints replay fixed development diagnostics after materialization; authoring is feedback-adapted, not data-independent.",
+    "Only five validation examples above threshold after adaptation; no sealed/generalization95%claim.",
+    "v087 work unscored; parent84 work94.5467%is below95and not a86/87measurement."
+  ]
+}

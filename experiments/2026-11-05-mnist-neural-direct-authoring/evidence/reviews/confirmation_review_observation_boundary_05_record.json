@@ -1,0 +1,430 @@
+{
+  "schema": "bounded-observation-source-protocol-supplement-v1",
+  "created_at_utc": "2026-11-06T05:39:59.168436+00:00",
+  "reviewer": "native OpenAI [native contributor]",
+  "native_metadata_reviewer": "[native contributor]",
+  "provider_scope": "Inherited Astra Ultra / native OpenAI only; no other provider, web, outside solution or neighboring project access.",
+  "status": "SOURCE/PROTOCOL SUPPLEMENT COMPLETE",
+  "material_findings": [],
+  "conclusion": "No material issue found in the inspected fixed-observation and source-only materialization boundary. Root used development observations to choose the declared v095 architecture.",
+  "checks_passed": {
+    "static_source_boundary": 144,
+    "native_metadata_boundary": 85
+  },
+  "cohorts": [
+    {
+      "START_at_utc": "2026-11-06T04:32:45.828621+00:00",
+      "START_path": "contributions/open_nine_path_observer_START.json",
+      "START_sha256": "d23b5884e44fa1fab0f87f0a5eacf7cd09095f5275e0a0426c76fd21704b0e34",
+      "count": 39,
+      "declared_at": "2026-11-06T04:13:03.416233+00:00",
+      "declared_label_counts_not_dataset_verified": {
+        "2": 2,
+        "3": 2,
+        "4": 13,
+        "5": 8,
+        "6": 4,
+        "7": 2,
+        "9": 8
+      },
+      "ordered_split_ids": [
+        [
+          "validation",
+          171
+        ],
+        [
+          "validation",
+          692
+        ],
+        [
+          "validation",
+          795
+        ],
+        [
+          "validation",
+          1221
+        ],
+        [
+          "validation",
+          19
+        ],
+        [
+          "validation",
+          20
+        ],
+        [
+          "validation",
+          22
+        ],
+        [
+          "validation",
+          27
+        ],
+        [
+          "validation",
+          4586
+        ],
+        [
+          "validation",
+          5012
+        ],
+        [
+          "validation",
+          5149
+        ],
+        [
+          "validation",
+          5278
+        ],
+        [
+          "validation",
+          7
+        ],
+        [
+          "validation",
+          16
+        ],
+        [
+          "validation",
+          34
+        ],
+        [
+          "validation",
+          43
+        ],
+        [
+          "validation",
+          934
+        ],
+        [
+          "validation",
+          2293
+        ],
+        [
+          "validation",
+          6454
+        ],
+        [
+          "validation",
+          6713
+        ],
+        [
+          "validation",
+          8370
+        ],
+        [
+          "validation",
+          8
+        ],
+        [
+          "validation",
+          11
+        ],
+        [
+          "validation",
+          35
+        ],
+        [
+          "validation",
+          40
+        ],
+        [
+          "validation",
+          341
+        ],
+        [
+          "validation",
+          739
+        ],
+        [
+          "validation",
+          1067
+        ],
+        [
+          "validation",
+          1671
+        ],
+        [
+          "work",
+          7
+        ],
+        [
+          "work",
+          36
+        ],
+        [
+          "work",
+          56
+        ],
+        [
+          "work",
+          78
+        ],
+        [
+          "validation",
+          1
+        ],
+        [
+          "validation",
+          13
+        ],
+        [
+          "validation",
+          4
+        ],
+        [
+          "validation",
+          45
+        ],
+        [
+          "validation",
+          0
+        ],
+        [
+          "validation",
+          12
+        ]
+      ],
+      "selection_path": "contributions/open_nine_path_observation_selection.json",
+      "selection_sha256": "2050cee7761fae29101caa909db2066256ba0f03bb23cae1f13741d8c87a0b4d",
+      "source_review_sha256": "96719fca6b9ed70c70605650d825b82f260d67f02e4a34b3f45f7318e5d617d5",
+      "source_sha256": "b331820005e89b2d139f214f6ee72357cffe32c215dfc700c8b260014ccacd63",
+      "spec_sha256": "3090f516225cb1513cf4d44ceeb7c1e71e4ea1c1c6bf214d84e27a2855e6d71c",
+      "split_counts": {
+        "validation": 35,
+        "work": 4
+      }
+    },
+    {
+      "START_at_utc": "2026-11-06T04:43:30.244916+00:00",
+      "START_path": "contributions/open_nine_path_eights_observer_START.json",
+      "START_sha256": "8c39f2c4c2c5ddf5cca08adb03ca710b61ca40f157510ebad13dd0e68a520f54",
+      "count": 8,
+      "declared_at": "2026-11-06T04:31:40.709359+00:00",
+      "declared_label_counts_not_dataset_verified": {
+        "8": 8
+      },
+      "ordered_split_ids": [
+        [
+          "validation",
+          149
+        ],
+        [
+          "validation",
+          481
+        ],
+        [
+          "validation",
+          502
+        ],
+        [
+          "validation",
+          720
+        ],
+        [
+          "validation",
+          5
+        ],
+        [
+          "validation",
+          39
+        ],
+        [
+          "validation",
+          44
+        ],
+        [
+          "validation",
+          49
+        ]
+      ],
+      "selection_path": "contributions/open_nine_path_eights_selection.json",
+      "selection_sha256": "df11e29dbcef1570645fb47b7e8e265df6f959cec343e3145b161dcdfa9df0e0",
+      "source_review_sha256": "e01c7632553999b0595f80587bb21a9a52ffdb2430b2cd5fc27d4846e349d0b5",
+      "source_sha256": "36db920d908886d6d63a4dc2770cdbfc8d58f2e838bf2a6bf1e538e53df6caff",
+      "spec_sha256": "c299d8e090f4127bbff1dc3324a8de92fe582289f1bafa04a29b6b61834d0174",
+      "split_counts": {
+        "validation": 8
+      }
+    }
+  ],
+  "combined_unique_split_ids": 47,
+  "cohort_scope": "Two separately fixed/dispatched cohorts; 35 validation plus four work originals, then eight additional validation controls. No unbiased population claim.",
+  "observer_source_sha256": {
+    "original39": "b331820005e89b2d139f214f6ee72357cffe32c215dfc700c8b260014ccacd63",
+    "extension8": "36db920d908886d6d63a4dc2770cdbfc8d58f2e838bf2a6bf1e538e53df6caff"
+  },
+  "frozen_manifest_bindings": {
+    "source_parent_v092": "97aa09b9c1535b9967881325cde0652bd172498b23a79cca843b8d2c538f4be9",
+    "upstream_helper": "167c6c3feb73ae091d26e9cff3174566451d67b187269d9c572b587246b33533",
+    "standalone_feature": "9a85226d411fa1087978ae3bb6fad3c067819407dd43482ecf35d69e8688fa49"
+  },
+  "helper_boundary": {
+    "nodes": 10444,
+    "required_saved_tensor_names": 55,
+    "outputs": 63,
+    "exact_parent_ancestor_closure": true,
+    "new_NPZ_reads_or_hashes": false,
+    "diagnostics_only_invocation": true,
+    "prediction_metadata_absent": true
+  },
+  "fixed_observer_behavior": [
+    "Pre-data START and exact source/selection/helper/feature/clean-review bindings plus single-thread checks.",
+    "Original source materializes both permitted development split arrays, then indexes its fixed ordered 39; extension loads validation only and indexes fixed 8.",
+    "Existing preprocessing inputs pass directly to the same frozen head-free feature in each of nine branches; no counterfactual, variant search, pooled feature, new gate or class head.",
+    "Completed checkpoints require exact binding/source/range/archive receipts; incomplete stages refuse automatic replay and preserve failure evidence.",
+    "Fixed same-predicate BFS validates stored geometry and produces descriptive witnesses, without supplying classifier inference or writing weights.",
+    "Retrospective description panels and embedded outcome-dependent assertions are source text only in this review, not independently verified result evidence."
+  ],
+  "v095_intake": {
+    "actual_author_sha256": "5330da91667cd2f940743e23fc433d7dbb3e859126fd517a7b8659ffa8420f67",
+    "prospective_spec_sha256": "a1dfe30afcdce6eb7529f8ebb2ead5aa3e8f931e56e8f73b092882258709dbc2",
+    "source_alias_audit_sha256": "7b5e21290b595573f5f0e2e7e9ec9afbdd2620401a77027b13285e6ba9223de6",
+    "source_peer_alias_audit_sha256": "3ab07c5d6b3cd6ca7cc1e6d3cc2f6ae0870db8f03030a637e59255b410593fb6",
+    "constructor_checks_spec_before_constructing": true,
+    "constructor_observation_or_result_file_intake": false,
+    "root_development_guided_architectural_choice": true,
+    "no_new_graph_tensor_review_claimed": true
+  },
+  "historical_source_transitions": [
+    {
+      "audited_source": "da59e5cfc4f9c8e7db1422d97b503d455957117478335ff80dc2f1294bd016a0",
+      "later_source": "31c7a73732d4cb9a3790f00f84ee01ef8a7c9c5da853e54f125d975c3b9110bb",
+      "resolution": "Held final review pending full read and explicit delta audit; initial audit/report/spec review retained as provisional records.",
+      "stage": "Main audit versus late spec binding"
+    },
+    {
+      "actual_source": "b331820005e89b2d139f214f6ee72357cffe32c215dfc700c8b260014ccacd63",
+      "expected_source": "31c7a73732d4cb9a3790f00f84ee01ef8a7c9c5da853e54f125d975c3b9110bb",
+      "resolution": "Author confirmed freeze-binding additions had two edits and corrected premature stablehash statement. Source frozen atb331; full final read and exact inverse delta comparison required. No observer, development or standalonefeature execution.",
+      "stage": "Final source digest assertion"
+    }
+  ],
+  "access": {
+    "source_and_allowed_protocol_JSON": true,
+    "fixed_selection_JSON": true,
+    "graph_JSON_static_ancestor_check": true,
+    "NPZ_opened_or_hashed": false,
+    "images": false,
+    "actual_per_example_cue_records": false,
+    "saved_forward_arrays": false,
+    "sealed_or_confirmation_ledger": false,
+    "classifier_observer_feature_BFS_author_or_existing_generic_execution": false,
+    "other_files_modified": false
+  },
+  "candidate_selected": false,
+  "confirmation_approval_issued": false,
+  "confirmation_dispatched": false,
+  "limitations": [
+    "Chronology consists of mutable recorded timestamps and assertions, not independent proof of first access or absolute historical ordering.",
+    "Original final observer review has no completion timestamp; its absent-START assertion is procedural ordering evidence only.",
+    "Selection labels, purposes and prior correctness were not verified against images, labels or prior feedback.",
+    "No observation execution completion, exact actually processed membership, cue correctness, specificity or population result is verified here.",
+    "Raw archive bytes were neither opened nor rehashed; recorded raw digests are manifest declarations in this supplement.",
+    "BFS and explanation code is diagnostic only in the inspected workflow; source checks cannot exclude unrecorded alternative execution.",
+    "Source-only construction and numerical tying do not negate root development feedback or new architectural choices.",
+    "No proof of absent pretraining exposure, unrecorded access or undisclosed external actions is made.",
+    "Final selected-artifact review, fresh confirmation and extracted delivery remain separate and pending."
+  ],
+  "raw_archive_digest_strings_only": {
+    "candidates/v092/weights.npz": "3056fcdf1f821db073d9d029aec89c2e7319dc91db4771251a0768150e271a5f",
+    "contributions/open_nine_path_observer_upstream/weights.npz": "1c25ebe5cc8a5458a22d56d7336d6d8c264be8aa1c08aa1300863334d744e261",
+    "contributions/open_nine_path_feature_frozen/weights.npz": "05aa2ddffdd4cfb9a50c400b4d05dba320069012f0e089fdd38a5fc7a9e61689"
+  },
+  "preserved_preparation05_manifest_sha256": "bc7a1755aca6a0fd20c3ddd95cc57d68748821edd1b3b98cbce9db720439f80c",
+  "preserved_preparation05_files": 18,
+  "inspected_evidence_sha256": {
+    "contributions/confirmation_review_observation_boundary_05_audit.json": "c816e2b754cf0279a7ad33286e37bf07ff6f38f18119aca6ae115b9b71a96c5d",
+    "contributions/confirmation_review_observation_boundary_05_audit.py": "6e2e2f010dcd932408c9cba53afeb0e8fdf8c03304b6c98f57f09576f5d66f0f",
+    "contributions/confirmation_review_observation_boundary_05_metadata_SHA256SUMS.json": "d45ad9be188aa151f3ffed5b91de2ae61b0416262758e1f9207ae357bb8cb92f",
+    "contributions/confirmation_review_observation_boundary_05_metadata_audit.py": "4f1e20009804ea5612c7d63c9fceddb7de93761649fa4a37146fa03df25d2539",
+    "contributions/confirmation_review_observation_boundary_05_metadata_record.json": "952fe622c36251abcb16f83548076fcb7865ab790603f9de748c7385b21dbfa5",
+    "contributions/confirmation_review_observation_boundary_05_metadata_report.md": "6081786f1bf3e8df56312aeb9b711492e6e69896ab414f1dd00945357d66872c",
+    "contributions/confirmation_review_observation_boundary_05_report.md": "6bdee86bead9ae23025a53475ba9dc88123761d6ebce1ab745e91a432177c933"
+  },
+  "allowed_source_protocol_input_sha256": {
+    "ASSIGNMENT.md": "79f04bd2fe2d935760e1c94b59d39cb7f8f88e44fb2b20777088e553b0b6d53a",
+    "candidates/v092/SHA256SUMS.json": "97aa09b9c1535b9967881325cde0652bd172498b23a79cca843b8d2c538f4be9",
+    "candidates/v092/author.py": "b8b0e56405a561b5e82f61537c059e4e9f0e9bf9b231eac4c04298e204aa51a3",
+    "candidates/v092/composition_spec.md": "271f0c1d0c15a1675ed0ddc178a5865e7547869bff417fb8ccbd41fb8a625aaf",
+    "candidates/v092/graph.json": "dd75a7d4887f8a64df29c660827e7ce8c524eeaa5196cbf0e2cba0fbb6a51a75",
+    "candidates/v092/prefreeze_verification.json": "a8f09f47527660ca99d080757d04966728409f56009a12f72586bcdcff3ed355",
+    "candidates/v092/provenance.json": "41846c2e6f03c9d7b77c3247f475548206340fd585a87c7e85bb371903ae5c90",
+    "candidates/v092/runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "candidates/v092/source_verification.py": "855d7e5eea47c4c4dc6b6a22dd9c88e73a621200d40a5be06e1bad28e2e99616",
+    "candidates/v092/verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "candidates/v094/SHA256SUMS.json": "35eb677ebdf71327b05dd11da1067f8ee144ad44173f7b7658ede176d45fdf42",
+    "candidates/v095/author.py": "5330da91667cd2f940743e23fc433d7dbb3e859126fd517a7b8659ffa8420f67",
+    "candidates/v095/composition_spec.md": "a1dfe30afcdce6eb7529f8ebb2ead5aa3e8f931e56e8f73b092882258709dbc2",
+    "contributions/confirmation_review_preparation_05_aggregate_audit.json": "5f6dc392ba3eb586eaa3ce48a353a6f7b6d076e1cf93e0d0e5af5427c6c00378",
+    "contributions/confirmation_review_preparation_05_aggregate_audit.py": "4da5da2e9292147e8901129158f7eb565a3074948388f616cf815a99c5dc3059",
+    "contributions/confirmation_review_preparation_05_feature_SHA256SUMS.json": "f7e918b1b3418c6530ef83d69ab68027340614d9d32749d5c2b332263bfb546c",
+    "contributions/confirmation_review_preparation_05_feature_audit.json": "5cc7f9ea33c14fc493acab9f6b964e79d757d42443583c13564308e8db74b4b3",
+    "contributions/confirmation_review_preparation_05_feature_audit.py": "d862f6f83731185223b33543709ac4eb55656195d872dc667a41022ff5a351c5",
+    "contributions/confirmation_review_preparation_05_feature_record.json": "a3ad93c2327c4f79901e9c9b2150179c870df6f7407dd4ab0722f1b9bc60b602",
+    "contributions/confirmation_review_preparation_05_feature_report.md": "19564ba6c9243bb5c3283511badca4c39e76867035262693ecba45571ea33f0f",
+    "contributions/confirmation_review_preparation_05_inspection_incidents.json": "57b25e7a7459e8f383bdde5791d34a23ea15217d1604add5449954e9c95f6cff",
+    "contributions/confirmation_review_preparation_05_manifest.json": "bc7a1755aca6a0fd20c3ddd95cc57d68748821edd1b3b98cbce9db720439f80c",
+    "contributions/confirmation_review_preparation_05_record.json": "52f019d34de622afeb074b17f23e72d9d119b072a3721f6bcc4eebeba6dfd592",
+    "contributions/confirmation_review_preparation_05_report.md": "a10dde75b03ef0f89aed07aa0cc8df6b91978bfe3b3f2eae07da98bccc1bf3e7",
+    "contributions/confirmation_review_preparation_05_resumption_SHA256SUMS.json": "a0f65a70d5c7245a4e4bd59e95c90f7b8488ae2ff6b1987cd6ec3b1c92db7ad9",
+    "contributions/confirmation_review_preparation_05_resumption_audit.json": "52d6427c5cf4d31f548b296e3abab10b7781a559c575685c3277751e17aa9f53",
+    "contributions/confirmation_review_preparation_05_resumption_audit.py": "846e4592f194b41ab816ceece5a7cbc5d5aef7e2a643daa88879c6acded9c646",
+    "contributions/confirmation_review_preparation_05_resumption_record.json": "8c5e4b0599d441b0a1eba86219bad8952df5598d76fea5ffcfa26b1f9e06f31b",
+    "contributions/confirmation_review_preparation_05_resumption_report.md": "d9ee963d9e8b708c2692f4e2cf3e177b793e8d53290995cd4a203ab00d6d24ba",
+    "contributions/confirmation_review_preparation_05_v094_aggregate_audit.json": "27bdcc8720e51f62969160f9276eecbea03db2f81beaabe859e78a4eeac97e8d",
+    "contributions/confirmation_review_preparation_05_v095_artifact_audit.json": "10e8f3187f8b23a01c4ddeceabf9ea003e359b02cbe453b147c9f975d1b9c032",
+    "contributions/confirmation_review_preparation_05_v095_artifact_audit.py": "8c49a589a31337146acad9ed90fa31b269c5b28ecb0cb155207b4368f9419ea2",
+    "contributions/open_nine_head_v095_READY.json": "b541884c2ae47545b3afa1e25904db56967d1032f313019708754d3ae3235854",
+    "contributions/open_nine_head_v095_spec.md": "a1dfe30afcdce6eb7529f8ebb2ead5aa3e8f931e56e8f73b092882258709dbc2",
+    "contributions/open_nine_head_v095_spec.sha256": "e91e230d8c02e8cf57e90d14c9cabb8938214c9b83322d962627a662972b6a41",
+    "contributions/open_nine_path_eights_observer_START.json": "8c39f2c4c2c5ddf5cca08adb03ca710b61ca40f157510ebad13dd0e68a520f54",
+    "contributions/open_nine_path_eights_observer_describe_adaptation.json": "8e399984e24b1136d0ea86889c7785f101bd8e73b02a008930e30922cf1804cc",
+    "contributions/open_nine_path_eights_observer_feedback_describe.py": "6ca6741a591a764988d145e5a36a9d33f16add5a9649f129e2172846d0190ea5",
+    "contributions/open_nine_path_eights_observer_feedback_witness.py": "dd79e0d68761dfc6b141d08a7bb1b4ebfc8149ce36d15e1d32edbaa9d93f0ad0",
+    "contributions/open_nine_path_eights_observer_observe.py": "36db920d908886d6d63a4dc2770cdbfc8d58f2e838bf2a6bf1e538e53df6caff",
+    "contributions/open_nine_path_eights_observer_peer_report.md": "e3a4a95ad1213939791e30946c9df18249a89dafc5d9b3859db23869a2865a84",
+    "contributions/open_nine_path_eights_observer_peer_review.json": "e01c7632553999b0595f80587bb21a9a52ffdb2430b2cd5fc27d4846e349d0b5",
+    "contributions/open_nine_path_eights_observer_preparation.json": "f2ec155d72de7505a3743f279363f385c26b349963643557a9e6a9fec6680720",
+    "contributions/open_nine_path_eights_observer_prepare.py": "cf3698e199ff968022be8500c0e548efd7ab189f41696e297f62c6bafae19f76",
+    "contributions/open_nine_path_eights_observer_prepared_manifest.json": "a8424cd7d3bd277b3a0d99a869e9993b0b35e997020f89bd20db863763a87ec5",
+    "contributions/open_nine_path_eights_observer_spec.md": "c299d8e090f4127bbff1dc3324a8de92fe582289f1bafa04a29b6b61834d0174",
+    "contributions/open_nine_path_eights_observer_witness_adaptation.json": "1b9ed012745d16f41bfffb56e56c7592063c9fbfd28891d2fb8c6a2f7b39523b",
+    "contributions/open_nine_path_eights_selection.json": "df11e29dbcef1570645fb47b7e8e265df6f959cec343e3145b161dcdfa9df0e0",
+    "contributions/open_nine_path_feature_frozen/SHA256SUMS.json": "9a85226d411fa1087978ae3bb6fad3c067819407dd43482ecf35d69e8688fa49",
+    "contributions/open_nine_path_feature_frozen/build.py": "582ab21b2edfa635ca293217ad7347f1273f30d6e3fd419aae1afef0b17edaff",
+    "contributions/open_nine_path_feature_frozen/graph.json": "8e356ad9d90fa7417c2630a40890527cfd9d7c419dfc08c8371736907cccdf0d",
+    "contributions/open_nine_path_feature_frozen/provenance.json": "7778348fd5dcdd3f37b283e1bba9f6848919e961377fbc753a04a89b77084e7c",
+    "contributions/open_nine_path_feature_frozen/runner.py": "0ece231a8fc1e03db6f0828a40b0af2468f8a625293a96211ff3fbef294774a9",
+    "contributions/open_nine_path_feature_frozen/spec.md": "1a671e68d1ba377383b9b568b5db287d787fabcc29a28f5f113128bb885e5abe",
+    "contributions/open_nine_path_feature_peer_review.json": "062968b7766d9ea5b90c717b236ccac32f9e149e57c7cca599f364921f77025f",
+    "contributions/open_nine_path_feedback_describe.py": "7f1c091a5e5a4cd612a21795bcbdb955ebcd05262c7c37bc253a85b657017010",
+    "contributions/open_nine_path_feedback_witness.py": "6e7a9a54d638650c11871f3c0ff79fe5aedbc4edf48371639d5702b296b14974",
+    "contributions/open_nine_path_observation_selection.json": "2050cee7761fae29101caa909db2066256ba0f03bb23cae1f13741d8c87a0b4d",
+    "contributions/open_nine_path_observer_START.json": "d23b5884e44fa1fab0f87f0a5eacf7cd09095f5275e0a0426c76fd21704b0e34",
+    "contributions/open_nine_path_observer_generic.json": "8177a41ff2af5f20d8f2cc03994aeb4b09ff270fdc080be27fffbf8b7282ee51",
+    "contributions/open_nine_path_observer_generic.py": "5d3aabf243e99bfcaf0df3f54f791abbf247bc6436f814c51c5ab4bdb01d1f7e",
+    "contributions/open_nine_path_observer_observe.py": "b331820005e89b2d139f214f6ee72357cffe32c215dfc700c8b260014ccacd63",
+    "contributions/open_nine_path_observer_peer_final_report.md": "ede750d68fa3d12e9d3461e90f202d2b8ee48aa39348fb7c87432491aee67af3",
+    "contributions/open_nine_path_observer_peer_final_review.json": "96719fca6b9ed70c70605650d825b82f260d67f02e4a34b3f45f7318e5d617d5",
+    "contributions/open_nine_path_observer_peer_review_transitions.json": "4d518d4a6cd703b445f1713313ff1a98ad2afa425bf33d2a1ce83a1d92ea1f27",
+    "contributions/open_nine_path_observer_peer_spec_review.json": "1abe440c26f0fff47dfcbd83829e3c0046b18294f98890a6c8e37386df913360",
+    "contributions/open_nine_path_observer_preparation_incidents.json": "5b74285067ebc179fbe11cd1997b4f3b65b6b9948f82e35543607962b42cb529",
+    "contributions/open_nine_path_observer_prepare.json": "67dc3defaffefe911044b9912f12b12e880ee87b2ea588463a9cfe785e2213fb",
+    "contributions/open_nine_path_observer_prepare.py": "dda2f01411cb9ec0f487437ce204852f631bd852212829b89abd1b1e706c7ca7",
+    "contributions/open_nine_path_observer_prepared_manifest.json": "5df6c23190a72dbbf2a6ff0e54d0b645d768ef34289988b2dc233ebc3aed144f",
+    "contributions/open_nine_path_observer_spec.md": "3090f516225cb1513cf4d44ceeb7c1e71e4ea1c1c6bf214d84e27a2855e6d71c",
+    "contributions/open_nine_path_observer_upstream/SHA256SUMS.json": "167c6c3feb73ae091d26e9cff3174566451d67b187269d9c572b587246b33533",
+    "contributions/open_nine_path_observer_upstream/graph.json": "a57a76c9456d1a74dd65d5aca882491533113e4256eaae4412d00a587e7e7da1",
+    "contributions/open_nine_path_observer_upstream/prepare.py": "dda2f01411cb9ec0f487437ce204852f631bd852212829b89abd1b1e706c7ca7",
+    "contributions/open_nine_path_observer_upstream/runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "contributions/open_nine_path_observer_upstream/source_plan.json": "5b32c0df6a7b1cb18cc9fad73bb36ae040251bd174aaf8991c84cf50a5421a5f",
+    "contributions/open_nine_readout_source_audit.json": "7b5e21290b595573f5f0e2e7e9ec9afbdd2620401a77027b13285e6ba9223de6",
+    "contributions/open_nine_readout_source_audit.py": "a056de572057aa4f38955a42c29b619a3cbad9906e9c0b9e8c0a0a0663f502a1",
+    "contributions/open_nine_readout_source_peer_audit.json": "3ab07c5d6b3cd6ca7cc1e6d3cc2f6ae0870db8f03030a637e59255b410593fb6",
+    "data/manifest.json": "2f64e92b652ab4cfa54e5bf03dc6e1d4b2b2072ab8cfada5713ae980bbcab75d"
+  },
+  "review_incidents": [
+    "No static assertion failure in this supplement. Native metadata reviewer retained an oversized source-plan display incident and completed bounded structural parsing."
+  ]
+}

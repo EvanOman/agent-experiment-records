@@ -1,0 +1,70 @@
+{
+  "schema": "visible-transcript-omissions-v1",
+  "publication_cutoff_utc": "2026-11-06T05:55:49.185290Z",
+  "source_identification": "Exact current root-thread log located by the coordinator-supplied identifier; no other session contents were searched or opened. Private source path and thread identifier are withheld.",
+  "source_record_window_utc": {
+    "first": "2026-11-05T16:25:31.837Z",
+    "last": "2026-11-06T05:55:49.106Z"
+  },
+  "visible_message_window_utc": {
+    "first": "2026-11-05T16:25:33.573Z",
+    "last": "2026-11-06T05:55:31.077Z"
+  },
+  "source_records_through_cutoff": 13343,
+  "source_records_through_cutoff_sha256": "16918d1acbefa9363fee6e1b996ce2de42c4b0ee1a941ca43c2444817d38e1b5",
+  "source_fingerprint_definition": "SHA-256 of original raw JSONL records whose timestamp is at or before the cutoff, concatenated in original order. Raw records remain private; this fingerprint does not publish their contents.",
+  "published_message_counts": {
+    "user": 2,
+    "assistant": 273
+  },
+  "omitted_record_counts": {
+    "non_conversation_event_records": 8103,
+    "injected_user_context_or_host_instructions": 5,
+    "other_non_message_response_records": 2,
+    "system_or_developer_messages": 7,
+    "tool_call_and_result_records": 2411,
+    "private_reasoning_records": 1756,
+    "inter_agent_records": 784
+  },
+  "redacted_visible_message_count": 2,
+  "redaction_replacement_counts": {
+    "private_local_path": 6
+  },
+  "redaction_markers": [
+    "[REDACTED_EMAIL]",
+    "[REDACTED_PRIVATE_HOST]",
+    "[REDACTED_PRIVATE_PATH]",
+    "[REDACTED_PRIVATE_URL]",
+    "[REDACTED_PROCESS_ID]",
+    "[REDACTED_SESSION_ID]"
+  ],
+  "explicit_omissions": [
+    "All private reasoning and analysis records.",
+    "All injected system/developer instructions, internal goal wrappers, host-wide AGENTS instructions and environment context.",
+    "All tool calls and tool results, including raw logs, arrays, image data and operational identifiers.",
+    "All inter-agent messages, subagent session logs, state snapshots, compaction summaries and other non-conversation events.",
+    "All records after the frozen publication cutoff, including later results and publication work.",
+    "Private local paths, host URLs/names, session/process identifiers and email addresses in otherwise eligible visible messages are replaced by explicit markers.",
+    "No datasets, account or credential records, or unused sealed-reserve contents are included."
+  ],
+  "coverage_limitations": [
+    "This export covers qualifying visible root-thread messages found in this source, not every action or contribution in the experiment.",
+    "A source log and its timestamps are procedural evidence, not an independent proof of complete historical access or chronology.",
+    "Original visible progress statements retain their historical claims and limitations; the frozen aggregate evidence governs the publication result.",
+    "The private source is not distributed; its fingerprint is a binding declaration rather than independently reproducible access to the original log."
+  ],
+  "published_files_sha256": {
+    "visible_messages.json": "75bee21bf8852cb1e8eaba8be49c9459354c36375de6522f6580362b215b18a2",
+    "VISIBLE_TRANSCRIPT.md": "6631a72ee1a0ba67caab39cd9d84d2363fce63a9b7a9927b4da993e2b5b55853"
+  },
+  "editorial_clarifications": [
+    {
+      "message_sequence": 240,
+      "correction": "The phrase \"unseen development examples\" is too broad. This validation split had already been used for earlier candidates; it was not an untouched holdout. The new candidate's full score was not yet known."
+    },
+    {
+      "message_sequence": 257,
+      "correction": "The phrase \"no sealed data has been opened\" is overbroad. canonical_test had already been used for v087, as message174 records. The accurate current state was that neither unused reserve had been opened."
+    }
+  ]
+}

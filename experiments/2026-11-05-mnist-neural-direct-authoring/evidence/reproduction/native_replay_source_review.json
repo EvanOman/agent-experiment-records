@@ -1,0 +1,31 @@
+{
+  "schema": "native-publication-replay-source-review-v1",
+  "reviewer": "native OpenAI publication-only peer",
+  "recorded_at_utc": "2026-11-06T06:20:39.078982+00:00",
+  "status": "clean_within_bounded_source_and_metadata_scope",
+  "report_sha256": "1ccd9946b36cbbdc50447ce992b877c318bcb8fd0f9568934eefb23049b491d4",
+  "source_sha256": {
+    "replay.py": "b8a473865ede2033aabe40b7fc46e7036665ce348f54d7c5ae175ff5c48ff17a",
+    "verify.py": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa"
+  },
+  "static_audit_sha256": "4bf341dd54fc48b3ed12540bb61ed00d515228e404225cf2a42877d814776739",
+  "final_static_audit_sha256": "22df8b0dbed5e304772dab45258e427e6ca3ed9c6a1557ade8595677c5a2359b",
+  "checks_passed": 271,
+  "resolved_observations": [
+    "Replay threshold field wording distinguished from historical holdout success.",
+    "Verifier binds frozen snapshot status and the complete 108-result history.",
+    "Parent corrected stricter-than-original smoke equality to the inherited tolerance plus exact argmax; failed source preserved."
+  ],
+  "remaining_material_findings": [],
+  "model_archive_or_graph_rehashed": false,
+  "datasets_or_sealed_paths_accessed": false,
+  "model_or_replay_executed": false,
+  "network_access": false,
+  "prior_experiment_artifacts_inspected": false,
+  "limitations": [
+    "Source and metadata review only; actual smoke, unit tests, full replay and hosted CI belong to parent.",
+    "Does not prove absence of pretraining exposure or unobserved historical access.",
+    "Procedural file-hash checks do not exclude adversarial same-user transient changes.",
+    "Broad publication transcript/evidence privacy review is not included."
+  ]
+}

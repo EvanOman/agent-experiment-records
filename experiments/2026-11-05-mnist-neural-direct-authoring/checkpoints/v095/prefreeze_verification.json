@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "parent_inverse_serialized_bytes_exact": true,
+  "all113943_parent_nodes_preserved": true,
+  "all9_feature_inverses_exact": true,
+  "feature_nodes_inverse_checked": 11124,
+  "all8_feature_arrays_byte_tied": true,
+  "all555_parent_array_records_equal": true,
+  "exact_named_source_checks": 208,
+  "finite_topological_DAG": true,
+  "exact_rows": {
+    "121": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -3,
+      0,
+      5
+    ],
+    "187": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -3,
+      0,
+      3
+    ],
+    "154": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      -2,
+      0,
+      0
+    ]
+  },
+  "orientation_structural_left_pad": true,
+  "all_parent_outputs_features_preserved": true,
+  "added_numerical_values": 0,
+  "added_architecture": "Fixed root-authored pooling, local eligibility and readout composition",
+  "note": "Static construction checks only. Actual staged generic execution and independent peer review precede freeze."
+}

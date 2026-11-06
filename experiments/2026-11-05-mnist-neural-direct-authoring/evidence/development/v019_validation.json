@@ -1,0 +1,141 @@
+{
+  "candidate": "v019",
+  "split": "validation",
+  "correct": 9241,
+  "total": 10000,
+  "accuracy": 0.9241,
+  "seconds": 146.0395495891571,
+  "workers": 4,
+  "evaluator_sha256": "bbde1fa3516e1fcbcfb60aa7292bcfc3f58bdf47d9781cfb176ec3f7a072f93b",
+  "confusion_true_rows_pred_columns": [
+    [
+      937,
+      0,
+      2,
+      4,
+      8,
+      5,
+      18,
+      0,
+      11,
+      2
+    ],
+    [
+      0,
+      1098,
+      7,
+      7,
+      3,
+      0,
+      1,
+      7,
+      1,
+      0
+    ],
+    [
+      4,
+      6,
+      897,
+      45,
+      0,
+      0,
+      11,
+      3,
+      27,
+      0
+    ],
+    [
+      0,
+      6,
+      31,
+      928,
+      2,
+      16,
+      8,
+      19,
+      8,
+      4
+    ],
+    [
+      8,
+      4,
+      2,
+      1,
+      911,
+      5,
+      6,
+      8,
+      16,
+      13
+    ],
+    [
+      1,
+      5,
+      3,
+      9,
+      3,
+      843,
+      22,
+      9,
+      6,
+      3
+    ],
+    [
+      2,
+      9,
+      13,
+      0,
+      4,
+      15,
+      931,
+      1,
+      11,
+      0
+    ],
+    [
+      1,
+      6,
+      4,
+      28,
+      18,
+      0,
+      0,
+      983,
+      1,
+      3
+    ],
+    [
+      22,
+      2,
+      16,
+      5,
+      2,
+      7,
+      30,
+      8,
+      851,
+      32
+    ],
+    [
+      4,
+      2,
+      1,
+      10,
+      22,
+      19,
+      1,
+      45,
+      25,
+      862
+    ]
+  ],
+  "hashes": {
+    "author.py": "7b30dbf9a57127e203a490ad139626b5bd771d417fb2b8b27cd6c2b10f7e318f",
+    "endpoint_block.py": "e324d70f97e14bf21a36e874a213b62b061565383ecb84acceac28d2fbd31bed",
+    "graph.json": "3187ff184632360fae9e3ceda91ad898b9d428d673d780862bf5d6f3e351d998",
+    "oval_block.py": "cf57c9480945f5e5d597735b7eb8a50498f0e293555e52e7fcd31e88cb234682",
+    "provenance.json": "a194a678e102ee4d8497bebf98b3c8ae223233302f6d7ab27d8a99a88d76cc99",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "weights.npz": "1d44867e82b679bf3ffc76f44d4b5242feca3e67301ecfc3a5de200db30e540e"
+  }
+}

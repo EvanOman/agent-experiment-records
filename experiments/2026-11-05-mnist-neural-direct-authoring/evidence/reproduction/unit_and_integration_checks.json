@@ -1,0 +1,27 @@
+{
+  "schema": "publication-unit-and-integration-source-check-v1",
+  "recorded_at_utc": "2026-11-06T06:24:39.755077+00:00",
+  "status": "passed",
+  "command": "python -m unittest discover -s tests -v",
+  "tests": 17,
+  "seconds": 7.089,
+  "new_direct_authoring_tests": 10,
+  "source_hashes": {
+    "experiments/2026-11-05-mnist-neural-direct-authoring/replay.py": "b8a473865ede2033aabe40b7fc46e7036665ce348f54d7c5ae175ff5c48ff17a",
+    "experiments/2026-11-05-mnist-neural-direct-authoring/verify.py": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa",
+    "scripts/verify_repository.py": "40dfdf533b349ebc904d229f6031510b2438ea45bf0cc3179206a685144fc0b7",
+    "tests/test_mnist_direct_authoring.py": "12ca2191a68d8a40ade6bdaf33da703891829ba9a37d2d22b4bc0b6b6d5fa717",
+    ".github/workflows/verify.yml": "c6d2b6af7b167c0937a0cbdc5aefec0095bf8b4a78cf6146b944a6d1a1388376"
+  },
+  "checks_include": [
+    "frozen checkpoint/count attribution",
+    "exact recovered development-index logic and digest failure guard",
+    "canonical test-member isolation",
+    "exact9461 expected-count enforcement",
+    "bad cache/download preservation",
+    "manifest path containment, duplicates and whole-file coverage"
+  ],
+  "datasets_or_sealed_files_used_by_unit_tests": false,
+  "full_public_replay": "separate running invocation; this record is not a full replay result",
+  "hosted_ci": "not yet run at this check"
+}

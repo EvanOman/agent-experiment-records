@@ -1,0 +1,157 @@
+{
+  "verdict": "clean",
+  "phase": "staged_artifact",
+  "candidate": "v095",
+  "author_sha256": "5330da91667cd2f940743e23fc433d7dbb3e859126fd517a7b8659ffa8420f67",
+  "stage_manifest_sha256": "c26d3c32203d876613fa7cb6c8c7b4a4a3b5952b82e147a794c30216c4c42155",
+  "artifact_hashes": {
+    "author.py": "5330da91667cd2f940743e23fc433d7dbb3e859126fd517a7b8659ffa8420f67",
+    "composition_spec.md": "a1dfe30afcdce6eb7529f8ebb2ead5aa3e8f931e56e8f73b092882258709dbc2",
+    "graph.json": "be60dbddd9af426d45de0f1263456dfdc5ad1304850a03d78da63bcc702a4576",
+    "prefreeze_verification.json": "ae1759138603ec75325fa248710d8d96ce4438db0d5884a6768545a330d54868",
+    "provenance.json": "1270b8d96de1bc8f458a7da655ccc980ec7b35e3089e9b6a0e6746a6debc8daf",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "source_verification.py": "3257cec775ca410f5cb9092087efb2e8200d39e244ac4d0bad9be1402f36dd21",
+    "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "weights.npz": "3056fcdf1f821db073d9d029aec89c2e7319dc91db4771251a0768150e271a5f"
+  },
+  "generic_verification_sha256": "05f41498c1ee8d403a0a5c047954fa4c094ad44aea540b7c710a0a30a84ec362",
+  "ordinary_verification_sha256": "6fe38e74b757b2832f56213cf194e237a64bc7ee42b9557870a4c799066f9f18",
+  "peer_check_result_sha256": "f797dc50e48ecc33198cb845b88e0c5d30759392dfbb6ec00eb0bfb7fc3a7ee2",
+  "evidence_sha256": {
+    "contributions/open_nine_head_v095_peer_checks.py": "8738b00b62a4e6fc3862ad9b970a64942b31d9193c9b4ebfdd6154687b46a009",
+    "contributions/open_nine_head_v095_peer_checks.json": "f797dc50e48ecc33198cb845b88e0c5d30759392dfbb6ec00eb0bfb7fc3a7ee2",
+    "contributions/open_nine_head_v095_peer_checks_console.txt": "f797dc50e48ecc33198cb845b88e0c5d30759392dfbb6ec00eb0bfb7fc3a7ee2",
+    "contributions/open_nine_head_v095_peer_checks_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contributions/open_nine_head_v095_peer_static_manifest.json": "6bba434131a151e2ae30e88d55216055e690922bbd89763646c3108c5dd2a35a",
+    "contributions/open_nine_head_v095_peer_static_review.md": "ee4d7dc82d03fc5c307cedfc4eeb4509fc21640dc9e805bf915adcc68a66d814",
+    "contributions/open_nine_head_v095_peer_static_checks.py": "c5215f21e911464b4a4b13b43feeda6888b8d0fa7d96767eda2920522991e734",
+    "contributions/open_nine_head_v095_peer_static_checks.json": "de4c2f558dd2b46595a08090ceeac8f261143a2416de956d1e1679a9c8e5b830",
+    "contributions/open_nine_head_v095_peer_review.md": "abd6eabb018d666dae17602f1df03a561442b9ca26495798ffd927d88f11f089",
+    "contributions/open_nine_head_v095_generic.py": "ff083e644bfacb23e73938e322b2c4ecd223943e3fbd3caf18fd1ff3fadbc926",
+    "contributions/open_nine_head_v095_generic_verification.json": "05f41498c1ee8d403a0a5c047954fa4c094ad44aea540b7c710a0a30a84ec362",
+    "contributions/open_nine_head_v095_ordinary_verification.json": "6fe38e74b757b2832f56213cf194e237a64bc7ee42b9557870a4c799066f9f18",
+    "contributions/open_nine_readout_source_peer_report_manifest.json": "ed48a97d32b8ae7f8e7c11a9f46a24ebbaf50bbb8a18b33832c31d95926af8d7",
+    "contributions/open_nine_path_feature_peer_review.md": "28abaec2a630609107f1b662068e9379ae39a5d47170149ad0b438808d48dfbd",
+    "contributions/open_nine_path_feature_peer_review.json": "062968b7766d9ea5b90c717b236ccac32f9e149e57c7cca599f364921f77025f"
+  },
+  "parent_manifest_sha256": "35eb677ebdf71327b05dd11da1067f8ee144ad44173f7b7658ede176d45fdf42",
+  "feature_manifest_sha256": "9a85226d411fa1087978ae3bb6fad3c067819407dd43482ecf35d69e8688fa49",
+  "counts": {
+    "graph_nodes": 125406,
+    "parent_nodes_preserved": 113943,
+    "exact_feature_copies": 9,
+    "nodes_per_feature": 1236,
+    "exact_composition_nodes_independently_reconstructed": 339,
+    "arrays": 555,
+    "expanded_tensor_entries": 2471932,
+    "independently_authored_numerical_specifications": 1509,
+    "new_arrays": 0,
+    "new_numerical_values": 0,
+    "peer_assertions": 251477,
+    "generic_assertions": 617042
+  },
+  "checks": {
+    "all_parent_nodes_inverse_exact": true,
+    "all_parent_metadata_preserved": true,
+    "all9_feature_nodes_inverse_exact": true,
+    "all8_raw_feature_ties_exact": true,
+    "raw_archive_and_runner_unchanged": true,
+    "all555_raw_arrays_match_parent": true,
+    "all_parent_tensor_and_authored_specification_records_match": true,
+    "all339_composition_nodes_match_fixed_spec": true,
+    "independent_positive_Q_suffix_arithmetic": true,
+    "only_classes4_7_9_supported": true,
+    "parent_internal_paths_preserved": true,
+    "manifest_unchanged_after_execution": true,
+    "ordinary_verifier_bound": true,
+    "independent_generic_report_bound": true
+  },
+  "independent_generic_execution": {
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "abstract_readout": {
+      "cases": 33,
+      "case_names": [
+        "zero-Q",
+        "all-positive",
+        "single-threshold-rejected",
+        "threshold-permutation-0",
+        "threshold-permutation-1",
+        "threshold-permutation-2",
+        "threshold-permutation-3",
+        "threshold-permutation-4",
+        "threshold-permutation-5",
+        "median-tie-0",
+        "median-tie-1",
+        "median-tie-2",
+        "median-tie-3",
+        "median-tie-4",
+        "gate-P-1e-45",
+        "gate-P-0.5",
+        "gate-tail-0",
+        "gate-tail-0.5",
+        "gate-short-1",
+        "gate-short-0.5",
+        "gate-two-1",
+        "gate-two-0.5",
+        "boundary-B-1",
+        "boundary-R-1",
+        "boundary-L-1",
+        "boundary-L-0.5",
+        "boundary-T-0",
+        "boundary-T-1",
+        "boundary-C-0",
+        "boundary-positive-0",
+        "side-view-only",
+        "simultaneous-fractional",
+        "association-scales"
+      ],
+      "matched_outputs": 133,
+      "positive_q_cases": 31
+    },
+    "feature_copies": {
+      "fixtures": 3,
+      "positive_Q": 1,
+      "copies": 9,
+      "outputs_per_copy": 25
+    },
+    "complete_parent": {
+      "fixtures": 2,
+      "all_parent_intermediates": 113943,
+      "staged_logits_shape": [
+        2,
+        10
+      ],
+      "Qglobal": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "issues": [],
+  "execution_failures": [],
+  "inspection_incidents": [
+    {
+      "kind": "not_yet_created_verifier_read",
+      "path": "contributions/open_nine_head_v095_verify.py",
+      "exit_code": 2,
+      "outcome": "Source-only sed file-not-found before staging. Actual staged source_verification.py later read fully; no model executed by failed read."
+    },
+    {
+      "kind": "provenance_display_truncation",
+      "outcome": "Full authored-specification dictionary exceeded display budget. Later bounded equality checks verified all555 records and exact sum1509 against frozen parent."
+    },
+    {
+      "kind": "upstream_review_incidents",
+      "outcome": "Static subreview, generic verifier and standalone-feature review retain their own inspection/reference-test records; evidence hashes are bound above."
+    }
+  ],
+  "access": "Authorized source/spec/review artifacts and frozen/staged raw tensors only; generic abstract scalars and nonglyph masks. No examples, actual cue arrays, evaluation/observation data, sealed/confirmation access, web, external models, training or parameter search.",
+  "limitations": [
+    "Incremental executable/source review, not an accuracy or population-specificity claim.",
+    "Frozen geometry proves an ordered connected walk; spurs and discarded seeds remain possible.",
+    "Pooling may transfer false witnesses into other eligible branches.",
+    "No proof of unobserved historical access or absence of pretraining exposure."
+  ]
+}

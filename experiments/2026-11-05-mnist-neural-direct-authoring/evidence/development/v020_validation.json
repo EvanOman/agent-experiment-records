@@ -1,0 +1,142 @@
+{
+  "candidate": "v020",
+  "split": "validation",
+  "correct": 9234,
+  "total": 10000,
+  "accuracy": 0.9234,
+  "seconds": 337.10099053382874,
+  "workers": 4,
+  "evaluator_sha256": "bbde1fa3516e1fcbcfb60aa7292bcfc3f58bdf47d9781cfb176ec3f7a072f93b",
+  "confusion_true_rows_pred_columns": [
+    [
+      937,
+      0,
+      2,
+      3,
+      8,
+      5,
+      17,
+      0,
+      13,
+      2
+    ],
+    [
+      0,
+      1098,
+      7,
+      7,
+      3,
+      0,
+      1,
+      7,
+      1,
+      0
+    ],
+    [
+      3,
+      6,
+      861,
+      45,
+      0,
+      0,
+      9,
+      3,
+      66,
+      0
+    ],
+    [
+      0,
+      6,
+      29,
+      926,
+      2,
+      16,
+      6,
+      19,
+      16,
+      2
+    ],
+    [
+      8,
+      4,
+      2,
+      1,
+      910,
+      5,
+      6,
+      8,
+      17,
+      13
+    ],
+    [
+      1,
+      5,
+      2,
+      9,
+      3,
+      844,
+      15,
+      9,
+      14,
+      2
+    ],
+    [
+      2,
+      9,
+      13,
+      0,
+      4,
+      16,
+      915,
+      1,
+      26,
+      0
+    ],
+    [
+      1,
+      6,
+      4,
+      28,
+      18,
+      0,
+      0,
+      983,
+      2,
+      2
+    ],
+    [
+      4,
+      2,
+      15,
+      5,
+      2,
+      7,
+      5,
+      8,
+      906,
+      21
+    ],
+    [
+      4,
+      2,
+      1,
+      9,
+      21,
+      19,
+      0,
+      45,
+      36,
+      854
+    ]
+  ],
+  "hashes": {
+    "author.py": "631edc028a039a39ba4732005d09d999dbc9be31e20c6c3138e135c48e8a224a",
+    "endpoint_block.py": "e324d70f97e14bf21a36e874a213b62b061565383ecb84acceac28d2fbd31bed",
+    "graph.json": "1bd5d3a79ac6fde83adf7e074076e25c8eb81870db0be9a2daabe1e3bcd548a1",
+    "oval_block.py": "cf57c9480945f5e5d597735b7eb8a50498f0e293555e52e7fcd31e88cb234682",
+    "provenance.json": "1d1d0cb1ba3a84eedf9abf5ffc70fdf8c4dd9bc52358980b1fff56c72849445e",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "waist_block.py": "3aacf1712e292893a399994c4cebb98e9490047090098d8a55df75011bfe04c8",
+    "weights.npz": "0458318a69d6ae3cc9293ffdbb18d76f7e0c85b928d5d48263fdeae8b464443f"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "schema": "visible-task-prompt-v1",
+  "coverage": "Initiating task request only; supplemental rules are separate.",
+  "prompt_body_sha256": "7c00a03d647eff9f26e19908fd973641e1c08c5e3463a4a4106844bc483176ae",
+  "redactions_in_prompt_body": 0,
+  "source": "Visible initiating user message supplied to the publication worker."
+}

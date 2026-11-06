@@ -1,0 +1,243 @@
+{
+  "schema": "mnist-publication-payload-redactions-v1",
+  "scope": "Payload preparation only. Transcript coverage/redactions and root final staged-text audit are separate.",
+  "numerical_artifacts": "Every included checkpoint graph, raw tensor archive and runner is an exact byte copy. All other original manifest-bound checkpoint files were also copied exactly after private-text scanning.",
+  "transformations": [
+    "Private host interpreter paths replaced by portable python spelling in supplemental rules and review prose.",
+    "Private host directory paths and internal contributor identifiers replaced by explicit placeholders.",
+    "Private runtime permission-profile/account-configuration bullet omitted from supplemental rules.",
+    "Local process/session/run identifiers and low-level resumption inventory removed from derived aggregate/review/execution records.",
+    "Unused reserve hashes and indices omitted from public data description; no data archive or per-example forward arrays included.",
+    "Historical source/report digests remain source bindings. Public derivatives have separate hashes in PUBLICATION_MANIFEST.json.",
+    "A private temporary extraction-directory identifier in a historical package review is replaced by a generic placeholder.",
+    "Six dictionary keys naming v093/v094 runtime job paths now replace opaque local job identifiers with [local-job-id-omitted]. The initial JSON sanitizer handled values but missed these keys; independent publication review caught the omission before push."
+  ],
+  "changed_or_summarized_files": [
+    {
+      "public_path": "EXPERIMENTAL_RULES.md",
+      "public_sha256": "c93554cc40439cdf9459f9f40ee8f6d0a74455cd43272396c9ecbde3de750239",
+      "action": "sanitized_derivative",
+      "source_path": "ASSIGNMENT.md",
+      "original_sha256": "79f04bd2fe2d935760e1c94b59d39cb7f8f88e44fb2b20777088e553b0b6d53a",
+      "notes": [
+        "Private interpreter path replaced with python; private runtime permission-profile/account-configuration bullet omitted."
+      ]
+    },
+    {
+      "public_path": "data.json",
+      "public_sha256": "75442cd86ff4c503440eee109c2e64db58e0a1de7a99acb0fc5e0cae2438dad3",
+      "action": "sanitized_derivative",
+      "source_path": "data/manifest.json",
+      "original_sha256": "2f64e92b652ab4cfa54e5bf03dc6e1d4b2b2072ab8cfada5713ae980bbcab75d"
+    },
+    {
+      "public_path": "evidence/confirmation/v087_execution_summary.json",
+      "public_sha256": "0599e745912cc22c7f6eb403bd94ef4995ae8147dfbe8fd3340cdd7b840eb279",
+      "action": "sanitized_summary",
+      "source_path": "contributions/independent_confirmation_v087_execution.json",
+      "original_sha256": "0c4b5b50b966f8d0029d932a1cb72a15b907ceab8996d98210ba9bc53be7ae3e"
+    },
+    {
+      "public_path": "evidence/development/v088_work.json",
+      "public_sha256": "6b43d4fcc4967ff8c051637eaeaf1a2e9d75ead88aa7438df08b22a09fab57e4",
+      "action": "sanitized_derivative",
+      "source_path": "results/v088_work.json",
+      "original_sha256": "e6d6a74dad3c0e83b9975f4e5e6bc3b5613bb96b6490c4c65d2380e1a5754bc4",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v089_validation.json",
+      "public_sha256": "3a9ed73bc1a163df6d4ffc7c3cbc27fd49b136ea8e2464ae2863a7dd62e580fe",
+      "action": "sanitized_derivative",
+      "source_path": "results/v089_validation.json",
+      "original_sha256": "3df6a73825329849d059a73e69a40f82a8b9450df4d4aaa482dd4e78d49485ba",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v090_validation.json",
+      "public_sha256": "8f05ec2a4d51e09c458a0024cd680c8f6a08ae709c27040b71c8175ef95c38b4",
+      "action": "sanitized_derivative",
+      "source_path": "results/v090_validation.json",
+      "original_sha256": "5b9308ebf5a2fd92f9f2dd4d771aa34fbc7bca791c1437ec7b5e95bc977f6072",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v091_validation.json",
+      "public_sha256": "f087a31ed1c2f8be6973aa330cdffd988f28fb645a2de054ed5ca119f9e412ad",
+      "action": "sanitized_derivative",
+      "source_path": "results/v091_validation.json",
+      "original_sha256": "65a395642258afdb74e068da92a4d7bbcb2bbb50dd775d8ae4ea465daf283069",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v092_validation.json",
+      "public_sha256": "8fed8bc0f5dc5bb53b181ed97c53673acf6793ab58019d00d4903739fe7a1c71",
+      "action": "sanitized_derivative",
+      "source_path": "results/v092_validation.json",
+      "original_sha256": "79395bb4d98ffc64abf88b4f42adafe7031b16be8762b118001c8afc11e98a5f",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v093_validation.json",
+      "public_sha256": "29f4de91fa82ec0be0cdca060fa9dafb9318aac3b93e6d8c1413c2551ae3b882",
+      "action": "sanitized_derivative",
+      "source_path": "results/v093_validation.json",
+      "original_sha256": "e71441a636d06b25439624b554e0d8e5ad80c73f5136249367837f6e705225a9",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v094_validation.json",
+      "public_sha256": "1ef8d06da7c473cf38c5a71d2c14fb88bd0f8491334610176bc598d5a3f635b5",
+      "action": "sanitized_derivative",
+      "source_path": "results/v094_validation.json",
+      "original_sha256": "77d5d3e3f40d0350638c3d0d356c3a4fa8aa854fdcf90f3ef7ec628dc8a1815b",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/development/v095_validation.json",
+      "public_sha256": "dcdfe96d7888ae349ca657e8474d971a57b47f92c546bbddb78673b74b96ff8d",
+      "action": "sanitized_derivative",
+      "source_path": "results/v095_validation.json",
+      "original_sha256": "33d0df0169ebfdf2c45f585e00dda40978de736fc8be51cea155d6bd8f8dec2c",
+      "notes": [
+        "Removed local resumption identifiers and low-level checkpoint inventory; all aggregate counts, confusion entries and model hashes are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/confirmation_review_observation_boundary_05_record.json",
+      "public_sha256": "02c4c7f7b6f785e3f73a00390382765dbac9357d5009650e861b847d8fb77251",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/confirmation_review_observation_boundary_05_record.json",
+      "original_sha256": "6a12401473881aace8ec407a594c7c75202c73c40d0db674e7c747a3981550fe",
+      "notes": [
+        "Removed private host paths and internal contributor/process identifiers. Existing source/report hashes remain historical bindings, not claims that redacted public files have the same bytes."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/confirmation_review_preparation_05_record.json",
+      "public_sha256": "6351798347a8490df942a0d9da2b08f045bc30b3392af5593f62d86d3a9bbc4b",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/confirmation_review_preparation_05_record.json",
+      "original_sha256": "52f019d34de622afeb074b17f23e72d9d119b072a3721f6bcc4eebeba6dfd592",
+      "notes": [
+        "Removed private host paths and internal contributor/process identifiers. Existing source/report hashes remain historical bindings, not claims that redacted public files have the same bytes.",
+        "Six runtime-job path dictionary keys have their two opaque local job identifiers replaced by a stable explicit placeholder. Scientific hash values, counts and other metadata values are unchanged."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/delivery_v095_preconfirmation_report.md",
+      "public_sha256": "ceb8fca41e98d3dcae0e41a5036bf57b54af623f3266a42a13c96b304bf2c7cc",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/delivery_v095_preconfirmation_report.md",
+      "original_sha256": "8d12bec035ddedbefc90d6f9980918975ffe476766f3c9f66704b3bc405b893c",
+      "notes": [
+        "Replaced the private temporary extraction-directory identifier with an explicit placeholder; source-relative evidence references otherwise retained."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/final_native_review_v087.json",
+      "public_sha256": "cafa89cd1012b6cdfa56e2209b7c28e7c8b7f01cc9a82b23363fe1098cc9fbc1",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/final_native_review_v087.json",
+      "original_sha256": "3d6747e5a87adf55947246c169bab533af6f7b77972a48b852cc63ec6c984086",
+      "notes": [
+        "Removed private host paths and internal contributor/process identifiers. Existing source/report hashes remain historical bindings, not claims that redacted public files have the same bytes."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/final_native_review_v087.md",
+      "public_sha256": "68432ba6216b715d6b19bfc6154f936c2b84a05ae5dde5e75f73c02bab69f1e7",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/final_native_review_v087.md",
+      "original_sha256": "05b3080c23827c718e48facbe14ccb456a4d6edadcf25b27beeb3cb764f85f08",
+      "notes": [
+        "Any source-relative paths describe historical source records; public file mapping is in PUBLICATION_MANIFEST.json."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/open_nine_head_v095_READY.json",
+      "public_sha256": "54c57db4fe4141f9f7682c01db70c1853d674109683d2758478493b6295cb10c",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/open_nine_head_v095_READY.json",
+      "original_sha256": "b541884c2ae47545b3afa1e25904db56967d1032f313019708754d3ae3235854",
+      "notes": [
+        "Removed private host paths and internal contributor/process identifiers. Existing source/report hashes remain historical bindings, not claims that redacted public files have the same bytes."
+      ]
+    },
+    {
+      "public_path": "evidence/reviews/open_nine_head_v095_report.md",
+      "public_sha256": "01dc070e29efd31297a793205f303b219d1e5555f83bb6ff03dd6f5b99dd980a",
+      "action": "sanitized_derivative",
+      "source_path": "contributions/open_nine_head_v095_report.md",
+      "original_sha256": "c79437eb6b0e5a9433629d452f6fcf21a9e21ce4d268fe0150145d3620f937ae",
+      "notes": [
+        "Any source-relative paths describe historical source records; public file mapping is in PUBLICATION_MANIFEST.json."
+      ]
+    },
+    {
+      "public_path": "history/CANDIDATE_LOG.md",
+      "public_sha256": "7d0c9937ae4223bb2c9f8423cbcfd8a46b0e448f6b1b197555617f3864fdfd22",
+      "action": "sanitized_derivative",
+      "source_path": "CANDIDATE_LOG.md",
+      "original_sha256": "2c8c67bf59f855aa3b6a98a1f1b725d7200f7c777297752fedc984e24b922cd0",
+      "notes": [
+        "Added publication-scope preface; replaced local execution identifiers and model-worker name. Original candidate reasons, scores, failures and pending statuses retained."
+      ]
+    }
+  ],
+  "omitted_source_files": [
+    {
+      "source_path": "CURRENT.json",
+      "original_sha256": "a18be421a08405b23a7e3a89363562a1978220a47f4b6e5512be60df36af207f",
+      "reason": "Replaced by public snapshot summary and README; internal runtime state is not published."
+    },
+    {
+      "source_path": "REPORT.md",
+      "original_sha256": "cebd9a02b07bd93fe8f663862786939ff7aedc0e37c8cab9f3d693619c6e3d27",
+      "reason": "Replaced by public snapshot summary and README; internal runtime state is not published."
+    },
+    {
+      "source_path": "sealed_confirm.py",
+      "original_sha256": "91ce0f2ef14c6509a6898f582c0daa4f39cf2aca67554e0574ec06f693d98e5b",
+      "reason": "Historical local sealed evaluator source is not the public replay entrypoint; preserved source hash only."
+    }
+  ],
+  "not_in_snapshot_and_not_published": [
+    "Host-wide AGENTS instructions",
+    "Injected system/developer instructions or private reasoning",
+    "Credentials, account configuration and unrelated correspondence",
+    "Original development/confirmation datasets, unused reserve content and saved per-example arrays",
+    "Numerical checkpoints other than v001/v087/v095; their completed aggregate scores are retained"
+  ],
+  "limitations": [
+    "The source record is procedural evidence, not an OS-enforced seal or proof of absent pretraining exposure.",
+    "Historical reconstruction scripts may depend on source ancestors not included here; inference uses only supplied graph/tensors/runner and input pixels."
+  ],
+  "publication_fix_history": [
+    {
+      "recorded_at_utc": "2026-11-06T06:22:39.545100+00:00",
+      "finding": "Opaque local development-job identifiers remained in six JSON dictionary keys.",
+      "affected_file": "evidence/reviews/confirmation_review_preparation_05_record.json",
+      "replacements": 6,
+      "distinct_local_identifiers": 2,
+      "previous_public_sha256": "0cd36dafbc2821870c613de1708fa323052367a352b2e6723de3ee960b0c7775",
+      "corrected_public_sha256": "6351798347a8490df942a0d9da2b08f045bc30b3392af5593f62d86d3a9bbc4b",
+      "original_source_sha256": "52f019d34de622afeb074b17f23e72d9d119b072a3721f6bcc4eebeba6dfd592",
+      "scope": "Publication metadata only; all scalar values and scientific artifact hashes are unchanged. No checkpoint, runner, numerical tensor, replay or verifier file was changed."
+    }
+  ]
+}

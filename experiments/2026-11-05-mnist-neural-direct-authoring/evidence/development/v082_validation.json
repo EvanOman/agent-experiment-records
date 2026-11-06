@@ -1,0 +1,143 @@
+{
+  "candidate": "v082",
+  "split": "validation",
+  "correct": 9477,
+  "total": 10000,
+  "accuracy": 0.9477,
+  "seconds": 527.1989450454712,
+  "workers": 4,
+  "evaluator_sha256": "bbde1fa3516e1fcbcfb60aa7292bcfc3f58bdf47d9781cfb176ec3f7a072f93b",
+  "confusion_true_rows_pred_columns": [
+    [
+      957,
+      0,
+      1,
+      6,
+      5,
+      6,
+      3,
+      0,
+      7,
+      2
+    ],
+    [
+      0,
+      1102,
+      7,
+      1,
+      2,
+      1,
+      3,
+      7,
+      1,
+      0
+    ],
+    [
+      2,
+      7,
+      953,
+      3,
+      2,
+      0,
+      6,
+      5,
+      15,
+      0
+    ],
+    [
+      2,
+      8,
+      20,
+      950,
+      2,
+      16,
+      1,
+      7,
+      7,
+      9
+    ],
+    [
+      5,
+      3,
+      2,
+      0,
+      944,
+      4,
+      1,
+      2,
+      4,
+      9
+    ],
+    [
+      1,
+      5,
+      3,
+      10,
+      6,
+      848,
+      15,
+      6,
+      7,
+      3
+    ],
+    [
+      4,
+      10,
+      14,
+      0,
+      2,
+      27,
+      911,
+      0,
+      18,
+      0
+    ],
+    [
+      1,
+      5,
+      14,
+      2,
+      21,
+      0,
+      0,
+      991,
+      6,
+      4
+    ],
+    [
+      9,
+      2,
+      12,
+      2,
+      5,
+      9,
+      9,
+      2,
+      902,
+      23
+    ],
+    [
+      4,
+      2,
+      1,
+      1,
+      25,
+      9,
+      0,
+      12,
+      18,
+      919
+    ]
+  ],
+  "hashes": {
+    "author.py": "fcbd90cd6e124c6d51c266500f9fbbfb9caaed13a4a76f19d84119171997784a",
+    "graph.json": "ee386322e4e6100a9cb70995ba50730a509dfae1ca31c9777547d1b21b07f3a6",
+    "prefreeze_verification.json": "29e3b3a7c37d4acb18e073febd2d9c327abc1b7eb24903261e2de0e648377088",
+    "provenance.json": "cd5fcd049e846040957aba218608c60bff30d8945ee529c640c2bba53798ff21",
+    "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a",
+    "source_verification.py": "2fd3ef8df835cd7aadeb46aab3c37c919128700c584284b1848f351f0e32b6cc",
+    "specification.md": "fe5d6ad2760ee38e4389e79d7727b221c7a6605a8fc45179d420adff60c3f15a",
+    "verify.py": "f942c03142761a1b50613309056bc7dbadd6538a0394d2182a015fb010dc8d2c",
+    "weights.npz": "8dbf117a9702b272113491b45ecf711771729e3275e0aefcfe36f4327f8e4ef4"
+  }
+}

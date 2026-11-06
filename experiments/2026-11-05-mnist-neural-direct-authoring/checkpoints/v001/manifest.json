@@ -1,0 +1,23 @@
+{
+  "schema": "mnist-public-checkpoint-v1",
+  "candidate": "v001",
+  "files": {
+    "author.py": "d6b08d40e25b708863c2876b111696d432a63218d8eefce8d7d520b7e76d5cb7",
+    "graph.json": "4106d07bd8c7c1cf4b2c0ee3b356cf74a2e23fc7e028abac301edd53f8c49da5",
+    "provenance.json": "842b18c5159f613bad8a1abe30f3c619805b7735d1b48034ca19eba5dca40d5d",
+    "runner.py": "45fb2ed2704566cdb4055e0c07aa4ffebb892f08d2fcbee743394d073f4d35ea",
+    "weights.npz": "0c276d650ea32e1a07615bf34ad7cd4a2c3ffb4d49cf1e88dd236f7b1ea1d605",
+    "SHA256SUMS.json": "d3c54cc59df58aa39c48e3272b948dc8b29fdcd7c830bdd4e750b179485a8d8d"
+  },
+  "original_manifest_sha256": "d3c54cc59df58aa39c48e3272b948dc8b29fdcd7c830bdd4e750b179485a8d8d",
+  "counts": {
+    "independent_numerical_specifications": 240,
+    "expanded_tensor_elements": 4932
+  },
+  "operational_files": [
+    "graph.json",
+    "weights.npz",
+    "runner.py"
+  ],
+  "authoring_sources_are_historical_not_inference_dependencies": true
+}

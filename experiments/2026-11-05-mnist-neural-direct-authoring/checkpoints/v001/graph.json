@@ -1,0 +1,2320 @@
+{
+  "schema": "authored-neural-dag-v1",
+  "input": "pixels",
+  "nodes": [
+    {
+      "name": "unit_pixels",
+      "op": "mul",
+      "inputs": [
+        "pixels",
+        "pixel_scale"
+      ]
+    },
+    {
+      "name": "threshold_shift",
+      "op": "sub",
+      "inputs": [
+        "unit_pixels",
+        "occupancy_threshold"
+      ]
+    },
+    {
+      "name": "ink",
+      "op": "step",
+      "inputs": [
+        "threshold_shift"
+      ]
+    },
+    {
+      "name": "blank",
+      "op": "sub",
+      "inputs": [
+        "one",
+        "ink"
+      ]
+    },
+    {
+      "name": "exterior_0",
+      "op": "mul",
+      "inputs": [
+        "blank",
+        "border_mask"
+      ]
+    },
+    {
+      "name": "spread_0",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_0",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_1",
+      "op": "minimum",
+      "inputs": [
+        "spread_0",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_1",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_1",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_2",
+      "op": "minimum",
+      "inputs": [
+        "spread_1",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_2",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_2",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_3",
+      "op": "minimum",
+      "inputs": [
+        "spread_2",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_3",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_3",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_4",
+      "op": "minimum",
+      "inputs": [
+        "spread_3",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_4",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_4",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_5",
+      "op": "minimum",
+      "inputs": [
+        "spread_4",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_5",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_5",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_6",
+      "op": "minimum",
+      "inputs": [
+        "spread_5",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_6",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_6",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_7",
+      "op": "minimum",
+      "inputs": [
+        "spread_6",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_7",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_7",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_8",
+      "op": "minimum",
+      "inputs": [
+        "spread_7",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_8",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_8",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_9",
+      "op": "minimum",
+      "inputs": [
+        "spread_8",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_9",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_9",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_10",
+      "op": "minimum",
+      "inputs": [
+        "spread_9",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_10",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_10",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_11",
+      "op": "minimum",
+      "inputs": [
+        "spread_10",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_11",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_11",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_12",
+      "op": "minimum",
+      "inputs": [
+        "spread_11",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_12",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_12",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_13",
+      "op": "minimum",
+      "inputs": [
+        "spread_12",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_13",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_13",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_14",
+      "op": "minimum",
+      "inputs": [
+        "spread_13",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_14",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_14",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_15",
+      "op": "minimum",
+      "inputs": [
+        "spread_14",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_15",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_15",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_16",
+      "op": "minimum",
+      "inputs": [
+        "spread_15",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_16",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_16",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_17",
+      "op": "minimum",
+      "inputs": [
+        "spread_16",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_17",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_17",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_18",
+      "op": "minimum",
+      "inputs": [
+        "spread_17",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_18",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_18",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_19",
+      "op": "minimum",
+      "inputs": [
+        "spread_18",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_19",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_19",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_20",
+      "op": "minimum",
+      "inputs": [
+        "spread_19",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_20",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_20",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_21",
+      "op": "minimum",
+      "inputs": [
+        "spread_20",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_21",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_21",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_22",
+      "op": "minimum",
+      "inputs": [
+        "spread_21",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_22",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_22",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_23",
+      "op": "minimum",
+      "inputs": [
+        "spread_22",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_23",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_23",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_24",
+      "op": "minimum",
+      "inputs": [
+        "spread_23",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_24",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_24",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_25",
+      "op": "minimum",
+      "inputs": [
+        "spread_24",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_25",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_25",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_26",
+      "op": "minimum",
+      "inputs": [
+        "spread_25",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_26",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_26",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_27",
+      "op": "minimum",
+      "inputs": [
+        "spread_26",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_27",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_27",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_28",
+      "op": "minimum",
+      "inputs": [
+        "spread_27",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_28",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_28",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_29",
+      "op": "minimum",
+      "inputs": [
+        "spread_28",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_29",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_29",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_30",
+      "op": "minimum",
+      "inputs": [
+        "spread_29",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_30",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_30",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_31",
+      "op": "minimum",
+      "inputs": [
+        "spread_30",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_31",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_31",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_32",
+      "op": "minimum",
+      "inputs": [
+        "spread_31",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_32",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_32",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_33",
+      "op": "minimum",
+      "inputs": [
+        "spread_32",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_33",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_33",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_34",
+      "op": "minimum",
+      "inputs": [
+        "spread_33",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_34",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_34",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_35",
+      "op": "minimum",
+      "inputs": [
+        "spread_34",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_35",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_35",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_36",
+      "op": "minimum",
+      "inputs": [
+        "spread_35",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_36",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_36",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_37",
+      "op": "minimum",
+      "inputs": [
+        "spread_36",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_37",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_37",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_38",
+      "op": "minimum",
+      "inputs": [
+        "spread_37",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_38",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_38",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_39",
+      "op": "minimum",
+      "inputs": [
+        "spread_38",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_39",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_39",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_40",
+      "op": "minimum",
+      "inputs": [
+        "spread_39",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_40",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_40",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_41",
+      "op": "minimum",
+      "inputs": [
+        "spread_40",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_41",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_41",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_42",
+      "op": "minimum",
+      "inputs": [
+        "spread_41",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_42",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_42",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_43",
+      "op": "minimum",
+      "inputs": [
+        "spread_42",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_43",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_43",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_44",
+      "op": "minimum",
+      "inputs": [
+        "spread_43",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_44",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_44",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_45",
+      "op": "minimum",
+      "inputs": [
+        "spread_44",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_45",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_45",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_46",
+      "op": "minimum",
+      "inputs": [
+        "spread_45",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_46",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_46",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_47",
+      "op": "minimum",
+      "inputs": [
+        "spread_46",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_47",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_47",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_48",
+      "op": "minimum",
+      "inputs": [
+        "spread_47",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_48",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_48",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_49",
+      "op": "minimum",
+      "inputs": [
+        "spread_48",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_49",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_49",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_50",
+      "op": "minimum",
+      "inputs": [
+        "spread_49",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_50",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_50",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_51",
+      "op": "minimum",
+      "inputs": [
+        "spread_50",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_51",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_51",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_52",
+      "op": "minimum",
+      "inputs": [
+        "spread_51",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_52",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_52",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_53",
+      "op": "minimum",
+      "inputs": [
+        "spread_52",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_53",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_53",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_54",
+      "op": "minimum",
+      "inputs": [
+        "spread_53",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_54",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_54",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_55",
+      "op": "minimum",
+      "inputs": [
+        "spread_54",
+        "blank"
+      ]
+    },
+    {
+      "name": "spread_55",
+      "op": "maxpool",
+      "inputs": [
+        "exterior_55",
+        "zero"
+      ],
+      "kernel": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "exterior_56",
+      "op": "minimum",
+      "inputs": [
+        "spread_55",
+        "blank"
+      ]
+    },
+    {
+      "name": "holes",
+      "op": "sub",
+      "inputs": [
+        "blank",
+        "exterior_56"
+      ]
+    },
+    {
+      "name": "hole_area",
+      "op": "sum",
+      "inputs": [
+        "holes"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "hole_scale",
+      "op": "mul",
+      "inputs": [
+        "hole_area",
+        "hole_gain"
+      ]
+    },
+    {
+      "name": "hole_present",
+      "op": "minimum",
+      "inputs": [
+        "hole_scale",
+        "one"
+      ]
+    },
+    {
+      "name": "hole_y_sum_masked",
+      "op": "mul",
+      "inputs": [
+        "holes",
+        "row_coordinate"
+      ]
+    },
+    {
+      "name": "hole_y_sum",
+      "op": "sum",
+      "inputs": [
+        "hole_y_sum_masked"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "hole_y_numerator",
+      "op": "add",
+      "inputs": [
+        "hole_y_sum",
+        "hole_center_default"
+      ]
+    },
+    {
+      "name": "hole_denominator",
+      "op": "add",
+      "inputs": [
+        "hole_area",
+        "area_epsilon"
+      ]
+    },
+    {
+      "name": "hole_y",
+      "op": "div",
+      "inputs": [
+        "hole_y_numerator",
+        "hole_denominator"
+      ]
+    },
+    {
+      "name": "hole_rows",
+      "op": "max",
+      "inputs": [
+        "holes"
+      ],
+      "axes": [
+        2
+      ]
+    },
+    {
+      "name": "hole_height_raw",
+      "op": "sum",
+      "inputs": [
+        "hole_rows"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "hole_height",
+      "op": "mul",
+      "inputs": [
+        "hole_height_raw",
+        "width_gain"
+      ]
+    },
+    {
+      "name": "hole_y_delta",
+      "op": "sub",
+      "inputs": [
+        "hole_y",
+        "center_target"
+      ]
+    },
+    {
+      "name": "hole_y_neg_delta",
+      "op": "mul",
+      "inputs": [
+        "hole_y_delta",
+        "negative_one"
+      ]
+    },
+    {
+      "name": "hole_y_abs",
+      "op": "maximum",
+      "inputs": [
+        "hole_y_delta",
+        "hole_y_neg_delta"
+      ]
+    },
+    {
+      "name": "holes_padded",
+      "op": "pad",
+      "inputs": [
+        "holes",
+        "zero"
+      ],
+      "padding": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "cell_a",
+      "op": "slice",
+      "inputs": [
+        "holes_padded"
+      ],
+      "slices": [
+        [
+          null,
+          null
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "name": "cell_b",
+      "op": "slice",
+      "inputs": [
+        "holes_padded"
+      ],
+      "slices": [
+        [
+          null,
+          null
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "cell_c",
+      "op": "slice",
+      "inputs": [
+        "holes_padded"
+      ],
+      "slices": [
+        [
+          null,
+          null
+        ],
+        [
+          1,
+          null
+        ],
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "name": "cell_d",
+      "op": "slice",
+      "inputs": [
+        "holes_padded"
+      ],
+      "slices": [
+        [
+          null,
+          null
+        ],
+        [
+          1,
+          null
+        ],
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "cell_ab",
+      "op": "add",
+      "inputs": [
+        "cell_a",
+        "cell_b"
+      ]
+    },
+    {
+      "name": "cell_cd",
+      "op": "add",
+      "inputs": [
+        "cell_c",
+        "cell_d"
+      ]
+    },
+    {
+      "name": "cell_count",
+      "op": "add",
+      "inputs": [
+        "cell_ab",
+        "cell_cd"
+      ]
+    },
+    {
+      "name": "q1_lo_shift",
+      "op": "sub",
+      "inputs": [
+        "cell_count",
+        "k1_lo"
+      ]
+    },
+    {
+      "name": "q1_lo",
+      "op": "relu",
+      "inputs": [
+        "q1_lo_shift"
+      ]
+    },
+    {
+      "name": "q1_mid_shift",
+      "op": "sub",
+      "inputs": [
+        "cell_count",
+        "k1_mid"
+      ]
+    },
+    {
+      "name": "q1_mid",
+      "op": "relu",
+      "inputs": [
+        "q1_mid_shift"
+      ]
+    },
+    {
+      "name": "q1_hi_shift",
+      "op": "sub",
+      "inputs": [
+        "cell_count",
+        "k1_hi"
+      ]
+    },
+    {
+      "name": "q1_hi",
+      "op": "relu",
+      "inputs": [
+        "q1_hi_shift"
+      ]
+    },
+    {
+      "name": "q1_twomid",
+      "op": "mul",
+      "inputs": [
+        "q1_mid",
+        "two"
+      ]
+    },
+    {
+      "name": "q1_diff",
+      "op": "sub",
+      "inputs": [
+        "q1_lo",
+        "q1_twomid"
+      ]
+    },
+    {
+      "name": "q1",
+      "op": "add",
+      "inputs": [
+        "q1_diff",
+        "q1_hi"
+      ]
+    },
+    {
+      "name": "q3_lo_shift",
+      "op": "sub",
+      "inputs": [
+        "cell_count",
+        "k3_lo"
+      ]
+    },
+    {
+      "name": "q3_lo",
+      "op": "relu",
+      "inputs": [
+        "q3_lo_shift"
+      ]
+    },
+    {
+      "name": "q3_mid_shift",
+      "op": "sub",
+      "inputs": [
+        "cell_count",
+        "k3_mid"
+      ]
+    },
+    {
+      "name": "q3_mid",
+      "op": "relu",
+      "inputs": [
+        "q3_mid_shift"
+      ]
+    },
+    {
+      "name": "q3_hi_shift",
+      "op": "sub",
+      "inputs": [
+        "cell_count",
+        "k3_hi"
+      ]
+    },
+    {
+      "name": "q3_hi",
+      "op": "relu",
+      "inputs": [
+        "q3_hi_shift"
+      ]
+    },
+    {
+      "name": "q3_twomid",
+      "op": "mul",
+      "inputs": [
+        "q3_mid",
+        "two"
+      ]
+    },
+    {
+      "name": "q3_diff",
+      "op": "sub",
+      "inputs": [
+        "q3_lo",
+        "q3_twomid"
+      ]
+    },
+    {
+      "name": "q3",
+      "op": "add",
+      "inputs": [
+        "q3_diff",
+        "q3_hi"
+      ]
+    },
+    {
+      "name": "cell_ad",
+      "op": "add",
+      "inputs": [
+        "cell_a",
+        "cell_d"
+      ]
+    },
+    {
+      "name": "cell_bc",
+      "op": "add",
+      "inputs": [
+        "cell_b",
+        "cell_c"
+      ]
+    },
+    {
+      "name": "diag_difference",
+      "op": "sub",
+      "inputs": [
+        "cell_ad",
+        "cell_bc"
+      ]
+    },
+    {
+      "name": "diag_negative",
+      "op": "mul",
+      "inputs": [
+        "diag_difference",
+        "negative_one"
+      ]
+    },
+    {
+      "name": "diag_abs",
+      "op": "maximum",
+      "inputs": [
+        "diag_difference",
+        "diag_negative"
+      ]
+    },
+    {
+      "name": "diag_shift",
+      "op": "sub",
+      "inputs": [
+        "diag_abs",
+        "one"
+      ]
+    },
+    {
+      "name": "diag_indicator",
+      "op": "relu",
+      "inputs": [
+        "diag_shift"
+      ]
+    },
+    {
+      "name": "diag_twice",
+      "op": "mul",
+      "inputs": [
+        "diag_indicator",
+        "two"
+      ]
+    },
+    {
+      "name": "euler_diff",
+      "op": "sub",
+      "inputs": [
+        "q1",
+        "q3"
+      ]
+    },
+    {
+      "name": "euler_cells",
+      "op": "add",
+      "inputs": [
+        "euler_diff",
+        "diag_twice"
+      ]
+    },
+    {
+      "name": "euler_total",
+      "op": "sum",
+      "inputs": [
+        "euler_cells"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "hole_count",
+      "op": "mul",
+      "inputs": [
+        "euler_total",
+        "quarter"
+      ]
+    },
+    {
+      "name": "second_hole_raw",
+      "op": "sub",
+      "inputs": [
+        "hole_count",
+        "one"
+      ]
+    },
+    {
+      "name": "two_holes_scale",
+      "op": "mul",
+      "inputs": [
+        "second_hole_raw",
+        "two_holes_gain"
+      ]
+    },
+    {
+      "name": "two_holes_positive",
+      "op": "maximum",
+      "inputs": [
+        "two_holes_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "two_holes",
+      "op": "minimum",
+      "inputs": [
+        "two_holes_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "ray_left",
+      "op": "cummax",
+      "inputs": [
+        "ink"
+      ],
+      "axis": 2,
+      "reverse": false
+    },
+    {
+      "name": "ray_right",
+      "op": "cummax",
+      "inputs": [
+        "ink"
+      ],
+      "axis": 2,
+      "reverse": true
+    },
+    {
+      "name": "ray_up",
+      "op": "cummax",
+      "inputs": [
+        "ink"
+      ],
+      "axis": 1,
+      "reverse": false
+    },
+    {
+      "name": "ray_down",
+      "op": "cummax",
+      "inputs": [
+        "ink"
+      ],
+      "axis": 1,
+      "reverse": true
+    },
+    {
+      "name": "gap_L_0",
+      "op": "minimum",
+      "inputs": [
+        "exterior_56",
+        "ray_right"
+      ]
+    },
+    {
+      "name": "gap_L_1",
+      "op": "minimum",
+      "inputs": [
+        "gap_L_0",
+        "ray_up"
+      ]
+    },
+    {
+      "name": "gap_L_2",
+      "op": "minimum",
+      "inputs": [
+        "gap_L_1",
+        "ray_down"
+      ]
+    },
+    {
+      "name": "gap_L_top_area_masked",
+      "op": "mul",
+      "inputs": [
+        "gap_L_2",
+        "top_mask"
+      ]
+    },
+    {
+      "name": "gap_L_top_area",
+      "op": "sum",
+      "inputs": [
+        "gap_L_top_area_masked"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gap_L_top_scale",
+      "op": "mul",
+      "inputs": [
+        "gap_L_top_area",
+        "gap_L_top_gain"
+      ]
+    },
+    {
+      "name": "gap_L_top_positive",
+      "op": "maximum",
+      "inputs": [
+        "gap_L_top_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "gap_L_top",
+      "op": "minimum",
+      "inputs": [
+        "gap_L_top_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "gap_L_bottom_area_masked",
+      "op": "mul",
+      "inputs": [
+        "gap_L_2",
+        "bottom_mask"
+      ]
+    },
+    {
+      "name": "gap_L_bottom_area",
+      "op": "sum",
+      "inputs": [
+        "gap_L_bottom_area_masked"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gap_L_bottom_scale",
+      "op": "mul",
+      "inputs": [
+        "gap_L_bottom_area",
+        "gap_L_bottom_gain"
+      ]
+    },
+    {
+      "name": "gap_L_bottom_positive",
+      "op": "maximum",
+      "inputs": [
+        "gap_L_bottom_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "gap_L_bottom",
+      "op": "minimum",
+      "inputs": [
+        "gap_L_bottom_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "gap_R_0",
+      "op": "minimum",
+      "inputs": [
+        "exterior_56",
+        "ray_left"
+      ]
+    },
+    {
+      "name": "gap_R_1",
+      "op": "minimum",
+      "inputs": [
+        "gap_R_0",
+        "ray_up"
+      ]
+    },
+    {
+      "name": "gap_R_2",
+      "op": "minimum",
+      "inputs": [
+        "gap_R_1",
+        "ray_down"
+      ]
+    },
+    {
+      "name": "gap_R_top_area_masked",
+      "op": "mul",
+      "inputs": [
+        "gap_R_2",
+        "top_mask"
+      ]
+    },
+    {
+      "name": "gap_R_top_area",
+      "op": "sum",
+      "inputs": [
+        "gap_R_top_area_masked"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gap_R_top_scale",
+      "op": "mul",
+      "inputs": [
+        "gap_R_top_area",
+        "gap_R_top_gain"
+      ]
+    },
+    {
+      "name": "gap_R_top_positive",
+      "op": "maximum",
+      "inputs": [
+        "gap_R_top_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "gap_R_top",
+      "op": "minimum",
+      "inputs": [
+        "gap_R_top_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "gap_R_bottom_area_masked",
+      "op": "mul",
+      "inputs": [
+        "gap_R_2",
+        "bottom_mask"
+      ]
+    },
+    {
+      "name": "gap_R_bottom_area",
+      "op": "sum",
+      "inputs": [
+        "gap_R_bottom_area_masked"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gap_R_bottom_scale",
+      "op": "mul",
+      "inputs": [
+        "gap_R_bottom_area",
+        "gap_R_bottom_gain"
+      ]
+    },
+    {
+      "name": "gap_R_bottom_positive",
+      "op": "maximum",
+      "inputs": [
+        "gap_R_bottom_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "gap_R_bottom",
+      "op": "minimum",
+      "inputs": [
+        "gap_R_bottom_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "gap_U_0",
+      "op": "minimum",
+      "inputs": [
+        "exterior_56",
+        "ray_left"
+      ]
+    },
+    {
+      "name": "gap_U_1",
+      "op": "minimum",
+      "inputs": [
+        "gap_U_0",
+        "ray_right"
+      ]
+    },
+    {
+      "name": "gap_U_2",
+      "op": "minimum",
+      "inputs": [
+        "gap_U_1",
+        "ray_down"
+      ]
+    },
+    {
+      "name": "gap_U_all_area",
+      "op": "sum",
+      "inputs": [
+        "gap_U_2"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gap_U_all_scale",
+      "op": "mul",
+      "inputs": [
+        "gap_U_all_area",
+        "gap_U_all_gain"
+      ]
+    },
+    {
+      "name": "gap_U_all_positive",
+      "op": "maximum",
+      "inputs": [
+        "gap_U_all_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "gap_U_all",
+      "op": "minimum",
+      "inputs": [
+        "gap_U_all_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "gap_D_0",
+      "op": "minimum",
+      "inputs": [
+        "exterior_56",
+        "ray_left"
+      ]
+    },
+    {
+      "name": "gap_D_1",
+      "op": "minimum",
+      "inputs": [
+        "gap_D_0",
+        "ray_right"
+      ]
+    },
+    {
+      "name": "gap_D_2",
+      "op": "minimum",
+      "inputs": [
+        "gap_D_1",
+        "ray_up"
+      ]
+    },
+    {
+      "name": "gap_D_all_area",
+      "op": "sum",
+      "inputs": [
+        "gap_D_2"
+      ],
+      "axes": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gap_D_all_scale",
+      "op": "mul",
+      "inputs": [
+        "gap_D_all_area",
+        "gap_D_all_gain"
+      ]
+    },
+    {
+      "name": "gap_D_all_positive",
+      "op": "maximum",
+      "inputs": [
+        "gap_D_all_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "gap_D_all",
+      "op": "minimum",
+      "inputs": [
+        "gap_D_all_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "column_occupied",
+      "op": "max",
+      "inputs": [
+        "ink"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "width",
+      "op": "sum",
+      "inputs": [
+        "column_occupied"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "narrow_raw",
+      "op": "sub",
+      "inputs": [
+        "narrow_bias",
+        "width"
+      ]
+    },
+    {
+      "name": "narrow_scale",
+      "op": "mul",
+      "inputs": [
+        "narrow_raw",
+        "narrow_gain"
+      ]
+    },
+    {
+      "name": "narrow_positive",
+      "op": "maximum",
+      "inputs": [
+        "narrow_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "narrow",
+      "op": "minimum",
+      "inputs": [
+        "narrow_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "cap_ink",
+      "op": "mul",
+      "inputs": [
+        "ink",
+        "cap_mask"
+      ]
+    },
+    {
+      "name": "cap_columns",
+      "op": "max",
+      "inputs": [
+        "cap_ink"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "cap_width_raw",
+      "op": "sum",
+      "inputs": [
+        "cap_columns"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "cap_width",
+      "op": "mul",
+      "inputs": [
+        "cap_width_raw",
+        "width_gain"
+      ]
+    },
+    {
+      "name": "foot_ink",
+      "op": "mul",
+      "inputs": [
+        "ink",
+        "foot_mask"
+      ]
+    },
+    {
+      "name": "foot_columns",
+      "op": "max",
+      "inputs": [
+        "foot_ink"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "foot_width_raw",
+      "op": "sum",
+      "inputs": [
+        "foot_columns"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "foot_width",
+      "op": "mul",
+      "inputs": [
+        "foot_width_raw",
+        "width_gain"
+      ]
+    },
+    {
+      "name": "middle_ink",
+      "op": "mul",
+      "inputs": [
+        "ink",
+        "middle_mask"
+      ]
+    },
+    {
+      "name": "middle_columns",
+      "op": "max",
+      "inputs": [
+        "middle_ink"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "middle_width_raw",
+      "op": "sum",
+      "inputs": [
+        "middle_columns"
+      ],
+      "axes": [
+        1
+      ]
+    },
+    {
+      "name": "middle_width",
+      "op": "mul",
+      "inputs": [
+        "middle_width_raw",
+        "width_gain"
+      ]
+    },
+    {
+      "name": "foot_narrow_raw",
+      "op": "sub",
+      "inputs": [
+        "cap_width",
+        "foot_width"
+      ]
+    },
+    {
+      "name": "foot_narrow_scale",
+      "op": "mul",
+      "inputs": [
+        "foot_narrow_raw",
+        "foot_narrow_gain"
+      ]
+    },
+    {
+      "name": "foot_narrow_positive",
+      "op": "maximum",
+      "inputs": [
+        "foot_narrow_scale",
+        "zero"
+      ]
+    },
+    {
+      "name": "foot_narrow",
+      "op": "minimum",
+      "inputs": [
+        "foot_narrow_positive",
+        "one"
+      ]
+    },
+    {
+      "name": "features",
+      "op": "stack",
+      "inputs": [
+        "hole_present",
+        "two_holes",
+        "hole_y_delta",
+        "hole_y_abs",
+        "hole_height",
+        "gap_L_top",
+        "gap_R_top",
+        "gap_L_bottom",
+        "gap_R_bottom",
+        "gap_U_all",
+        "gap_D_all",
+        "narrow",
+        "cap_width",
+        "foot_width",
+        "middle_width",
+        "foot_narrow"
+      ],
+      "axis": 1
+    },
+    {
+      "name": "logits",
+      "op": "affine",
+      "inputs": [
+        "features",
+        "class_weights",
+        "class_bias"
+      ]
+    }
+  ],
+  "outputs": [
+    "features",
+    "logits"
+  ],
+  "feature_names": [
+    "hole_present",
+    "two_holes",
+    "hole_y_delta",
+    "hole_y_abs",
+    "hole_height",
+    "gap_L_top",
+    "gap_R_top",
+    "gap_L_bottom",
+    "gap_R_bottom",
+    "gap_U_all",
+    "gap_D_all",
+    "narrow",
+    "cap_width",
+    "foot_width",
+    "middle_width",
+    "foot_narrow"
+  ],
+  "prediction_logits": "logits",
+  "input_shape": [
+    null,
+    28,
+    28
+  ],
+  "activations": "affine, ReLU, hard threshold, max/min pooling, fixed normalization"
+}

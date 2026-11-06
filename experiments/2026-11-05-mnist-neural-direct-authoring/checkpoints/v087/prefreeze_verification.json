@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "candidate": "v087",
+  "parent": "v086",
+  "source": "v085",
+  "nodes": 37443,
+  "features": 302,
+  "arrays": 552,
+  "expanded": 1242619,
+  "independent": 1506,
+  "new_values_arrays_entries": 0,
+  "author_sha256": "ec9580bdf8270513ac210242fa55fec6798e3ce524a011068f7286710c0d1bab",
+  "verifier_sha256": "55c05363d1240d1987282b65f721a285d6bf38b4c95c96038e3e0e6d601ca49b",
+  "structural": {
+    "parent_inverse_byte_exact": true,
+    "source85_inverse_byte_exact": true,
+    "parent_nodes_retained": 37422,
+    "source_closure_nodes": 20,
+    "all_common_v079_nonfinal_nodes_exact": 37304,
+    "all_552_arrays_unchanged": true,
+    "no_new_values_arrays_or_entries": true,
+    "actual_row196_baselines_preserved": true,
+    "all_added_nodes_live": true
+  },
+  "simultaneous": {
+    "records": 8,
+    "simultaneous_nonzero_calibrated3_lower8_9_all_three_seven_and_new3": 4,
+    "all_six_prior77_routes_active": true,
+    "positive_nine_and_other_columns_preserved": true,
+    "existing_terminal_with_body_cancellation": true,
+    "zero_terminal_positive_raw_bodies": true,
+    "fractional_min_and_product_before_mix": true,
+    "shared_outside_permissions_consistent": true,
+    "rejects_obsolete79_77_and70_heads": true,
+    "complete86_arithmetic_bitwise": true,
+    "new3_minimum_then_maximum_before_branch_mix": true
+  },
+  "closed_three": {
+    "records": 12,
+    "raw_zero_Q_zero_Q_one_fractional_old_dominates": true,
+    "old_floor_preserved": true,
+    "literal_expected_deltas_and_mixes": true,
+    "max_before_mixture": true,
+    "correction_bounds": [
+      0,
+      4
+    ],
+    "class3_only_delta": true,
+    "association_and_signed_zero_records": 2
+  },
+  "generic": {
+    "fields": [
+      "empty",
+      "full",
+      "impulse14_14",
+      "modulo_ramp"
+    ],
+    "parent_intermediate_tensors_bitwise_equal": 37422,
+    "source_intermediate_tensors_bitwise_equal": 20,
+    "exact_source_boundary_names": [
+      "at_qualified_closed_three",
+      "mt_high_at_qualified_closed_three",
+      "mt_high_v19_closed_three",
+      "mt_low_at_qualified_closed_three",
+      "mt_low_v19_closed_three",
+      "os73_center_Qoutside",
+      "os73_high_Qoutside",
+      "os73_low_Qoutside",
+      "v19_closed_three"
+    ],
+    "same_actual_cleaned_parent_fields": true,
+    "all_parent_outputs_features_and_positive9_intermediates_preserved": true,
+    "uninstrumented_entrypoint_equal": true
+  },
+  "no_MNIST_labels_results_archives_scoring_or_sealed_access": true
+}

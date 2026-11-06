@@ -1,0 +1,87 @@
+{
+  "schema": "mnist-neural-direct-authoring-publication-v1",
+  "snapshot_utc": "2026-11-06T05:55:49.185290+00:00",
+  "source_snapshot_manifest_sha256": "5c10a58a630e234e062f15c3d1bfdeac8f3f1704695c33c6db01ab48d7878076",
+  "best_completed_development_candidate": "v095",
+  "historical_confirmation_candidate": "v087",
+  "required_confirmation_correct": 9500,
+  "holdout_threshold_achieved": false,
+  "original_goal_status": "active_unmet_at_cutoff",
+  "checkpoints": {
+    "v001": {
+      "manifest_path": "checkpoints/v001/manifest.json",
+      "independent_numerical_specifications": 240,
+      "expanded_tensor_elements": 4932,
+      "validation": {
+        "correct": 5928,
+        "total": 10000,
+        "accuracy": 0.5928,
+        "result_path": "evidence/development/v001_validation.json"
+      },
+      "work": {
+        "correct": 18087,
+        "total": 30000,
+        "accuracy": 0.6029,
+        "result_path": "evidence/development/v001_work.json"
+      },
+      "canonical_test": {
+        "status": "not_evaluated"
+      }
+    },
+    "v087": {
+      "manifest_path": "checkpoints/v087/manifest.json",
+      "independent_numerical_specifications": 1506,
+      "expanded_tensor_elements": 1242619,
+      "validation": {
+        "correct": 9505,
+        "total": 10000,
+        "accuracy": 0.9505,
+        "result_path": "evidence/development/v087_validation.json"
+      },
+      "work": {
+        "correct": 28392,
+        "total": 30000,
+        "accuracy": 0.9464,
+        "result_path": "evidence/development/v087_work.json"
+      },
+      "canonical_test": {
+        "correct": 9461,
+        "total": 10000,
+        "accuracy": 0.9461,
+        "status": "completed_below_threshold",
+        "result_path": "evidence/confirmation/v087_result.json"
+      }
+    },
+    "v095": {
+      "manifest_path": "checkpoints/v095/manifest.json",
+      "independent_numerical_specifications": 1509,
+      "expanded_tensor_elements": 2471932,
+      "validation": {
+        "correct": 9528,
+        "total": 10000,
+        "accuracy": 0.9528,
+        "result_path": "evidence/development/v095_validation.json"
+      },
+      "work": {
+        "status": "pending_at_cutoff"
+      },
+      "canonical_test": {
+        "status": "not_evaluated"
+      }
+    }
+  },
+  "history": {
+    "score_history": "history/scores.json",
+    "candidate_inventory": "history/candidates.json",
+    "candidate_log": "history/CANDIDATE_LOG.md",
+    "completed_development_results": 108,
+    "distinct_scored_candidates": 92,
+    "candidate_rows": 96
+  },
+  "pending_at_cutoff": {
+    "v095_work": true,
+    "v096": "No completed score; excluded from numerical checkpoint selection"
+  },
+  "publication_exception": "The user subsequently authorized this public snapshot only. This did not authorize social posting, new holdout consumption or a holdout-success claim. Publication staff remain isolated from ongoing model authors.",
+  "data_policy": "No datasets, per-example forward arrays or unused reserve contents are bundled. Later public replay is inference-only and is not blind confirmation."
+}

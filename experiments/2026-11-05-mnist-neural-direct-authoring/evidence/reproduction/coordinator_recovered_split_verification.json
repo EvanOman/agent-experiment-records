@@ -1,0 +1,15 @@
+{
+  "status": "matched_original_recorded_work_and_validation_hashes",
+  "partitions": {
+    "work": {
+      "n": 30000,
+      "sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1"
+    },
+    "validation": {
+      "n": 10000,
+      "sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449"
+    }
+  },
+  "reserve_membership_serialized": false,
+  "dataset_images_loaded": false
+}
