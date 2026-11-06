@@ -154,6 +154,8 @@
   "evidence/publication/required_repository_gate.json": "1dfd1f9cb31d3edb36690ad0a1b99d82a8df49b84b378b894179dd73c4ea5ea2",
   "evidence/publication/required_unit_gate.json": "04f980eb2e2d3ba538e28e6766aff50a3dd664d72ff88a3f5eb9677e68507aa2",
   "evidence/publication/required_unittest.txt": "535f9d3eba6209d904dbc1e91142917a0ef129dc913afd8710332f067191f783",
+  "evidence/publication/workflow_syntax_correction.json": "326c7c7c240cba2611707620dfafbe63344edf7489453c4a520e6f2566544fca",
+  "evidence/publication/workflow_syntax_native_review.json": "99453fa4bcf5ecbfbdd53f3d7e682abd6d7a4e4200762d7d6876aeed399b50b3",
   "evidence/reproduction/README.md": "a0b665f5fee15f977d40c2d76d99eaca8920c517c1c9cd04dff7c735cb338396",
   "evidence/reproduction/REPRODUCTION_MANIFEST.json": "1058e6959500fbf40b084dea837259aabea489c8351eb6a641e0edc52c0e6f55",
   "evidence/reproduction/check_failure01.json": "987728c7490df217c9327664ae842fcf0a39e97e144e958b54fcf3d3f53978e1",

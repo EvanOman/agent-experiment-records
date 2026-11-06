@@ -1,0 +1,32 @@
+{
+  "schema": "publication-workflow-syntax-correction-v1",
+  "recorded_at_utc": "2026-11-06T07:11:22.210482+00:00",
+  "initial_hosted_run": {
+    "id": 42178932814,
+    "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42178932814",
+    "commit": "f5c0e70173cbee035a4c74e02a130a0c8c269a15",
+    "status": "completed",
+    "conclusion": "failure",
+    "jobs": 0,
+    "github_annotation": "Invalid workflow file .github/workflows/verify.yml#L117: You have an error in your yaml syntax on line 117"
+  },
+  "workflow_path": ".github/workflows/verify.yml",
+  "original_workflow_sha256": "c6d2b6af7b167c0937a0cbdc5aefec0095bf8b4a78cf6146b944a6d1a1388376",
+  "corrected_workflow_sha256": "1eca366a1866fd0031a937080159b77db0bd7c0dfb98c0605bd1cdfb7e6a1e3b",
+  "cause": "The new job used an unquoted YAML run scalar containing --only-binary=:all: followed by a space. The final colon was parsed as a YAML mapping delimiter.",
+  "correction": "Represent the same pip command as a YAML literal block scalar, matching the existing jobs.",
+  "missed_gate": "The initial publication checks and source review did not parse the final workflow YAML before push. The author missed this syntax defect.",
+  "local_validation": {
+    "parser": "installed PyYAML",
+    "version": "6.0.1",
+    "original_parse": "failed",
+    "original_error": "mapping values are not allowed here\n  in \"workflow string\", line 117, column 54:\n     ... m pip install --only-binary=:all: -r \"$DIRECT_EXPERIMENT/require ... \n                                         ^",
+    "corrected_parse": "passed",
+    "job_count": 3,
+    "executed_shell_command_unchanged": true,
+    "executed_shell_command": "python -m pip install --only-binary=:all: -r \"$DIRECT_EXPERIMENT/requirements.txt\"",
+    "new_packages_installed": false
+  },
+  "scope": "Workflow serialization correction only. Historical records are preserved and checkpoint and inference source bytes are unchanged.",
+  "next_verification": "Run the corrected publication commit through hosted checks and the exact-count v087 public replay."
+}

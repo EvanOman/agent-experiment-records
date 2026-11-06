@@ -1,0 +1,25 @@
+{
+  "schema": "publication-workflow-native-delta-review-v1",
+  "recorded_at_utc": "2026-11-06T07:13:03.816864+00:00",
+  "status": "passed",
+  "reviewer": "independent native OpenAI publication-only subagent",
+  "review_delivery": "Visible task-scoped native reviewer message, summarized without private execution identifiers.",
+  "reviewed_workflow_sha256": "1eca366a1866fd0031a937080159b77db0bd7c0dfb98c0605bd1cdfb7e6a1e3b",
+  "comparison_commit": "f5c0e70173cbee035a4c74e02a130a0c8c269a15",
+  "scope": "Read-only review of the shared workflow and the same workflow at the original publication commit.",
+  "findings": [
+    "The actual delta is exactly the proposed replacement of one plain YAML run scalar with a two-line literal block scalar.",
+    "Installed PyYAML 6.0.1 reproduces the original ScannerError and successfully parses the corrected workflow.",
+    "The parsed run command equals the original pip command followed by the normal terminal newline.",
+    "The full parsed structure matches a quoted-scalar equivalent and preserves all three jobs.",
+    "No structural or executed-command semantic issue was found."
+  ],
+  "review_access": {
+    "repository_files_read": "shared workflow only, including its original published version",
+    "datasets_read": false,
+    "model_artifacts_read": false,
+    "network_access": false,
+    "files_edited": false
+  },
+  "limitations": "Hosted execution remains a separate verification step."
+}
