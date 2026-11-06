@@ -1,0 +1,78 @@
+{
+  "schema": "mnist-direct-authoring-proof-addendum-review-v1",
+  "recorded_at_utc": "2026-11-06T07:35:54.327519+00:00",
+  "status": "passed_bounded_additive_proof_review",
+  "reviewer": "Native OpenAI publication-only independent reviewer with a separate native privacy reviewer",
+  "hosted_run_url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672",
+  "tested_source_commit": "6090bbbc9c2588ab5ebbc3e15197970006ffc530",
+  "checks_passed": 96,
+  "findings": [],
+  "scope": [
+    "Twelve new hosted evidence files",
+    "Two-sentence experiment README proof link",
+    "Corresponding generated README digest in the payload manifest",
+    "Whole-manifest delta and unchanged operational source comparison"
+  ],
+  "verified_results": {
+    "v087_public_canonical_correct": 9461,
+    "total": 10000,
+    "accuracy": 0.9461,
+    "hosted_inference_seconds": 306.742252215,
+    "checksum_verified_public_members": [
+      "x_test",
+      "y_test"
+    ],
+    "frozen_v095_development_validation_correct": 9528,
+    "frozen_v001_development_validation_correct": 5928,
+    "v095_full_public_validation_replay": "unrun",
+    "v095_nonglyph_smoke": "passed",
+    "development_split_original_index_digests": "both_verified",
+    "original_95_percent_holdout_goal": "unmet"
+  },
+  "status_attribution": {
+    "archival_receipt": "Both experiment jobs succeeded while the overall workflow was still in progress at the dated archival observation.",
+    "later_completion_record": "All three workflow jobs and the overall workflow completed successfully.",
+    "source_binding": "Hosted replay reports the clean tested commit and the exact frozen checkpoint and operational hashes. The addendum changes evidence and its documentation."
+  },
+  "archive_integrity": "Both original ZIP digests and sizes match artifact metadata. Their only members are the four expected JSON results, preserved byte for byte with clean archive metadata and valid CRC checks.",
+  "privacy": {
+    "status": "passed",
+    "prohibited_sensitive_matches": 0,
+    "report_sha256": "b27eb6abfe0176ae9a0842f4661eca1207dec43d0a65c3d6df6f3c55215d55a1",
+    "public_github_identifiers": "Intended public run, job and artifact identifiers retained."
+  },
+  "required_gates": {
+    "unit_suite": "17 tests passed in the saved proof-delta log",
+    "unit_log_sha256": "ac4a7251c6d49ac5868fe72c6973cb7d7381e59286451180b6cafb5e18b8fb6b",
+    "repository_verifier": "Saved passing output covers 280 Git-visible files and the preceding 215-entry proof inventory. The later completion record adds one metadata file. Final staging verification follows report inclusion.",
+    "repository_output_sha256": "1380e71b250ff9657c268027792ffe1fe2ce2ad6c68778502bfa96f0b926d317"
+  },
+  "reviewed_files_sha256": {
+    "evidence/publication/hosted_ci_42179538672/README.md": "197fd1a17f0bd7d1ef10fe6cbf392be0fed6462d3fdce018f90cce17d4e897c7",
+    "evidence/publication/hosted_ci_42179538672/artifact_metadata.json": "6bd14e255b691385de4ef26bf6565437e16a1414fdf53b8c5efc97ca30a1d378",
+    "evidence/publication/hosted_ci_42179538672/best-development-smoke.json": "bbc0f170b0f759ee487bee38665ec5e6751ec3361239e6ff09ef7ba4fc06d1dc",
+    "evidence/publication/hosted_ci_42179538672/development-split-verification.json": "fdcccfb9b8c93b4c238a1cbe2caf7439c4de0497f041c935e4ae6fb7caf406cf",
+    "evidence/publication/hosted_ci_42179538672/job_metadata_at_archival.json": "900c9a65e281860092e031c065d41e81e9c5f32099c3910483829fa4f817544a",
+    "evidence/publication/hosted_ci_42179538672/native_evidence_review.json": "54512a52c8747b16e7e7437fa152a7bb9f9e0c8240af3751da98e48207874b04",
+    "evidence/publication/hosted_ci_42179538672/offline-verification.json": "48e7536fb53df1b6624a1785edc6cfe313e44b3875aba86a62fabd6ae1053c78",
+    "evidence/publication/hosted_ci_42179538672/offline.zip": "2614bcd9368451b9ab0dadfc9a4d049645d9179fe22cb409dc0fd7d28938d36f",
+    "evidence/publication/hosted_ci_42179538672/public_replay.zip": "48ad3534c6d99acfa8e5aca85113347c6bab4105b4973956968550687e0c0d62",
+    "evidence/publication/hosted_ci_42179538672/receipt_at_archival.json": "81663e738ca6a673b8d12dc9ca2c5e6838d27f6cccb01419d2a80d331a28070e",
+    "evidence/publication/hosted_ci_42179538672/v087-canonical-public-replay.json": "f0d5a116848deeaa5a269990b6aa6770c90048da9a892878926f13fa945eb009",
+    "evidence/publication/hosted_ci_42179538672/workflow_completion.json": "def7a7a63592132bdfd51cb92fa54b1923646e2078cf99ebecd22bd0d7d93d87",
+    "README.md": "87c4bf839caecd59e6cef6532d46f3d3344b080152cd15d3b392fb9e23661ea4",
+    "PUBLICATION_MANIFEST.json": "e8727c9add036103f3d7d8346d7afe33d7c933b091477983fc2a592b8aa5a704"
+  },
+  "whole_manifest_delta_verified_entries": 216,
+  "excluded_from_recursive_binding": [
+    "SHA256SUMS.json",
+    "evidence/publication/hosted_ci_42179538672/proof_delta_review.json"
+  ],
+  "limitations": [
+    "Review uses supplied hosted metadata and archives without an independent live GitHub query.",
+    "This bounded addendum review performed no dataset access or inference and inspected no prior experiment outputs.",
+    "Public replay supplies reproduction evidence for an exposed canonical set. The original holdout target remains unmet.",
+    "The dated initial pending receipt is preserved. Later workflow success is recorded separately.",
+    "Final report inclusion and checksum regeneration require a minimal delta acknowledgment."
+  ]
+}

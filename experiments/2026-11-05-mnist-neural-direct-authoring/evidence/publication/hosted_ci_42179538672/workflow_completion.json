@@ -1,0 +1,40 @@
+{
+  "schema": "mnist-direct-authoring-hosted-workflow-completion-v1",
+  "observed_at_utc": "2026-11-06T07:32:43.844354+00:00",
+  "run_id": 42179538672,
+  "run_url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672",
+  "tested_commit": "6090bbbc9c2588ab5ebbc3e15197970006ffc530",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 127765680572,
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-06T07:14:15Z",
+      "completed_at": "2026-11-06T07:15:03Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672/job/127765680572"
+    },
+    {
+      "id": 127765968612,
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-06T07:15:04Z",
+      "completed_at": "2026-11-06T07:20:37Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672/job/127765968612"
+    },
+    {
+      "id": 127765968707,
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-06T07:15:05Z",
+      "completed_at": "2026-11-06T07:32:16Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672/job/127765968707"
+    }
+  ],
+  "archival_receipt_sha256": "81663e738ca6a673b8d12dc9ca2c5e6838d27f6cccb01419d2a80d331a28070e",
+  "native_evidence_review_sha256": "54512a52c8747b16e7e7437fa152a7bb9f9e0c8240af3751da98e48207874b04",
+  "v087_canonical_result_sha256": "f0d5a116848deeaa5a269990b6aa6770c90048da9a892878926f13fa945eb009",
+  "archival_receipt_preserved": true,
+  "scope": "Final workflow and job status metadata only. No additional replay, inference, dataset access or prior-experiment output inspection occurred."
+}

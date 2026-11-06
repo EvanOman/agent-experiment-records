@@ -1,0 +1,104 @@
+{
+  "status": "in_progress",
+  "conclusion": "",
+  "headSha": "6090bbbc9c2588ab5ebbc3e15197970006ffc530",
+  "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672",
+  "observed_at_utc": "2026-11-06T07:30:47.301979+00:00",
+  "jobs": [
+    {
+      "databaseId": 127765680572,
+      "name": "Offline artifact and inference checks",
+      "status": "completed",
+      "conclusion": "success",
+      "startedAt": "2026-11-06T07:14:15Z",
+      "completedAt": "2026-11-06T07:15:03Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672/job/127765680572",
+      "steps": [
+        {
+          "completedAt": "2026-11-06T07:14:36Z",
+          "conclusion": "success",
+          "name": "Verify public evidence and publication hygiene",
+          "number": 5,
+          "startedAt": "2026-11-06T07:14:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-06T07:14:37Z",
+          "conclusion": "success",
+          "name": "Run tests",
+          "number": 6,
+          "startedAt": "2026-11-06T07:14:36Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-06T07:14:57Z",
+          "conclusion": "success",
+          "name": "Verify the direct-authoring snapshot and best-checkpoint synthetic inference",
+          "number": 9,
+          "startedAt": "2026-11-06T07:14:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-06T07:14:58Z",
+          "conclusion": "success",
+          "name": "Preserve direct-authoring offline evidence",
+          "number": 10,
+          "startedAt": "2026-11-06T07:14:57Z",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "databaseId": 127765968612,
+      "name": "Direct-authoring public canonical replay (9461 correct)",
+      "status": "completed",
+      "conclusion": "success",
+      "startedAt": "2026-11-06T07:15:04Z",
+      "completedAt": "2026-11-06T07:20:37Z",
+      "url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672/job/127765968612",
+      "steps": [
+        {
+          "completedAt": "2026-11-06T07:15:27Z",
+          "conclusion": "success",
+          "name": "Recreate exact development indices from public labels only",
+          "number": 5,
+          "startedAt": "2026-11-06T07:15:27Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-06T07:20:34Z",
+          "conclusion": "success",
+          "name": "Replay exposed canonical test using frozen v087 only",
+          "number": 6,
+          "startedAt": "2026-11-06T07:15:27Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-06T07:20:34Z",
+          "conclusion": "success",
+          "name": "Explain and preserve the public replay result",
+          "number": 7,
+          "startedAt": "2026-11-06T07:20:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-06T07:20:35Z",
+          "conclusion": "success",
+          "name": "Upload direct-authoring public replay proof",
+          "number": 8,
+          "startedAt": "2026-11-06T07:20:34Z",
+          "status": "completed"
+        }
+      ]
+    }
+  ],
+  "other_jobs_status_only": [
+    {
+      "databaseId": 127765968707,
+      "status": "in_progress",
+      "conclusion": "",
+      "startedAt": "2026-11-06T07:15:05Z",
+      "completedAt": "0001-01-01T00:00:00Z"
+    }
+  ]
+}

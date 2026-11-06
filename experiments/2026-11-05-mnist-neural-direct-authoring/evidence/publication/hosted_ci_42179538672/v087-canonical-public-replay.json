@@ -1,0 +1,54 @@
+{
+  "schema": "mnist-neural-direct-authoring-public-replay-v1",
+  "status": "passed",
+  "candidate": "v087",
+  "split": "canonical_test",
+  "kind": "full_public_replay",
+  "correct": 9461,
+  "total": 10000,
+  "accuracy": 0.9461,
+  "expected_correct": 9461,
+  "full_recorded_count_checked": true,
+  "count_threshold": 9500,
+  "meets_95_percent_on_this_replayed_split": false,
+  "new_blind_confirmation": false,
+  "confirmation_ledger_accessed": false,
+  "public_source": {
+    "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+    "sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+    "members_loaded": [
+      "x_test",
+      "y_test"
+    ],
+    "selected_split": "canonical_test"
+  },
+  "validation_index_sha256": null,
+  "artifact_hashes": {
+    "candidate": "v087",
+    "files": {
+      "graph.json": "cd042f600410801e1464cc02c1acb6218f1cb60cd10bac06bbfc4d7c509f1649",
+      "weights.npz": "8dbf117a9702b272113491b45ecf711771729e3275e0aefcfe36f4327f8e4ef4",
+      "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a"
+    },
+    "public_manifest_sha256": "b4b0e30485bbfc5cc602cfff20d723e84f737f84fb9eaeab24a96d0461f0302c",
+    "original_manifest_sha256": "100cf7f9c16da8e60ff212fd21065f542bcb919f22aefb556b113205191f6093",
+    "graph_nodes": 37443,
+    "raw_arrays": 552,
+    "expanded_tensor_entries": 1242619,
+    "independently_authored_numerical_specifications": 1506,
+    "counting_note": "The numerical-specification count excludes architectural decisions; expanded entries are not all independently typed."
+  },
+  "replay_source_sha256": "b8a473865ede2033aabe40b7fc46e7036665ce348f54d7c5ae175ff5c48ff17a",
+  "verification_source_sha256": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa",
+  "source_revision": {
+    "git_commit": "6090bbbc9c2588ab5ebbc3e15197970006ffc530",
+    "status": "clean committed snapshot",
+    "replay_files_match_reported_commit": true
+  },
+  "batch_size": 128,
+  "workers": 4,
+  "numerical_threads_per_worker": 1,
+  "seconds": 306.742252215,
+  "seconds_semantics": "wall time of complete inference, excluding download and integrity checks",
+  "limitations": "This is inference on public, already exposed data. Replaying a count does not establish blind generalization, authorship chronology, or absence of pretraining exposure."
+}

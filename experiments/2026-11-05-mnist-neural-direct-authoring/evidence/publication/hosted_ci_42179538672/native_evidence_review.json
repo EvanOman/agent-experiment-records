@@ -1,0 +1,220 @@
+{
+  "schema": "mnist-direct-authoring-native-hosted-evidence-review-v1",
+  "status": "passed",
+  "reviewed_at_utc": "2026-11-06T07:25:12.571560Z",
+  "reviewer": "Independent native OpenAI publication-only subagent",
+  "review_method": "Read-only archive, aggregate, manifest, source and committed-file comparison",
+  "hosted_run_id": 42179538672,
+  "hosted_run_url": "https://github.com/EvanOman/agent-experiment-records/actions/runs/42179538672",
+  "hosted_source_commit": "6090bbbc9c2588ab5ebbc3e15197970006ffc530",
+  "assertions_passed": 76,
+  "assertion_names": [
+    "offline.zip_digest",
+    "offline.zip_unique_metadata",
+    "offline.zip_metadata_digest_and_size",
+    "offline.zip_metadata_run_commit",
+    "offline.zip_metadata_name",
+    "offline.zip_members",
+    "offline.zip_crc",
+    "offline.zip_preserves_best-development-smoke.json",
+    "offline.zip_preserves_offline-verification.json",
+    "public_replay.zip_digest",
+    "public_replay.zip_unique_metadata",
+    "public_replay.zip_metadata_digest_and_size",
+    "public_replay.zip_metadata_run_commit",
+    "public_replay.zip_metadata_name",
+    "public_replay.zip_members",
+    "public_replay.zip_crc",
+    "public_replay.zip_preserves_development-split-verification.json",
+    "public_replay.zip_preserves_v087-canonical-public-replay.json",
+    "offline_candidate_order",
+    "v001_manifest_at_hosted_commit",
+    "v001_public_manifest_hash",
+    "v001_original_manifest_hash",
+    "v001_operational_hash_bindings",
+    "v001_specification_count",
+    "v001_expanded_entry_count",
+    "v001_array_node_counts",
+    "v087_manifest_at_hosted_commit",
+    "v087_public_manifest_hash",
+    "v087_original_manifest_hash",
+    "v087_operational_hash_bindings",
+    "v087_specification_count",
+    "v087_expanded_entry_count",
+    "v087_array_node_counts",
+    "v095_manifest_at_hosted_commit",
+    "v095_public_manifest_hash",
+    "v095_original_manifest_hash",
+    "v095_operational_hash_bindings",
+    "v095_specification_count",
+    "v095_expanded_entry_count",
+    "v095_array_node_counts",
+    "offline_status",
+    "offline_no_dataset_or_new_confirmation",
+    "offline_history_count",
+    "offline_best_validation_score",
+    "offline_historical_canonical_score",
+    "smoke_identity_and_status",
+    "smoke_frozen95_binding",
+    "smoke_scope",
+    "smoke_tolerance",
+    "smoke_argmax_exact",
+    "smoke_logits_digest",
+    "replay.py_source_hash",
+    "replay.py_source_at_hosted_commit",
+    "verify.py_source_hash",
+    "verify.py_source_at_hosted_commit",
+    "data_manifest_at_hosted_commit",
+    "data_source_constants",
+    "data_split_constants",
+    "split_status",
+    "split_source_and_encoding",
+    "split_work_digest",
+    "split_validation_digest",
+    "split_only_development_partitions",
+    "split_labels_only",
+    "split_reserve_and_confirmation_scope",
+    "replay_identity_and_status",
+    "replay_exact_score",
+    "replay_95_threshold_unmet",
+    "replay_public_test_members_only",
+    "replay_no_validation_indices",
+    "replay_no_new_confirmation",
+    "replay_frozen87_binding",
+    "replay_source_hash_bindings",
+    "replay_clean_source_commit",
+    "replay_execution_shape",
+    "replay_reported_runtime"
+  ],
+  "reviewed_files_sha256": {
+    "artifact_metadata.json": "6bd14e255b691385de4ef26bf6565437e16a1414fdf53b8c5efc97ca30a1d378",
+    "offline.zip": "2614bcd9368451b9ab0dadfc9a4d049645d9179fe22cb409dc0fd7d28938d36f",
+    "public_replay.zip": "48ad3534c6d99acfa8e5aca85113347c6bab4105b4973956968550687e0c0d62",
+    "best-development-smoke.json": "bbc0f170b0f759ee487bee38665ec5e6751ec3361239e6ff09ef7ba4fc06d1dc",
+    "offline-verification.json": "48e7536fb53df1b6624a1785edc6cfe313e44b3875aba86a62fabd6ae1053c78",
+    "development-split-verification.json": "fdcccfb9b8c93b4c238a1cbe2caf7439c4de0497f041c935e4ae6fb7caf406cf",
+    "v087-canonical-public-replay.json": "f0d5a116848deeaa5a269990b6aa6770c90048da9a892878926f13fa945eb009"
+  },
+  "artifact_archives": {
+    "offline.zip": {
+      "artifact_id": 13484741929,
+      "sha256": "2614bcd9368451b9ab0dadfc9a4d049645d9179fe22cb409dc0fd7d28938d36f",
+      "member_files": [
+        "best-development-smoke.json",
+        "offline-verification.json"
+      ],
+      "crc_passed": true,
+      "extracted_bytes_preserved": true
+    },
+    "public_replay.zip": {
+      "artifact_id": 13485002553,
+      "sha256": "48ad3534c6d99acfa8e5aca85113347c6bab4105b4973956968550687e0c0d62",
+      "member_files": [
+        "development-split-verification.json",
+        "v087-canonical-public-replay.json"
+      ],
+      "crc_passed": true,
+      "extracted_bytes_preserved": true
+    }
+  },
+  "committed_public_source_files_sha256": {
+    "checkpoints/v001/manifest.json": "d3105ce5f45948aa2f7a3951ae792710a7951193e8e6550a8068f1683f4049a6",
+    "checkpoints/v087/manifest.json": "b4b0e30485bbfc5cc602cfff20d723e84f737f84fb9eaeab24a96d0461f0302c",
+    "checkpoints/v095/manifest.json": "8f3a35f51f436a50db2a44791d47510db313f1cc3d13a2f81e8dc0400864f594",
+    "replay.py": "b8a473865ede2033aabe40b7fc46e7036665ce348f54d7c5ae175ff5c48ff17a",
+    "verify.py": "ec5d4cbfc68684feda556dddc54b10065c84b1d6d3500235a2cbef914679a9fa",
+    "data.json": "75442cd86ff4c503440eee109c2e64db58e0a1de7a99acb0fc5e0cae2438dad3"
+  },
+  "checkpoint_count_attribution": {
+    "v001": {
+      "independently_authored_numerical_specifications": 240,
+      "expanded_tensor_entries": 4932,
+      "raw_arrays": 39,
+      "graph_nodes": 242
+    },
+    "v087": {
+      "independently_authored_numerical_specifications": 1506,
+      "expanded_tensor_entries": 1242619,
+      "raw_arrays": 552,
+      "graph_nodes": 37443
+    },
+    "v095": {
+      "independently_authored_numerical_specifications": 1509,
+      "expanded_tensor_entries": 2471932,
+      "raw_arrays": 555,
+      "graph_nodes": 125406
+    }
+  },
+  "confirmed_aggregate_claims": {
+    "offline_verification": {
+      "status": "passed",
+      "development_results": 108,
+      "best_development_validation": {
+        "candidate": "v095",
+        "correct": 9528,
+        "total": 10000
+      },
+      "historical_canonical_confirmation": {
+        "candidate": "v087",
+        "correct": 9461,
+        "total": 10000,
+        "threshold_met": false
+      }
+    },
+    "best_development_smoke": {
+      "candidate": "v095",
+      "inputs": 2,
+      "input_kind": "nonglyph",
+      "dataset_loaded": false,
+      "accuracy_measured": false,
+      "argmax_parity_exact": true,
+      "batch_single_tolerance": {
+        "atol": 1e-05,
+        "rtol": 1e-06
+      },
+      "logits_sha256": "2f30f680306dd3ffbde9fe3e772aa677768aba0a0ce24630fdc56030e5687feb"
+    },
+    "canonical_public_replay": {
+      "candidate": "v087",
+      "correct": 9461,
+      "total": 10000,
+      "meets_95_percent": false,
+      "seconds": 306.742252215,
+      "loaded_members": [
+        "x_test",
+        "y_test"
+      ],
+      "new_blind_confirmation": false
+    },
+    "development_split_verification": {
+      "work_index_sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1",
+      "validation_index_sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449",
+      "public_training_labels_loaded": true,
+      "dataset_images_loaded": false,
+      "reserve_membership_returned_or_serialized": false,
+      "reserve_files_accessed": false
+    }
+  },
+  "source_review_findings": [
+    "Canonical replay source loads only x_test and y_test after verifying the public archive checksum.",
+    "The split command loads y_train only. Recovered reserve permutations advance RNG state and their memberships are discarded. Only work and validation index aggregates are returned.",
+    "The v095 smoke creates two deterministic nonglyph inputs and enforces finite outputs, batch parity within declared tolerances, exact argmax parity and before/after checkpoint integrity.",
+    "Numerical-specification counts exclude architecture decisions. Expanded tensor entries are not all independently typed."
+  ],
+  "issues_found": [],
+  "limitations": [
+    "GitHub artifact metadata and archives were supplied by the publication coordinator. This review made no network request and independently checked their internal digest and source-commit consistency.",
+    "This review compared declared numerical-artifact hashes with committed manifests. It did not load or rehash raw weights or graphs, access datasets, or execute inference.",
+    "The artifacts establish recorded hosted verification and public replay results. This review did not independently query the overall workflow conclusion.",
+    "v095 full validation replay remains pending. Its hosted smoke does not measure accuracy.",
+    "v087 public replay reproduces the exposed canonical score of 9461/10000. It supplies no new blind confirmation and does not achieve the 95 percent holdout goal."
+  ],
+  "review_actions": {
+    "network_requests": false,
+    "inference_executed": false,
+    "dataset_content_accessed": false,
+    "raw_model_content_accessed": false,
+    "unused_reserve_content_accessed": false,
+    "worktree_modified": false
+  }
+}

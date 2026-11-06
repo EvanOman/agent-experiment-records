@@ -10,6 +10,8 @@
 
 These scores belong to different checkpoints and splits. **v095's 95.28% is not a holdout score; v087's 94.61% is not v095's score.** v087's canonical set is consumed. No unused reserve data or fresh confirmation was accessed for publication. Later work and newly authored but unscored v096 are outside the selected numerical snapshot.
 
+Hosted CI reproduced **v087 at 9,461/10,000** from the checksum-verified public archive. The saved proof identifies the tested commit and preserves the exact aggregate bytes. [Hosted replay evidence](evidence/publication/hosted_ci_42179538672/README.md)
+
 ## Request and method
 
 The [verbatim initiating prompt](PROMPT.md) asks Astra Ultra to directly author raw neural weights for MNIST, starting with a substantive complete network before seeing examples or feedback. [Supplemental experimental rules](EXPERIMENTAL_RULES.md) retain the source protocol with declared privacy redactions.

@@ -1,0 +1,25 @@
+{
+  "schema": "mnist-direct-authoring-development-split-v1",
+  "status": "verified",
+  "source_partition": "y_train",
+  "source_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "declared_seed": 2026110501,
+  "index_dtype": "<i8",
+  "partitions": {
+    "work": {
+      "n": 30000,
+      "sha256": "27d935c2c23391a653cd9328a5fb3a2f8b4de042c99aa09ceb085b89128dd2e1"
+    },
+    "validation": {
+      "n": 10000,
+      "sha256": "c15721627096718f6f1a748dd8536a315be3c387000c9ab59a311b3cb7ea9449"
+    }
+  },
+  "index_hash_encoding": "C-order little-endian signed-64-bit raw array bytes",
+  "recipe_status": "exact original preparation code recovered by the coordinator and independently checked against both original index digests",
+  "dataset_images_loaded": false,
+  "public_training_labels_loaded": true,
+  "reserve_membership_returned_or_serialized": false,
+  "reserve_files_accessed": false,
+  "new_blind_confirmation": false
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "mnist-neural-direct-authoring-smoke-v1",
+  "status": "passed",
+  "candidate": "v095",
+  "kind": "two_nonglyph_inputs_only",
+  "images": 2,
+  "logits_sha256": "2f30f680306dd3ffbde9fe3e772aa677768aba0a0ce24630fdc56030e5687feb",
+  "batch_single_max_absolute_difference": 0.0,
+  "batch_single_tolerance": {
+    "atol": 1e-05,
+    "rtol": 1e-06
+  },
+  "batch_single_argmax_exact": true,
+  "artifact_hashes": {
+    "candidate": "v095",
+    "files": {
+      "graph.json": "be60dbddd9af426d45de0f1263456dfdc5ad1304850a03d78da63bcc702a4576",
+      "weights.npz": "3056fcdf1f821db073d9d029aec89c2e7319dc91db4771251a0768150e271a5f",
+      "runner.py": "128299dfbdc1db4a535ebcde0d68231559e86b374b7354e4e47c81d0b4f1427a"
+    },
+    "public_manifest_sha256": "8f3a35f51f436a50db2a44791d47510db313f1cc3d13a2f81e8dc0400864f594",
+    "original_manifest_sha256": "c26d3c32203d876613fa7cb6c8c7b4a4a3b5952b82e147a794c30216c4c42155",
+    "graph_nodes": 125406,
+    "raw_arrays": 555,
+    "expanded_tensor_entries": 2471932,
+    "independently_authored_numerical_specifications": 1509,
+    "counting_note": "The numerical-specification count excludes architectural decisions; expanded entries are not all independently typed."
+  },
+  "dataset_loaded": false,
+  "accuracy_measured": false,
+  "new_blind_confirmation": false
+}
